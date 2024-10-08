@@ -1,0 +1,6 @@
+C:\Projetos\B3\AvaliacaoB3\src\B3.Avaliacao.Application\bin\Debug\B3.Avaliacao.Application.dll
+C:\Projetos\B3\AvaliacaoB3\src\B3.Avaliacao.Application\bin\Debug\B3.Avaliacao.Application.pdb
+C:\Projetos\B3\AvaliacaoB3\src\B3.Avaliacao.Application\obj\Debug\B3.Avaliacao.Application.csproj.AssemblyReference.cache
+C:\Projetos\B3\AvaliacaoB3\src\B3.Avaliacao.Application\obj\Debug\B3.Avaliacao.Application.csproj.CoreCompileInputs.cache
+C:\Projetos\B3\AvaliacaoB3\src\B3.Avaliacao.Application\obj\Debug\B3.Avaliacao.Application.dll
+C:\Projetos\B3\AvaliacaoB3\src\B3.Avaliacao.Application\obj\Debug\B3.Avaliacao.Application.pdb

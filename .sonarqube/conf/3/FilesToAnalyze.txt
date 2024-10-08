@@ -1,0 +1,2 @@
+﻿C:\Projetos\B3\AvaliacaoB3\src\B3.Avaliacao.Dominio\Entidades\Investimento.cs
+C:\Projetos\B3\AvaliacaoB3\src\B3.Avaliacao.Dominio\Properties\AssemblyInfo.cs
