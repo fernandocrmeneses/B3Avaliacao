@@ -1,6 +1,21 @@
-P
-NC:\Projetos\B3\AvaliacaoB3\src\B3.Avaliacao.Dominio\Properties\AssemblyInfo.csâ
-MC:\Projetos\B3\AvaliacaoB3\src\B3.Avaliacao.Dominio\Entidades\Investimento.cs
+Y
+WC:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.Dominio\Properties\AssemblyInfo.cs›
+SC:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.Dominio\Servicos\CalculaCdb.cs
+
+
+
+ 
+
+ 
+
+ 
+ " 
+ $ 
+" . '
+8 B #
+
+ %í
+VC:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.Dominio\Entidades\Investimento.cs
 
 
 

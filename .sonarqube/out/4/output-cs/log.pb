@@ -1,1 +1,1 @@
-Roslyn version: 4.7.0.0Language version: CSharp7_3!Concurrent execution: enabledš•File 'C:\Projetos\B3\AvaliacaoB3\src\B3.Avaliacao.Application\obj\Debug\.NETFramework,Version=v4.8.AssemblyAttributes.cs' was recognized as generated
+Roslyn version: 4.7.0.0Language version: CSharp7_3!Concurrent execution: enabled£žFile 'C:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.Application\obj\Debug\.NETFramework,Version=v4.8.AssemblyAttributes.cs' was recognized as generated

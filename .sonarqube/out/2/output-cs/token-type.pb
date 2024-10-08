@@ -1,21 +1,13 @@
-‹
-QC:\Projetos\B3\AvaliacaoB3\src\B3.Avaliacao.Core\ObjetosDominio\ExcecaoDominio.cs
+ä
+VC:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.Core\ObjetosDominio\Validacoes.cs
  
  
  
  
  
  			 
-		 		 !		$ -    &2 6Û
-MC:\Projetos\B3\AvaliacaoB3\src\B3.Avaliacao.Core\ObjetosDominio\Validacoes.cs
- 
- 
- 
- 
- 
- 			 
-		 		 		 "   2 9A HV \    *µ
-KC:\Projetos\B3\AvaliacaoB3\src\B3.Avaliacao.Core\Properties\AssemblyInfo.cs
+		 		 		 "   2 9A HV \    *¾
+TC:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.Core\Properties\AssemblyInfo.cs
  
  
  
@@ -41,4 +33,12 @@ KC:\Projetos\B3\AvaliacaoB3\src\B3.Avaliacao.Core\Properties\AssemblyInfo.cs
  
    S
 !! #
-"" '## 	## ## $$$ 	$$ $$ (
+"" '## 	## ## $$$ 	$$ $$ (”
+ZC:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.Core\ObjetosDominio\ExcecaoDominio.cs
+ 
+ 
+ 
+ 
+ 
+ 			 
+		 		 !		$ -    &2 6

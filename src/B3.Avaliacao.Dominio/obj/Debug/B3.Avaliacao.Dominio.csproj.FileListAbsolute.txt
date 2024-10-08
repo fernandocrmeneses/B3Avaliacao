@@ -7,3 +7,12 @@ C:\Projetos\B3\AvaliacaoB3\src\B3.Avaliacao.Dominio\obj\Debug\B3.Avaliacao.Domin
 C:\Projetos\B3\AvaliacaoB3\src\B3.Avaliacao.Dominio\obj\Debug\B3.Avaliacao.Dominio.csproj.CopyComplete
 C:\Projetos\B3\AvaliacaoB3\src\B3.Avaliacao.Dominio\obj\Debug\B3.Avaliacao.Dominio.dll
 C:\Projetos\B3\AvaliacaoB3\src\B3.Avaliacao.Dominio\obj\Debug\B3.Avaliacao.Dominio.pdb
+C:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.Dominio\bin\Debug\B3.Avaliacao.Dominio.dll
+C:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.Dominio\bin\Debug\B3.Avaliacao.Dominio.pdb
+C:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.Dominio\bin\Debug\B3.Avaliacao.Core.dll
+C:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.Dominio\bin\Debug\B3.Avaliacao.Core.pdb
+C:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.Dominio\obj\Debug\B3.Avaliacao.Dominio.csproj.AssemblyReference.cache
+C:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.Dominio\obj\Debug\B3.Avaliacao.Dominio.csproj.CoreCompileInputs.cache
+C:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.Dominio\obj\Debug\B3.Avaliacao.Dominio.csproj.CopyComplete
+C:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.Dominio\obj\Debug\B3.Avaliacao.Dominio.dll
+C:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.Dominio\obj\Debug\B3.Avaliacao.Dominio.pdb

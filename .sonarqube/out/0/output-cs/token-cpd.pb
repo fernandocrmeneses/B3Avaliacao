@@ -1,5 +1,5 @@
-¯
-MC:\Projetos\B3\AvaliacaoB3\src\B3.Avaliacao.WebApi\Properties\AssemblyInfo.cs
+Å
+VC:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.WebApi\Properties\AssemblyInfo.cs
 [ 
 assembly 	
 :	 
@@ -124,9 +124,50 @@ ComVisible 
 (## 
 $str## (
 )##( )
-]##) *·
+]##) * 
+YC:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.WebApi\Controllers\HomeController.cs
+	namespace 	
+B3
+ 
+. 
+	Avaliacao 
+. 
+WebApi 
+. 
+Controllers )
+{ 
+public		 
+
+class		 
+HomeController		 
+:		  !
 
-AC:\Projetos\B3\AvaliacaoB3\src\B3.Avaliacao.WebApi\Global.asax.cs
+Controller		" ,
+{
+
+ 
+public 
+ActionResult 
+Index !
+(! "
+)" #
+{ 	
+ViewBag 
+. 
+Title 
+= 
+$str '
+;' (
+return 
+View 
+( 
+) 
+; 
+} 	
+} 
+} Í
+
+JC:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.WebApi\Global.asax.cs
 	namespace
 
  	
@@ -209,49 +250,8 @@ RouteTable' 1
 ;= >
 } 	
 } 
-} ¡
-PC:\Projetos\B3\AvaliacaoB3\src\B3.Avaliacao.WebApi\Controllers\HomeController.cs
-	namespace 	
-B3
- 
-. 
-	Avaliacao 
-. 
-WebApi 
-. 
-Controllers )
-{ 
-public		 
-
-class		 
-HomeController		 
-:		  !
-
-Controller		" ,
-{
-
- 
-public 
-ActionResult 
-Index !
-(! "
-)" #
-{ 	
-ViewBag 
-. 
-Title 
-= 
-$str '
-;' (
-return 
-View 
-( 
-) 
-; 
-} 	
-} 
-} £
-RC:\Projetos\B3\AvaliacaoB3\src\B3.Avaliacao.WebApi\Controllers\ValuesController.cs
+} ¨
+[C:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.WebApi\Controllers\ValuesController.cs
 	namespace 	
 B3
  
@@ -349,8 +349,8 @@ RC:\Projetos\B3\AvaliacaoB3\src\B3.Avaliacao.WebApi\Controllers\ValuesController
 {$$ 	
 }%% 	
 }&& 
-}'' ˝w
-]C:\Projetos\B3\AvaliacaoB3\src\B3.Avaliacao.WebApi\Areas\HelpPage\XmlDocumentationProvider.cs
+}'' Üx
+fC:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.WebApi\Areas\HelpPage\XmlDocumentationProvider.cs
 	namespace
 
  	
@@ -1349,8 +1349,8 @@ parentNodexx& 0
 üü 	
 }
 †† 
-}°° “
-`C:\Projetos\B3\AvaliacaoB3\src\B3.Avaliacao.WebApi\Areas\HelpPage\SampleGeneration\TextSample.cs
+}°° €
+iC:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.WebApi\Areas\HelpPage\SampleGeneration\TextSample.cs
 	namespace 	
 B3
  
@@ -1476,8 +1476,8 @@ TextSample& 0
 ;"" 
 }## 	
 }$$ 
-}%% Ú
-eC:\Projetos\B3\AvaliacaoB3\src\B3.Avaliacao.WebApi\Areas\HelpPage\SampleGeneration\SampleDirection.cs
+}%% ˚
+nC:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.WebApi\Areas\HelpPage\SampleGeneration\SampleDirection.cs
 	namespace 	
 B3
  
@@ -1503,8 +1503,4347 @@ eC:\Projetos\B3\AvaliacaoB3\src\B3.Avaliacao.WebApi\Areas\HelpPage\SampleGenerat
 }
 
  
-} ∆á
-eC:\Projetos\B3\AvaliacaoB3\src\B3.Avaliacao.WebApi\Areas\HelpPage\SampleGeneration\ObjectGenerator.cs
+} £
+sC:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.WebApi\Areas\HelpPage\ModelDescriptions\ParameterAnnotation.cs
+	namespace 	
+B3
+ 
+. 
+	Avaliacao 
+. 
+WebApi 
+. 
+Areas #
+.# $
+HelpPage$ ,
+., -
+ModelDescriptions- >
+{ 
+public 
+
+class 
+ParameterAnnotation $
+{ 
+public 
+	Attribute 
+AnnotationAttribute ,
+{- .
+get/ 2
+;2 3
+set4 7
+;7 8
+}9 :
+public		 
+string		 
+Documentation		 #
+{		$ %
+get		& )
+;		) *
+set		+ .
+;		. /
+}		0 1
+}
+
+ 
+} ≤
+lC:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.WebApi\Areas\HelpPage\SampleGeneration\InvalidSample.cs
+	namespace 	
+B3
+ 
+. 
+	Avaliacao 
+. 
+WebApi 
+. 
+Areas #
+.# $
+HelpPage$ ,
+{ 
+public 
+
+class 
+InvalidSample 
+{		 
+public
+
+ 
+InvalidSample
+
+ 
+(
+
+ 
+string
+
+ #
+errorMessage
+
+$ 0
+)
+
+0 1
+{ 	
+if 
+( 
+errorMessage 
+== 
+null  $
+)$ %
+{ 
+throw 
+new !
+ArgumentNullException /
+(/ 0
+$str0 >
+)> ?
+;? @
+} 
+ErrorMessage 
+= 
+errorMessage '
+;' (
+} 	
+public 
+string 
+ErrorMessage "
+{# $
+get% (
+;( )
+private* 1
+set2 5
+;5 6
+}7 8
+public 
+override 
+bool 
+Equals #
+(# $
+object$ *
+obj+ .
+). /
+{ 	
+InvalidSample 
+other 
+=  !
+obj" %
+as& (
+InvalidSample) 6
+;6 7
+return 
+other 
+!= 
+null  
+&&! #
+ErrorMessage$ 0
+==1 3
+other4 9
+.9 :
+ErrorMessage: F
+;F G
+} 	
+public 
+override 
+int 
+GetHashCode '
+(' (
+)( )
+{ 	
+return 
+ErrorMessage 
+.  
+GetHashCode  +
+(+ ,
+), -
+;- .
+} 	
+public   
+override   
+string   
+ToString   '
+(  ' (
+)  ( )
+{!! 	
+return"" 
+ErrorMessage"" 
+;""  
+}## 	
+}$$ 
+}%% »U
+pC:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.WebApi\Areas\HelpPage\SampleGeneration\HelpPageSampleKey.cs
+	namespace 	
+B3
+ 
+. 
+	Avaliacao 
+. 
+WebApi 
+. 
+Areas #
+.# $
+HelpPage$ ,
+{ 
+public 
+
+class 
+HelpPageSampleKey "
+{ 
+public 
+HelpPageSampleKey  
+(  ! 
+MediaTypeHeaderValue! 5
+	mediaType6 ?
+)? @
+{ 	
+if 
+( 
+	mediaType 
+== 
+null !
+)! "
+{ 
+throw 
+new !
+ArgumentNullException /
+(/ 0
+$str0 ;
+); <
+;< =
+} 
+
+ActionName 
+= 
+String 
+.  
+Empty  %
+;% &
+ControllerName 
+= 
+String #
+.# $
+Empty$ )
+;) *
+	MediaType 
+= 
+	mediaType !
+;! "
+ParameterNames 
+= 
+new  
+HashSet! (
+<( )
+string) /
+>/ 0
+(0 1
+StringComparer1 ?
+.? @
+OrdinalIgnoreCase@ Q
+)Q R
+;R S
+} 	
+public## 
+HelpPageSampleKey##  
+(##  ! 
+MediaTypeHeaderValue##! 5
+	mediaType##6 ?
+,##? @
+Type##A E
+type##F J
+)##J K
+:$$ 
+this$$ 
+($$ 
+	mediaType$$ 
+)$$ 
+{%% 	
+if&& 
+(&& 
+type&& 
+==&& 
+null&& 
+)&& 
+{'' 
+throw(( 
+new(( !
+ArgumentNullException(( /
+(((/ 0
+$str((0 6
+)((6 7
+;((7 8
+})) 
+ParameterType++ 
+=++ 
+type++  
+;++  !
+},, 	
+public55 
+HelpPageSampleKey55  
+(55  !
+SampleDirection55! 0
+sampleDirection551 @
+,55@ A
+string55B H
+controllerName55I W
+,55W X
+string55Y _
+
+actionName55` j
+,55j k
+IEnumerable55l w
+<55w x
+string55x ~
+>55~ 
+parameterNames
+55Ä é
+)
+55é è
+{66 	
+if77 
+(77 
+!77 
+Enum77 
+.77 
+	IsDefined77 
+(77  
+typeof77  &
+(77& '
+SampleDirection77' 6
+)776 7
+,777 8
+sampleDirection779 H
+)77H I
+)77I J
+{88 
+throw99 
+new99 (
+InvalidEnumArgumentException99 6
+(996 7
+$str997 H
+,99H I
+(99J K
+int99K N
+)99N O
+sampleDirection99O ^
+,99^ _
+typeof99` f
+(99f g
+SampleDirection99g v
+)99v w
+)99w x
+;99x y
+}:: 
+if;; 
+(;; 
+controllerName;; 
+==;; !
+null;;" &
+);;& '
+{<< 
+throw== 
+new== !
+ArgumentNullException== /
+(==/ 0
+$str==0 @
+)==@ A
+;==A B
+}>> 
+if?? 
+(?? 
+
+actionName?? 
+==?? 
+null?? "
+)??" #
+{@@ 
+throwAA 
+newAA !
+ArgumentNullExceptionAA /
+(AA/ 0
+$strAA0 <
+)AA< =
+;AA= >
+}BB 
+ifCC 
+(CC 
+parameterNamesCC 
+==CC !
+nullCC" &
+)CC& '
+{DD 
+throwEE 
+newEE !
+ArgumentNullExceptionEE /
+(EE/ 0
+$strEE0 @
+)EE@ A
+;EEA B
+}FF 
+ControllerNameHH 
+=HH 
+controllerNameHH +
+;HH+ ,
+
+ActionNameII 
+=II 
+
+actionNameII #
+;II# $
+ParameterNamesJJ 
+=JJ 
+newJJ  
+HashSetJJ! (
+<JJ( )
+stringJJ) /
+>JJ/ 0
+(JJ0 1
+parameterNamesJJ1 ?
+,JJ? @
+StringComparerJJA O
+.JJO P
+OrdinalIgnoreCaseJJP a
+)JJa b
+;JJb c
+SampleDirectionKK 
+=KK 
+sampleDirectionKK -
+;KK- .
+}LL 	
+publicVV 
+HelpPageSampleKeyVV  
+(VV  ! 
+MediaTypeHeaderValueVV! 5
+	mediaTypeVV6 ?
+,VV? @
+SampleDirectionVVA P
+sampleDirectionVVQ `
+,VV` a
+stringVVb h
+controllerNameVVi w
+,VVw x
+stringVVy 
+
+actionName
+VVÄ ä
+,
+VVä ã
+IEnumerable
+VVå ó
+<
+VVó ò
+string
+VVò û
+>
+VVû ü
+parameterNames
+VV† Æ
+)
+VVÆ Ø
+:WW 
+thisWW 
+(WW 
+sampleDirectionWW "
+,WW" #
+controllerNameWW$ 2
+,WW2 3
+
+actionNameWW4 >
+,WW> ?
+parameterNamesWW@ N
+)WWN O
+{XX 	
+ifYY 
+(YY 
+	mediaTypeYY 
+==YY 
+nullYY !
+)YY! "
+{ZZ 
+throw[[ 
+new[[ !
+ArgumentNullException[[ /
+([[/ 0
+$str[[0 ;
+)[[; <
+;[[< =
+}\\ 
+	MediaType^^ 
+=^^ 
+	mediaType^^ !
+;^^! "
+}__ 	
+publicgg 
+stringgg 
+ControllerNamegg $
+{gg% &
+getgg' *
+;gg* +
+privategg, 3
+setgg4 7
+;gg7 8
+}gg9 :
+publicoo 
+stringoo 
+
+ActionNameoo  
+{oo! "
+getoo# &
+;oo& '
+privateoo( /
+setoo0 3
+;oo3 4
+}oo5 6
+publicww  
+MediaTypeHeaderValueww #
+	MediaTypeww$ -
+{ww. /
+getww0 3
+;ww3 4
+privateww5 <
+setww= @
+;ww@ A
+}wwB C
+public|| 
+HashSet|| 
+<|| 
+string|| 
+>|| 
+ParameterNames|| -
+{||. /
+get||0 3
+;||3 4
+private||5 <
+set||= @
+;||@ A
+}||B C
+public~~ 
+Type~~ 
+ParameterType~~ !
+{~~" #
+get~~$ '
+;~~' (
+private~~) 0
+set~~1 4
+;~~4 5
+}~~6 7
+public
+ÉÉ 
+SampleDirection
+ÉÉ 
+?
+ÉÉ 
+SampleDirection
+ÉÉ  /
+{
+ÉÉ0 1
+get
+ÉÉ2 5
+;
+ÉÉ5 6
+private
+ÉÉ7 >
+set
+ÉÉ? B
+;
+ÉÉB C
+}
+ÉÉD E
+public
+ÖÖ 
+override
+ÖÖ 
+bool
+ÖÖ 
+Equals
+ÖÖ #
+(
+ÖÖ# $
+object
+ÖÖ$ *
+obj
+ÖÖ+ .
+)
+ÖÖ. /
+{
+ÜÜ 	
+HelpPageSampleKey
+áá 
+otherKey
+áá &
+=
+áá' (
+obj
+áá) ,
+as
+áá- /
+HelpPageSampleKey
+áá0 A
+;
+ááA B
+if
+àà 
+(
+àà 
+otherKey
+àà 
+==
+àà 
+null
+àà  
+)
+àà  !
+{
+ââ 
+return
+ää 
+false
+ää 
+;
+ää 
+}
+ãã 
+return
+çç 
+String
+çç 
+.
+çç 
+Equals
+çç  
+(
+çç  !
+ControllerName
+çç! /
+,
+çç/ 0
+otherKey
+çç1 9
+.
+çç9 :
+ControllerName
+çç: H
+,
+ççH I
+StringComparison
+ççJ Z
+.
+ççZ [
+OrdinalIgnoreCase
+çç[ l
+)
+ççl m
+&&
+ççn p
+String
+éé 
+.
+éé 
+Equals
+éé 
+(
+éé 
+
+ActionName
+éé (
+,
+éé( )
+otherKey
+éé* 2
+.
+éé2 3
+
+ActionName
+éé3 =
+,
+éé= >
+StringComparison
+éé? O
+.
+ééO P
+OrdinalIgnoreCase
+ééP a
+)
+ééa b
+&&
+ééc e
+(
+èè 
+	MediaType
+èè 
+==
+èè 
+otherKey
+èè &
+.
+èè& '
+	MediaType
+èè' 0
+||
+èè1 3
+(
+èè4 5
+	MediaType
+èè5 >
+!=
+èè? A
+null
+èèB F
+&&
+èèG I
+	MediaType
+èèJ S
+.
+èèS T
+Equals
+èèT Z
+(
+èèZ [
+otherKey
+èè[ c
+.
+èèc d
+	MediaType
+èèd m
+)
+èèm n
+)
+èèn o
+)
+èèo p
+&&
+èèq s
+ParameterType
+êê 
+==
+êê  
+otherKey
+êê! )
+.
+êê) *
+ParameterType
+êê* 7
+&&
+êê8 :
+SampleDirection
+ëë 
+==
+ëë  "
+otherKey
+ëë# +
+.
+ëë+ ,
+SampleDirection
+ëë, ;
+&&
+ëë< >
+ParameterNames
+íí 
+.
+íí 
+	SetEquals
+íí (
+(
+íí( )
+otherKey
+íí) 1
+.
+íí1 2
+ParameterNames
+íí2 @
+)
+íí@ A
+;
+ííA B
+}
+ìì 	
+public
+ïï 
+override
+ïï 
+int
+ïï 
+GetHashCode
+ïï '
+(
+ïï' (
+)
+ïï( )
+{
+ññ 	
+int
+óó 
+hashCode
+óó 
+=
+óó 
+ControllerName
+óó )
+.
+óó) *
+ToUpperInvariant
+óó* :
+(
+óó: ;
+)
+óó; <
+.
+óó< =
+GetHashCode
+óó= H
+(
+óóH I
+)
+óóI J
+^
+óóK L
+
+ActionName
+óóM W
+.
+óóW X
+ToUpperInvariant
+óóX h
+(
+óóh i
+)
+óói j
+.
+óój k
+GetHashCode
+óók v
+(
+óóv w
+)
+óów x
+;
+óóx y
+if
+òò 
+(
+òò 
+	MediaType
+òò 
+!=
+òò 
+null
+òò !
+)
+òò! "
+{
+ôô 
+hashCode
+öö 
+^=
+öö 
+	MediaType
+öö %
+.
+öö% &
+GetHashCode
+öö& 1
+(
+öö1 2
+)
+öö2 3
+;
+öö3 4
+}
+õõ 
+if
+úú 
+(
+úú 
+SampleDirection
+úú 
+!=
+úú  "
+null
+úú# '
+)
+úú' (
+{
+ùù 
+hashCode
+ûû 
+^=
+ûû 
+SampleDirection
+ûû +
+.
+ûû+ ,
+GetHashCode
+ûû, 7
+(
+ûû7 8
+)
+ûû8 9
+;
+ûû9 :
+}
+üü 
+if
+†† 
+(
+†† 
+ParameterType
+†† 
+!=
+††  
+null
+††! %
+)
+††% &
+{
+°° 
+hashCode
+¢¢ 
+^=
+¢¢ 
+ParameterType
+¢¢ )
+.
+¢¢) *
+GetHashCode
+¢¢* 5
+(
+¢¢5 6
+)
+¢¢6 7
+;
+¢¢7 8
+}
+££ 
+foreach
+§§ 
+(
+§§ 
+string
+§§ 
+parameterName
+§§ )
+in
+§§* ,
+ParameterNames
+§§- ;
+)
+§§; <
+{
+•• 
+hashCode
+¶¶ 
+^=
+¶¶ 
+parameterName
+¶¶ )
+.
+¶¶) *
+ToUpperInvariant
+¶¶* :
+(
+¶¶: ;
+)
+¶¶; <
+.
+¶¶< =
+GetHashCode
+¶¶= H
+(
+¶¶H I
+)
+¶¶I J
+;
+¶¶J K
+}
+ßß 
+return
+©© 
+hashCode
+©© 
+;
+©© 
+}
+™™ 	
+}
+´´ 
+}¨¨ ´ô
+vC:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.WebApi\Areas\HelpPage\SampleGeneration\HelpPageSampleGenerator.cs
+	namespace 	
+B3
+ 
+. 
+	Avaliacao 
+. 
+WebApi 
+. 
+Areas #
+.# $
+HelpPage$ ,
+{ 
+public 
+
+class #
+HelpPageSampleGenerator (
+{ 
+public #
+HelpPageSampleGenerator &
+(& '
+)' (
+{ 	"
+ActualHttpMessageTypes "
+=# $
+new% (
+
+Dictionary) 3
+<3 4
+HelpPageSampleKey4 E
+,E F
+TypeG K
+>K L
+(L M
+)M N
+;N O
+ActionSamples 
+= 
+new 
+
+Dictionary  *
+<* +
+HelpPageSampleKey+ <
+,< =
+object> D
+>D E
+(E F
+)F G
+;G H
+SampleObjects 
+= 
+new 
+
+Dictionary  *
+<* +
+Type+ /
+,/ 0
+object1 7
+>7 8
+(8 9
+)9 :
+;: ;!
+SampleObjectFactories !
+=" #
+new$ '
+List( ,
+<, -
+Func- 1
+<1 2#
+HelpPageSampleGenerator2 I
+,I J
+TypeK O
+,O P
+objectQ W
+>W X
+>X Y
+{   &
+DefaultSampleObjectFactory!! *
+,!!* +
+}"" 
+;"" 
+}## 	
+public(( 
+IDictionary(( 
+<(( 
+HelpPageSampleKey(( ,
+,((, -
+Type((. 2
+>((2 3"
+ActualHttpMessageTypes((4 J
+{((K L
+get((M P
+;((P Q
+internal((R Z
+set(([ ^
+;((^ _
+}((` a
+public-- 
+IDictionary-- 
+<-- 
+HelpPageSampleKey-- ,
+,--, -
+object--. 4
+>--4 5
+ActionSamples--6 C
+{--D E
+get--F I
+;--I J
+internal--K S
+set--T W
+;--W X
+}--Y Z
+public22 
+IDictionary22 
+<22 
+Type22 
+,22  
+object22! '
+>22' (
+SampleObjects22) 6
+{227 8
+get229 <
+;22< =
+internal22> F
+set22G J
+;22J K
+}22L M
+[<< 	
+SuppressMessage<<	 
+(<< 
+$str<< +
+,<<+ ,
+$str<<- ]
+,<<] ^
+Justification== 
+=== 
+$str== M
+)==M N
+]==N O
+public>> 
+IList>> 
+<>> 
+Func>> 
+<>> #
+HelpPageSampleGenerator>> 1
+,>>1 2
+Type>>3 7
+,>>7 8
+object>>9 ?
+>>>? @
+>>>@ A!
+SampleObjectFactories>>B W
+{>>X Y
+get>>Z ]
+;>>] ^
+private>>_ f
+set>>g j
+;>>j k
+}>>l m
+publicEE 
+IDictionaryEE 
+<EE  
+MediaTypeHeaderValueEE /
+,EE/ 0
+objectEE1 7
+>EE7 8
+GetSampleRequestsEE9 J
+(EEJ K
+ApiDescriptionEEK Y
+apiEEZ ]
+)EE] ^
+{FF 	
+returnGG 
+	GetSampleGG 
+(GG 
+apiGG  
+,GG  !
+SampleDirectionGG" 1
+.GG1 2
+RequestGG2 9
+)GG9 :
+;GG: ;
+}HH 	
+publicOO 
+IDictionaryOO 
+<OO  
+MediaTypeHeaderValueOO /
+,OO/ 0
+objectOO1 7
+>OO7 8
+GetSampleResponsesOO9 K
+(OOK L
+ApiDescriptionOOL Z
+apiOO[ ^
+)OO^ _
+{PP 	
+returnQQ 
+	GetSampleQQ 
+(QQ 
+apiQQ  
+,QQ  !
+SampleDirectionQQ" 1
+.QQ1 2
+ResponseQQ2 :
+)QQ: ;
+;QQ; <
+}RR 	
+publicZZ 
+virtualZZ 
+IDictionaryZZ "
+<ZZ" # 
+MediaTypeHeaderValueZZ# 7
+,ZZ7 8
+objectZZ9 ?
+>ZZ? @
+	GetSampleZZA J
+(ZZJ K
+ApiDescriptionZZK Y
+apiZZZ ]
+,ZZ] ^
+SampleDirectionZZ_ n
+sampleDirectionZZo ~
+)ZZ~ 
+{[[ 	
+if\\ 
+(\\ 
+api\\ 
+==\\ 
+null\\ 
+)\\ 
+{]] 
+throw^^ 
+new^^ !
+ArgumentNullException^^ /
+(^^/ 0
+$str^^0 5
+)^^5 6
+;^^6 7
+}__ 
+string`` 
+controllerName`` !
+=``" #
+api``$ '
+.``' (
+ActionDescriptor``( 8
+.``8 9 
+ControllerDescriptor``9 M
+.``M N
+ControllerName``N \
+;``\ ]
+stringaa 
+
+actionNameaa 
+=aa 
+apiaa  #
+.aa# $
+ActionDescriptoraa$ 4
+.aa4 5
+
+ActionNameaa5 ?
+;aa? @
+IEnumerablebb 
+<bb 
+stringbb 
+>bb 
+parameterNamesbb  .
+=bb/ 0
+apibb1 4
+.bb4 5!
+ParameterDescriptionsbb5 J
+.bbJ K
+SelectbbK Q
+(bbQ R
+pbbR S
+=>bbT V
+pbbW X
+.bbX Y
+NamebbY ]
+)bb] ^
+;bb^ _
+
+Collectioncc 
+<cc 
+MediaTypeFormattercc )
+>cc) *
+
+formatterscc+ 5
+;cc5 6
+Typedd 
+typedd 
+=dd 
+ResolveTypedd #
+(dd# $
+apidd$ '
+,dd' (
+controllerNamedd) 7
+,dd7 8
+
+actionNamedd9 C
+,ddC D
+parameterNamesddE S
+,ddS T
+sampleDirectionddU d
+,ddd e
+outddf i
+
+formattersddj t
+)ddt u
+;ddu v
+varee 
+samplesee 
+=ee 
+newee 
+
+Dictionaryee (
+<ee( ) 
+MediaTypeHeaderValueee) =
+,ee= >
+objectee? E
+>eeE F
+(eeF G
+)eeG H
+;eeH I
+varhh 
+actionSampleshh 
+=hh 
+GetAllActionSampleshh  3
+(hh3 4
+controllerNamehh4 B
+,hhB C
+
+actionNamehhD N
+,hhN O
+parameterNameshhP ^
+,hh^ _
+sampleDirectionhh` o
+)hho p
+;hhp q
+foreachii 
+(ii 
+varii 
+actionSampleii %
+inii& (
+actionSamplesii) 6
+)ii6 7
+{jj 
+sampleskk 
+.kk 
+Addkk 
+(kk 
+actionSamplekk (
+.kk( )
+Keykk) ,
+.kk, -
+	MediaTypekk- 6
+,kk6 7
+WrapSampleIfStringkk8 J
+(kkJ K
+actionSamplekkK W
+.kkW X
+ValuekkX ]
+)kk] ^
+)kk^ _
+;kk_ `
+}ll 
+ifpp 
+(pp 
+typepp 
+!=pp 
+nullpp 
+&&pp 
+!pp  !
+typeofpp! '
+(pp' (
+HttpResponseMessagepp( ;
+)pp; <
+.pp< =
+IsAssignableFrompp= M
+(ppM N
+typeppN R
+)ppR S
+)ppS T
+{qq 
+objectrr 
+sampleObjectrr #
+=rr$ %
+GetSampleObjectrr& 5
+(rr5 6
+typerr6 :
+)rr: ;
+;rr; <
+foreachss 
+(ss 
+varss 
+	formatterss &
+inss' )
+
+formattersss* 4
+)ss4 5
+{tt 
+foreachuu 
+(uu  
+MediaTypeHeaderValueuu 1
+	mediaTypeuu2 ;
+inuu< >
+	formatteruu? H
+.uuH I
+SupportedMediaTypesuuI \
+)uu\ ]
+{vv 
+ifww 
+(ww 
+!ww 
+samplesww $
+.ww$ %
+ContainsKeyww% 0
+(ww0 1
+	mediaTypeww1 :
+)ww: ;
+)ww; <
+{xx 
+objectyy "
+sampleyy# )
+=yy* +
+GetActionSampleyy, ;
+(yy; <
+controllerNameyy< J
+,yyJ K
+
+actionNameyyL V
+,yyV W
+parameterNamesyyX f
+,yyf g
+typeyyh l
+,yyl m
+	formatteryyn w
+,yyw x
+	mediaType	yyy Ç
+,
+yyÇ É
+sampleDirection
+yyÑ ì
+)
+yyì î
+;
+yyî ï
+if|| 
+(||  
+sample||  &
+==||' )
+null||* .
+&&||/ 1
+sampleObject||2 >
+!=||? A
+null||B F
+)||F G
+{}} 
+sample~~  &
+=~~' (+
+WriteSampleObjectUsingFormatter~~) H
+(~~H I
+	formatter~~I R
+,~~R S
+sampleObject~~T `
+,~~` a
+type~~b f
+,~~f g
+	mediaType~~h q
+)~~q r
+;~~r s
+} 
+samples
+ÅÅ #
+.
+ÅÅ# $
+Add
+ÅÅ$ '
+(
+ÅÅ' (
+	mediaType
+ÅÅ( 1
+,
+ÅÅ1 2 
+WrapSampleIfString
+ÅÅ3 E
+(
+ÅÅE F
+sample
+ÅÅF L
+)
+ÅÅL M
+)
+ÅÅM N
+;
+ÅÅN O
+}
+ÇÇ 
+}
+ÉÉ 
+}
+ÑÑ 
+}
+ÖÖ 
+return
+áá 
+samples
+áá 
+;
+áá 
+}
+àà 	
+public
+ïï 
+virtual
+ïï 
+object
+ïï 
+GetActionSample
+ïï -
+(
+ïï- .
+string
+ïï. 4
+controllerName
+ïï5 C
+,
+ïïC D
+string
+ïïE K
+
+actionName
+ïïL V
+,
+ïïV W
+IEnumerable
+ïïX c
+<
+ïïc d
+string
+ïïd j
+>
+ïïj k
+parameterNames
+ïïl z
+,
+ïïz {
+Typeïï| Ä
+typeïïÅ Ö
+,ïïÖ Ü"
+MediaTypeFormatterïïá ô
+	formatterïïö £
+,ïï£ §$
+MediaTypeHeaderValueïï• π
+	mediaTypeïï∫ √
+,ïï√ ƒ
+SampleDirectionïï≈ ‘
+sampleDirectionïï’ ‰
+)ïï‰ Â
+{
+ññ 	
+object
+óó 
+sample
+óó 
+;
+óó 
+if
+ùù 
+(
+ùù 
+ActionSamples
+ùù 
+.
+ùù 
+TryGetValue
+ùù )
+(
+ùù) *
+new
+ùù* -
+HelpPageSampleKey
+ùù. ?
+(
+ùù? @
+	mediaType
+ùù@ I
+,
+ùùI J
+sampleDirection
+ùùK Z
+,
+ùùZ [
+controllerName
+ùù\ j
+,
+ùùj k
+
+actionName
+ùùl v
+,
+ùùv w
+parameterNamesùùx Ü
+)ùùÜ á
+,ùùá à
+outùùâ å
+sampleùùç ì
+)ùùì î
+||ùùï ó
+ActionSamples
+ûû 
+.
+ûû 
+TryGetValue
+ûû )
+(
+ûû) *
+new
+ûû* -
+HelpPageSampleKey
+ûû. ?
+(
+ûû? @
+	mediaType
+ûû@ I
+,
+ûûI J
+sampleDirection
+ûûK Z
+,
+ûûZ [
+controllerName
+ûû\ j
+,
+ûûj k
+
+actionName
+ûûl v
+,
+ûûv w
+new
+ûûx {
+[
+ûû{ |
+]
+ûû| }
+{
+ûû~ 
+$strûûÄ É
+}ûûÑ Ö
+)ûûÖ Ü
+,ûûÜ á
+outûûà ã
+sampleûûå í
+)ûûí ì
+||ûûî ñ
+ActionSamples
+üü 
+.
+üü 
+TryGetValue
+üü )
+(
+üü) *
+new
+üü* -
+HelpPageSampleKey
+üü. ?
+(
+üü? @
+	mediaType
+üü@ I
+,
+üüI J
+type
+üüK O
+)
+üüO P
+,
+üüP Q
+out
+üüR U
+sample
+üüV \
+)
+üü\ ]
+||
+üü^ `
+ActionSamples
+†† 
+.
+†† 
+TryGetValue
+†† )
+(
+††) *
+new
+††* -
+HelpPageSampleKey
+††. ?
+(
+††? @
+	mediaType
+††@ I
+)
+††I J
+,
+††J K
+out
+††L O
+sample
+††P V
+)
+††V W
+)
+††W X
+{
+°° 
+return
+¢¢ 
+sample
+¢¢ 
+;
+¢¢ 
+}
+££ 
+return
+•• 
+null
+•• 
+;
+•• 
+}
+¶¶ 	
+[
+∞∞ 	
+SuppressMessage
+∞∞	 
+(
+∞∞ 
+$str
+∞∞ +
+,
+∞∞+ ,
+$str
+∞∞- U
+,
+∞∞U V
+Justification
+±± 
+=
+±± 
+$str
+±± z
+)
+±±z {
+]
+±±{ |
+public
+≤≤ 
+virtual
+≤≤ 
+object
+≤≤ 
+GetSampleObject
+≤≤ -
+(
+≤≤- .
+Type
+≤≤. 2
+type
+≤≤3 7
+)
+≤≤7 8
+{
+≥≥ 	
+object
+¥¥ 
+sampleObject
+¥¥ 
+;
+¥¥  
+if
+∂∂ 
+(
+∂∂ 
+!
+∂∂ 
+SampleObjects
+∂∂ 
+.
+∂∂ 
+TryGetValue
+∂∂ *
+(
+∂∂* +
+type
+∂∂+ /
+,
+∂∂/ 0
+out
+∂∂1 4
+sampleObject
+∂∂5 A
+)
+∂∂A B
+)
+∂∂B C
+{
+∑∑ 
+foreach
+ππ 
+(
+ππ 
+Func
+ππ 
+<
+ππ %
+HelpPageSampleGenerator
+ππ 5
+,
+ππ5 6
+Type
+ππ7 ;
+,
+ππ; <
+object
+ππ= C
+>
+ππC D
+factory
+ππE L
+in
+ππM O#
+SampleObjectFactories
+ππP e
+)
+ππe f
+{
+∫∫ 
+if
+ªª 
+(
+ªª 
+factory
+ªª 
+==
+ªª  "
+null
+ªª# '
+)
+ªª' (
+{
+ºº 
+continue
+ΩΩ  
+;
+ΩΩ  !
+}
+ææ 
+try
+¿¿ 
+{
+¡¡ 
+sampleObject
+¬¬ $
+=
+¬¬% &
+factory
+¬¬' .
+(
+¬¬. /
+this
+¬¬/ 3
+,
+¬¬3 4
+type
+¬¬5 9
+)
+¬¬9 :
+;
+¬¬: ;
+if
+√√ 
+(
+√√ 
+sampleObject
+√√ (
+!=
+√√) +
+null
+√√, 0
+)
+√√0 1
+{
+ƒƒ 
+break
+≈≈ !
+;
+≈≈! "
+}
+∆∆ 
+}
+«« 
+catch
+»» 
+{
+…… 
+}
+ÀÀ 
+}
+ÃÃ 
+}
+ÕÕ 
+return
+œœ 
+sampleObject
+œœ 
+;
+œœ  
+}
+–– 	
+public
+◊◊ 
+virtual
+◊◊ 
+Type
+◊◊ +
+ResolveHttpRequestMessageType
+◊◊ 9
+(
+◊◊9 :
+ApiDescription
+◊◊: H
+api
+◊◊I L
+)
+◊◊L M
+{
+ÿÿ 	
+string
+ŸŸ 
+controllerName
+ŸŸ !
+=
+ŸŸ" #
+api
+ŸŸ$ '
+.
+ŸŸ' (
+ActionDescriptor
+ŸŸ( 8
+.
+ŸŸ8 9"
+ControllerDescriptor
+ŸŸ9 M
+.
+ŸŸM N
+ControllerName
+ŸŸN \
+;
+ŸŸ\ ]
+string
+⁄⁄ 
+
+actionName
+⁄⁄ 
+=
+⁄⁄ 
+api
+⁄⁄  #
+.
+⁄⁄# $
+ActionDescriptor
+⁄⁄$ 4
+.
+⁄⁄4 5
+
+ActionName
+⁄⁄5 ?
+;
+⁄⁄? @
+IEnumerable
+€€ 
+<
+€€ 
+string
+€€ 
+>
+€€ 
+parameterNames
+€€  .
+=
+€€/ 0
+api
+€€1 4
+.
+€€4 5#
+ParameterDescriptions
+€€5 J
+.
+€€J K
+Select
+€€K Q
+(
+€€Q R
+p
+€€R S
+=>
+€€T V
+p
+€€W X
+.
+€€X Y
+Name
+€€Y ]
+)
+€€] ^
+;
+€€^ _
+
+Collection
+‹‹ 
+<
+‹‹  
+MediaTypeFormatter
+‹‹ )
+>
+‹‹) *
+
+formatters
+‹‹+ 5
+;
+‹‹5 6
+return
+›› 
+ResolveType
+›› 
+(
+›› 
+api
+›› "
+,
+››" #
+controllerName
+››$ 2
+,
+››2 3
+
+actionName
+››4 >
+,
+››> ?
+parameterNames
+››@ N
+,
+››N O
+SampleDirection
+››P _
+.
+››_ `
+Request
+››` g
+,
+››g h
+out
+››i l
+
+formatters
+››m w
+)
+››w x
+;
+››x y
+}
+ﬁﬁ 	
+[
+ÈÈ 	
+SuppressMessage
+ÈÈ	 
+(
+ÈÈ 
+$str
+ÈÈ +
+,
+ÈÈ+ ,
+$str
+ÈÈ- H
+,
+ÈÈH I
+Justification
+ÈÈJ W
+=
+ÈÈX Y
+$strÈÈZ Ñ
+)ÈÈÑ Ö
+]ÈÈÖ Ü
+public
+ÍÍ 
+virtual
+ÍÍ 
+Type
+ÍÍ 
+ResolveType
+ÍÍ '
+(
+ÍÍ' (
+ApiDescription
+ÍÍ( 6
+api
+ÍÍ7 :
+,
+ÍÍ: ;
+string
+ÍÍ< B
+controllerName
+ÍÍC Q
+,
+ÍÍQ R
+string
+ÍÍS Y
+
+actionName
+ÍÍZ d
+,
+ÍÍd e
+IEnumerable
+ÍÍf q
+<
+ÍÍq r
+string
+ÍÍr x
+>
+ÍÍx y
+parameterNamesÍÍz à
+,ÍÍà â
+SampleDirectionÍÍä ô
+sampleDirectionÍÍö ©
+,ÍÍ© ™
+outÍÍ´ Æ
+
+CollectionÍÍØ π
+<ÍÍπ ∫"
+MediaTypeFormatterÍÍ∫ Ã
+>ÍÍÃ Õ
+
+formattersÍÍŒ ÿ
+)ÍÍÿ Ÿ
+{
+ÎÎ 	
+if
+ÏÏ 
+(
+ÏÏ 
+!
+ÏÏ 
+Enum
+ÏÏ 
+.
+ÏÏ 
+	IsDefined
+ÏÏ 
+(
+ÏÏ  
+typeof
+ÏÏ  &
+(
+ÏÏ& '
+SampleDirection
+ÏÏ' 6
+)
+ÏÏ6 7
+,
+ÏÏ7 8
+sampleDirection
+ÏÏ9 H
+)
+ÏÏH I
+)
+ÏÏI J
+{
+ÌÌ 
+throw
+ÓÓ 
+new
+ÓÓ *
+InvalidEnumArgumentException
+ÓÓ 6
+(
+ÓÓ6 7
+$str
+ÓÓ7 H
+,
+ÓÓH I
+(
+ÓÓJ K
+int
+ÓÓK N
+)
+ÓÓN O
+sampleDirection
+ÓÓO ^
+,
+ÓÓ^ _
+typeof
+ÓÓ` f
+(
+ÓÓf g
+SampleDirection
+ÓÓg v
+)
+ÓÓv w
+)
+ÓÓw x
+;
+ÓÓx y
+}
+ÔÔ 
+if
+ 
+(
+ 
+api
+ 
+==
+ 
+null
+ 
+)
+ 
+{
+ÒÒ 
+throw
+ÚÚ 
+new
+ÚÚ #
+ArgumentNullException
+ÚÚ /
+(
+ÚÚ/ 0
+$str
+ÚÚ0 5
+)
+ÚÚ5 6
+;
+ÚÚ6 7
+}
+ÛÛ 
+Type
+ÙÙ 
+type
+ÙÙ 
+;
+ÙÙ 
+if
+ıı 
+(
+ıı $
+ActualHttpMessageTypes
+ıı &
+.
+ıı& '
+TryGetValue
+ıı' 2
+(
+ıı2 3
+new
+ıı3 6
+HelpPageSampleKey
+ıı7 H
+(
+ııH I
+sampleDirection
+ııI X
+,
+ııX Y
+controllerName
+ııZ h
+,
+ııh i
+
+actionName
+ııj t
+,
+ııt u
+parameterNamesııv Ñ
+)ııÑ Ö
+,ııÖ Ü
+outııá ä
+typeııã è
+)ııè ê
+||ııë ì$
+ActualHttpMessageTypes
+ˆˆ &
+.
+ˆˆ& '
+TryGetValue
+ˆˆ' 2
+(
+ˆˆ2 3
+new
+ˆˆ3 6
+HelpPageSampleKey
+ˆˆ7 H
+(
+ˆˆH I
+sampleDirection
+ˆˆI X
+,
+ˆˆX Y
+controllerName
+ˆˆZ h
+,
+ˆˆh i
+
+actionName
+ˆˆj t
+,
+ˆˆt u
+new
+ˆˆv y
+[
+ˆˆy z
+]
+ˆˆz {
+{
+ˆˆ| }
+$strˆˆ~ Å
+}ˆˆÇ É
+)ˆˆÉ Ñ
+,ˆˆÑ Ö
+outˆˆÜ â
+typeˆˆä é
+)ˆˆé è
+)ˆˆè ê
+{
+˜˜ 
+
+Collection
+˘˘ 
+<
+˘˘  
+MediaTypeFormatter
+˘˘ -
+>
+˘˘- .
+newFormatters
+˘˘/ <
+=
+˘˘= >
+new
+˘˘? B
+
+Collection
+˘˘C M
+<
+˘˘M N 
+MediaTypeFormatter
+˘˘N `
+>
+˘˘` a
+(
+˘˘a b
+)
+˘˘b c
+;
+˘˘c d
+foreach
+˙˙ 
+(
+˙˙ 
+var
+˙˙ 
+	formatter
+˙˙ &
+in
+˙˙' )
+api
+˙˙* -
+.
+˙˙- .
+ActionDescriptor
+˙˙. >
+.
+˙˙> ?
+Configuration
+˙˙? L
+.
+˙˙L M
+
+Formatters
+˙˙M W
+)
+˙˙W X
+{
+˚˚ 
+if
+¸¸ 
+(
+¸¸ 
+IsFormatSupported
+¸¸ )
+(
+¸¸) *
+sampleDirection
+¸¸* 9
+,
+¸¸9 :
+	formatter
+¸¸; D
+,
+¸¸D E
+type
+¸¸F J
+)
+¸¸J K
+)
+¸¸K L
+{
+˝˝ 
+newFormatters
+˛˛ %
+.
+˛˛% &
+Add
+˛˛& )
+(
+˛˛) *
+	formatter
+˛˛* 3
+)
+˛˛3 4
+;
+˛˛4 5
+}
+ˇˇ 
+}
+ÄÄ 
+
+formatters
+ÅÅ 
+=
+ÅÅ 
+newFormatters
+ÅÅ *
+;
+ÅÅ* +
+}
+ÇÇ 
+else
+ÉÉ 
+{
+ÑÑ 
+switch
+ÖÖ 
+(
+ÖÖ 
+sampleDirection
+ÖÖ '
+)
+ÖÖ' (
+{
+ÜÜ 
+case
+áá 
+SampleDirection
+áá (
+.
+áá( )
+Request
+áá) 0
+:
+áá0 1%
+ApiParameterDescription
+àà /"
+requestBodyParameter
+àà0 D
+=
+ààE F
+api
+ààG J
+.
+ààJ K#
+ParameterDescriptions
+ààK `
+.
+àà` a
+FirstOrDefault
+ààa o
+(
+àào p
+p
+ààp q
+=>
+ààr t
+p
+ààu v
+.
+ààv w
+Source
+ààw }
+==àà~ Ä"
+ApiParameterSourceààÅ ì
+.ààì î
+FromBodyààî ú
+)ààú ù
+;ààù û
+type
+ââ 
+=
+ââ "
+requestBodyParameter
+ââ 3
+==
+ââ4 6
+null
+ââ7 ;
+?
+ââ< =
+null
+ââ> B
+:
+ââC D"
+requestBodyParameter
+ââE Y
+.
+ââY Z!
+ParameterDescriptor
+ââZ m
+.
+ââm n
+ParameterType
+âân {
+;
+ââ{ |
+
+formatters
+ää "
+=
+ää# $
+api
+ää% (
+.
+ää( ),
+SupportedRequestBodyFormatters
+ää) G
+;
+ääG H
+break
+ãã 
+;
+ãã 
+case
+åå 
+SampleDirection
+åå (
+.
+åå( )
+Response
+åå) 1
+:
+åå1 2
+default
+çç 
+:
+çç 
+type
+éé 
+=
+éé 
+api
+éé "
+.
+éé" #!
+ResponseDescription
+éé# 6
+.
+éé6 7
+ResponseType
+éé7 C
+??
+ééD F
+api
+ééG J
+.
+ééJ K!
+ResponseDescription
+ééK ^
+.
+éé^ _
+DeclaredType
+éé_ k
+;
+éék l
+
+formatters
+èè "
+=
+èè# $
+api
+èè% (
+.
+èè( ))
+SupportedResponseFormatters
+èè) D
+;
+èèD E
+break
+êê 
+;
+êê 
+}
+ëë 
+}
+íí 
+return
+îî 
+type
+îî 
+;
+îî 
+}
+ïï 	
+[
+üü 	
+SuppressMessage
+üü	 
+(
+üü 
+$str
+üü +
+,
+üü+ ,
+$str
+üü- U
+,
+üüU V
+Justification
+üüW d
+=
+üüe f
+$strüüg î
+)üüî ï
+]üüï ñ
+public
+†† 
+virtual
+†† 
+object
+†† -
+WriteSampleObjectUsingFormatter
+†† =
+(
+††= > 
+MediaTypeFormatter
+††> P
+	formatter
+††Q Z
+,
+††Z [
+object
+††\ b
+value
+††c h
+,
+††h i
+Type
+††j n
+type
+††o s
+,
+††s t#
+MediaTypeHeaderValue††u â
+	mediaType††ä ì
+)††ì î
+{
+°° 	
+if
+¢¢ 
+(
+¢¢ 
+	formatter
+¢¢ 
+==
+¢¢ 
+null
+¢¢ !
+)
+¢¢! "
+{
+££ 
+throw
+§§ 
+new
+§§ #
+ArgumentNullException
+§§ /
+(
+§§/ 0
+$str
+§§0 ;
+)
+§§; <
+;
+§§< =
+}
+•• 
+if
+¶¶ 
+(
+¶¶ 
+	mediaType
+¶¶ 
+==
+¶¶ 
+null
+¶¶ !
+)
+¶¶! "
+{
+ßß 
+throw
+®® 
+new
+®® #
+ArgumentNullException
+®® /
+(
+®®/ 0
+$str
+®®0 ;
+)
+®®; <
+;
+®®< =
+}
+©© 
+object
+´´ 
+sample
+´´ 
+=
+´´ 
+String
+´´ "
+.
+´´" #
+Empty
+´´# (
+;
+´´( )
+MemoryStream
+¨¨ 
+ms
+¨¨ 
+=
+¨¨ 
+null
+¨¨ "
+;
+¨¨" #
+HttpContent
+≠≠ 
+content
+≠≠ 
+=
+≠≠  !
+null
+≠≠" &
+;
+≠≠& '
+try
+ÆÆ 
+{
+ØØ 
+if
+∞∞ 
+(
+∞∞ 
+	formatter
+∞∞ 
+.
+∞∞ 
+CanWriteType
+∞∞ *
+(
+∞∞* +
+type
+∞∞+ /
+)
+∞∞/ 0
+)
+∞∞0 1
+{
+±± 
+ms
+≤≤ 
+=
+≤≤ 
+new
+≤≤ 
+MemoryStream
+≤≤ )
+(
+≤≤) *
+)
+≤≤* +
+;
+≤≤+ ,
+content
+≥≥ 
+=
+≥≥ 
+new
+≥≥ !
+ObjectContent
+≥≥" /
+(
+≥≥/ 0
+type
+≥≥0 4
+,
+≥≥4 5
+value
+≥≥6 ;
+,
+≥≥; <
+	formatter
+≥≥= F
+,
+≥≥F G
+	mediaType
+≥≥H Q
+)
+≥≥Q R
+;
+≥≥R S
+	formatter
+¥¥ 
+.
+¥¥  
+WriteToStreamAsync
+¥¥ 0
+(
+¥¥0 1
+type
+¥¥1 5
+,
+¥¥5 6
+value
+¥¥7 <
+,
+¥¥< =
+ms
+¥¥> @
+,
+¥¥@ A
+content
+¥¥B I
+,
+¥¥I J
+null
+¥¥K O
+)
+¥¥O P
+.
+¥¥P Q
+Wait
+¥¥Q U
+(
+¥¥U V
+)
+¥¥V W
+;
+¥¥W X
+ms
+µµ 
+.
+µµ 
+Position
+µµ 
+=
+µµ  !
+$num
+µµ" #
+;
+µµ# $
+StreamReader
+∂∂  
+reader
+∂∂! '
+=
+∂∂( )
+new
+∂∂* -
+StreamReader
+∂∂. :
+(
+∂∂: ;
+ms
+∂∂; =
+)
+∂∂= >
+;
+∂∂> ?
+string
+∑∑ $
+serializedSampleString
+∑∑ 1
+=
+∑∑2 3
+reader
+∑∑4 :
+.
+∑∑: ;
+	ReadToEnd
+∑∑; D
+(
+∑∑D E
+)
+∑∑E F
+;
+∑∑F G
+if
+∏∏ 
+(
+∏∏ 
+	mediaType
+∏∏ !
+.
+∏∏! "
+	MediaType
+∏∏" +
+.
+∏∏+ ,
+ToUpperInvariant
+∏∏, <
+(
+∏∏< =
+)
+∏∏= >
+.
+∏∏> ?
+Contains
+∏∏? G
+(
+∏∏G H
+$str
+∏∏H M
+)
+∏∏M N
+)
+∏∏N O
+{
+ππ $
+serializedSampleString
+∫∫ .
+=
+∫∫/ 0
+TryFormatXml
+∫∫1 =
+(
+∫∫= >$
+serializedSampleString
+∫∫> T
+)
+∫∫T U
+;
+∫∫U V
+}
+ªª 
+else
+ºº 
+if
+ºº 
+(
+ºº 
+	mediaType
+ºº &
+.
+ºº& '
+	MediaType
+ºº' 0
+.
+ºº0 1
+ToUpperInvariant
+ºº1 A
+(
+ººA B
+)
+ººB C
+.
+ººC D
+Contains
+ººD L
+(
+ººL M
+$str
+ººM S
+)
+ººS T
+)
+ººT U
+{
+ΩΩ $
+serializedSampleString
+ææ .
+=
+ææ/ 0
+TryFormatJson
+ææ1 >
+(
+ææ> ?$
+serializedSampleString
+ææ? U
+)
+ææU V
+;
+ææV W
+}
+øø 
+sample
+¡¡ 
+=
+¡¡ 
+new
+¡¡  
+
+TextSample
+¡¡! +
+(
+¡¡+ ,$
+serializedSampleString
+¡¡, B
+)
+¡¡B C
+;
+¡¡C D
+}
+¬¬ 
+else
+√√ 
+{
+ƒƒ 
+sample
+≈≈ 
+=
+≈≈ 
+new
+≈≈  
+InvalidSample
+≈≈! .
+(
+≈≈. /
+String
+≈≈/ 5
+.
+≈≈5 6
+Format
+≈≈6 <
+(
+≈≈< =
+CultureInfo
+∆∆ #
+.
+∆∆# $
+CurrentCulture
+∆∆$ 2
+,
+∆∆2 3
+$str
+«« }
+,
+««} ~
+	mediaType
+»» !
+,
+»»! "
+	formatter
+…… !
+.
+……! "
+GetType
+……" )
+(
+……) *
+)
+……* +
+.
+……+ ,
+Name
+……, 0
+,
+……0 1
+type
+   
+.
+   
+Name
+   !
+)
+  ! "
+)
+  " #
+;
+  # $
+}
+ÀÀ 
+}
+ÃÃ 
+catch
+ÕÕ 
+(
+ÕÕ 
+	Exception
+ÕÕ 
+e
+ÕÕ 
+)
+ÕÕ 
+{
+ŒŒ 
+sample
+œœ 
+=
+œœ 
+new
+œœ 
+InvalidSample
+œœ *
+(
+œœ* +
+String
+œœ+ 1
+.
+œœ1 2
+Format
+œœ2 8
+(
+œœ8 9
+CultureInfo
+–– 
+.
+––  
+CurrentCulture
+––  .
+,
+––. /
+$str—— è
+,——è ê
+	formatter
+““ 
+.
+““ 
+GetType
+““ %
+(
+““% &
+)
+““& '
+.
+““' (
+Name
+““( ,
+,
+““, -
+	mediaType
+”” 
+.
+”” 
+	MediaType
+”” '
+,
+””' (
+UnwrapException
+‘‘ #
+(
+‘‘# $
+e
+‘‘$ %
+)
+‘‘% &
+.
+‘‘& '
+Message
+‘‘' .
+)
+‘‘. /
+)
+‘‘/ 0
+;
+‘‘0 1
+}
+’’ 
+finally
+÷÷ 
+{
+◊◊ 
+if
+ÿÿ 
+(
+ÿÿ 
+ms
+ÿÿ 
+!=
+ÿÿ 
+null
+ÿÿ 
+)
+ÿÿ 
+{
+ŸŸ 
+ms
+⁄⁄ 
+.
+⁄⁄ 
+Dispose
+⁄⁄ 
+(
+⁄⁄ 
+)
+⁄⁄  
+;
+⁄⁄  !
+}
+€€ 
+if
+‹‹ 
+(
+‹‹ 
+content
+‹‹ 
+!=
+‹‹ 
+null
+‹‹ #
+)
+‹‹# $
+{
+›› 
+content
+ﬁﬁ 
+.
+ﬁﬁ 
+Dispose
+ﬁﬁ #
+(
+ﬁﬁ# $
+)
+ﬁﬁ$ %
+;
+ﬁﬁ% &
+}
+ﬂﬂ 
+}
+‡‡ 
+return
+‚‚ 
+sample
+‚‚ 
+;
+‚‚ 
+}
+„„ 	
+internal
+ÂÂ 
+static
+ÂÂ 
+	Exception
+ÂÂ !
+UnwrapException
+ÂÂ" 1
+(
+ÂÂ1 2
+	Exception
+ÂÂ2 ;
+	exception
+ÂÂ< E
+)
+ÂÂE F
+{
+ÊÊ 	 
+AggregateException
+ÁÁ  
+aggregateException
+ÁÁ 1
+=
+ÁÁ2 3
+	exception
+ÁÁ4 =
+as
+ÁÁ> @ 
+AggregateException
+ÁÁA S
+;
+ÁÁS T
+if
+ËË 
+(
+ËË  
+aggregateException
+ËË "
+!=
+ËË# %
+null
+ËË& *
+)
+ËË* +
+{
+ÈÈ 
+return
+ÍÍ  
+aggregateException
+ÍÍ )
+.
+ÍÍ) *
+Flatten
+ÍÍ* 1
+(
+ÍÍ1 2
+)
+ÍÍ2 3
+.
+ÍÍ3 4
+InnerException
+ÍÍ4 B
+;
+ÍÍB C
+}
+ÎÎ 
+return
+ÏÏ 
+	exception
+ÏÏ 
+;
+ÏÏ 
+}
+ÌÌ 	
+private
+ 
+static
+ 
+object
+ (
+DefaultSampleObjectFactory
+ 8
+(
+8 9%
+HelpPageSampleGenerator
+9 P
+sampleGenerator
+Q `
+,
+` a
+Type
+b f
+type
+g k
+)
+k l
+{
+ÒÒ 	
+ObjectGenerator
+ÛÛ 
+objectGenerator
+ÛÛ +
+=
+ÛÛ, -
+new
+ÛÛ. 1
+ObjectGenerator
+ÛÛ2 A
+(
+ÛÛA B
+)
+ÛÛB C
+;
+ÛÛC D
+return
+ÙÙ 
+objectGenerator
+ÙÙ "
+.
+ÙÙ" #
+GenerateObject
+ÙÙ# 1
+(
+ÙÙ1 2
+type
+ÙÙ2 6
+)
+ÙÙ6 7
+;
+ÙÙ7 8
+}
+ıı 	
+[
+˜˜ 	
+SuppressMessage
+˜˜	 
+(
+˜˜ 
+$str
+˜˜ +
+,
+˜˜+ ,
+$str
+˜˜- U
+,
+˜˜U V
+Justification
+˜˜W d
+=
+˜˜e f
+$str˜˜g ü
+)˜˜ü †
+]˜˜† °
+private
+¯¯ 
+static
+¯¯ 
+string
+¯¯ 
+TryFormatJson
+¯¯ +
+(
+¯¯+ ,
+string
+¯¯, 2
+str
+¯¯3 6
+)
+¯¯6 7
+{
+˘˘ 	
+try
+˙˙ 
+{
+˚˚ 
+object
+¸¸ 
+
+parsedJson
+¸¸ !
+=
+¸¸" #
+JsonConvert
+¸¸$ /
+.
+¸¸/ 0
+DeserializeObject
+¸¸0 A
+(
+¸¸A B
+str
+¸¸B E
+)
+¸¸E F
+;
+¸¸F G
+return
+˝˝ 
+JsonConvert
+˝˝ "
+.
+˝˝" #
+SerializeObject
+˝˝# 2
+(
+˝˝2 3
+
+parsedJson
+˝˝3 =
+,
+˝˝= >
+
+Formatting
+˝˝? I
+.
+˝˝I J
+Indented
+˝˝J R
+)
+˝˝R S
+;
+˝˝S T
+}
+˛˛ 
+catch
+ˇˇ 
+{
+ÄÄ 
+return
+ÇÇ 
+str
+ÇÇ 
+;
+ÇÇ 
+}
+ÉÉ 
+}
+ÑÑ 	
+[
+ÜÜ 	
+SuppressMessage
+ÜÜ	 
+(
+ÜÜ 
+$str
+ÜÜ +
+,
+ÜÜ+ ,
+$str
+ÜÜ- U
+,
+ÜÜU V
+Justification
+ÜÜW d
+=
+ÜÜe f
+$strÜÜg ü
+)ÜÜü †
+]ÜÜ† °
+private
+áá 
+static
+áá 
+string
+áá 
+TryFormatXml
+áá *
+(
+áá* +
+string
+áá+ 1
+str
+áá2 5
+)
+áá5 6
+{
+àà 	
+try
+ââ 
+{
+ää 
+	XDocument
+ãã 
+xml
+ãã 
+=
+ãã 
+	XDocument
+ãã  )
+.
+ãã) *
+Parse
+ãã* /
+(
+ãã/ 0
+str
+ãã0 3
+)
+ãã3 4
+;
+ãã4 5
+return
+åå 
+xml
+åå 
+.
+åå 
+ToString
+åå #
+(
+åå# $
+)
+åå$ %
+;
+åå% &
+}
+çç 
+catch
+éé 
+{
+èè 
+return
+ëë 
+str
+ëë 
+;
+ëë 
+}
+íí 
+}
+ìì 	
+private
+ïï 
+static
+ïï 
+bool
+ïï 
+IsFormatSupported
+ïï -
+(
+ïï- .
+SampleDirection
+ïï. =
+sampleDirection
+ïï> M
+,
+ïïM N 
+MediaTypeFormatter
+ïïO a
+	formatter
+ïïb k
+,
+ïïk l
+Type
+ïïm q
+type
+ïïr v
+)
+ïïv w
+{
+ññ 	
+switch
+óó 
+(
+óó 
+sampleDirection
+óó #
+)
+óó# $
+{
+òò 
+case
+ôô 
+SampleDirection
+ôô $
+.
+ôô$ %
+Request
+ôô% ,
+:
+ôô, -
+return
+öö 
+	formatter
+öö $
+.
+öö$ %
+CanReadType
+öö% 0
+(
+öö0 1
+type
+öö1 5
+)
+öö5 6
+;
+öö6 7
+case
+õõ 
+SampleDirection
+õõ $
+.
+õõ$ %
+Response
+õõ% -
+:
+õõ- .
+return
+úú 
+	formatter
+úú $
+.
+úú$ %
+CanWriteType
+úú% 1
+(
+úú1 2
+type
+úú2 6
+)
+úú6 7
+;
+úú7 8
+}
+ùù 
+return
+ûû 
+false
+ûû 
+;
+ûû 
+}
+üü 	
+private
+°° 
+IEnumerable
+°° 
+<
+°° 
+KeyValuePair
+°° (
+<
+°°( )
+HelpPageSampleKey
+°°) :
+,
+°°: ;
+object
+°°< B
+>
+°°B C
+>
+°°C D!
+GetAllActionSamples
+°°E X
+(
+°°X Y
+string
+°°Y _
+controllerName
+°°` n
+,
+°°n o
+string
+°°p v
+
+actionName°°w Å
+,°°Å Ç
+IEnumerable°°É é
+<°°é è
+string°°è ï
+>°°ï ñ
+parameterNames°°ó •
+,°°• ¶
+SampleDirection°°ß ∂
+sampleDirection°°∑ ∆
+)°°∆ «
+{
+¢¢ 	
+HashSet
+££ 
+<
+££ 
+string
+££ 
+>
+££ 
+parameterNamesSet
+££ -
+=
+££. /
+new
+££0 3
+HashSet
+££4 ;
+<
+££; <
+string
+££< B
+>
+££B C
+(
+££C D
+parameterNames
+££D R
+,
+££R S
+StringComparer
+££T b
+.
+££b c
+OrdinalIgnoreCase
+££c t
+)
+££t u
+;
+££u v
+foreach
+§§ 
+(
+§§ 
+var
+§§ 
+sample
+§§ 
+in
+§§  "
+ActionSamples
+§§# 0
+)
+§§0 1
+{
+•• 
+HelpPageSampleKey
+¶¶ !
+	sampleKey
+¶¶" +
+=
+¶¶, -
+sample
+¶¶. 4
+.
+¶¶4 5
+Key
+¶¶5 8
+;
+¶¶8 9
+if
+ßß 
+(
+ßß 
+String
+ßß 
+.
+ßß 
+Equals
+ßß !
+(
+ßß! "
+controllerName
+ßß" 0
+,
+ßß0 1
+	sampleKey
+ßß2 ;
+.
+ßß; <
+ControllerName
+ßß< J
+,
+ßßJ K
+StringComparison
+ßßL \
+.
+ßß\ ]
+OrdinalIgnoreCase
+ßß] n
+)
+ßßn o
+&&
+ßßp r
+String
+®® 
+.
+®® 
+Equals
+®® !
+(
+®®! "
+
+actionName
+®®" ,
+,
+®®, -
+	sampleKey
+®®. 7
+.
+®®7 8
+
+ActionName
+®®8 B
+,
+®®B C
+StringComparison
+®®D T
+.
+®®T U
+OrdinalIgnoreCase
+®®U f
+)
+®®f g
+&&
+®®h j
+(
+©© 
+	sampleKey
+©© 
+.
+©© 
+ParameterNames
+©© -
+.
+©©- .
+	SetEquals
+©©. 7
+(
+©©7 8
+new
+©©8 ;
+[
+©©; <
+]
+©©< =
+{
+©©> ?
+$str
+©©@ C
+}
+©©D E
+)
+©©E F
+||
+©©G I
+parameterNamesSet
+©©J [
+.
+©©[ \
+	SetEquals
+©©\ e
+(
+©©e f
+	sampleKey
+©©f o
+.
+©©o p
+ParameterNames
+©©p ~
+)
+©©~ 
+)©© Ä
+&&©©Å É
+sampleDirection
+™™ #
+==
+™™$ &
+	sampleKey
+™™' 0
+.
+™™0 1
+SampleDirection
+™™1 @
+)
+™™@ A
+{
+´´ 
+yield
+¨¨ 
+return
+¨¨  
+sample
+¨¨! '
+;
+¨¨' (
+}
+≠≠ 
+}
+ÆÆ 
+}
+ØØ 	
+private
+±± 
+static
+±± 
+object
+±±  
+WrapSampleIfString
+±± 0
+(
+±±0 1
+object
+±±1 7
+sample
+±±8 >
+)
+±±> ?
+{
+≤≤ 	
+string
+≥≥ 
+stringSample
+≥≥ 
+=
+≥≥  !
+sample
+≥≥" (
+as
+≥≥) +
+string
+≥≥, 2
+;
+≥≥2 3
+if
+¥¥ 
+(
+¥¥ 
+stringSample
+¥¥ 
+!=
+¥¥ 
+null
+¥¥  $
+)
+¥¥$ %
+{
+µµ 
+return
+∂∂ 
+new
+∂∂ 
+
+TextSample
+∂∂ %
+(
+∂∂% &
+stringSample
+∂∂& 2
+)
+∂∂2 3
+;
+∂∂3 4
+}
+∑∑ 
+return
+ππ 
+sample
+ππ 
+;
+ππ 
+}
+∫∫ 	
+}
+ªª 
+}ºº Ê
+tC:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.WebApi\Areas\HelpPage\ModelDescriptions\ParameterDescription.cs
+	namespace 	
+B3
+ 
+. 
+	Avaliacao 
+. 
+WebApi 
+. 
+Areas #
+.# $
+HelpPage$ ,
+., -
+ModelDescriptions- >
+{ 
+public 
+
+class  
+ParameterDescription %
+{ 
+public  
+ParameterDescription #
+(# $
+)$ %
+{		 	
+Annotations
+
+ 
+=
+
+ 
+new
+
+ 
+
+Collection
+
+ (
+<
+
+( )
+ParameterAnnotation
+
+) <
+>
+
+< =
+(
+
+= >
+)
+
+> ?
+;
+
+? @
+} 	
+public 
+
+Collection 
+< 
+ParameterAnnotation -
+>- .
+Annotations/ :
+{; <
+get= @
+;@ A
+privateB I
+setJ M
+;M N
+}O P
+public 
+string 
+Documentation #
+{$ %
+get& )
+;) *
+set+ .
+;. /
+}0 1
+public 
+string 
+Name 
+{ 
+get  
+;  !
+set" %
+;% &
+}' (
+public 
+ModelDescription 
+TypeDescription  /
+{0 1
+get2 5
+;5 6
+set7 :
+;: ;
+}< =
+} 
+} Ò
+oC:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.WebApi\Areas\HelpPage\ModelDescriptions\ModelNameHelper.cs
+	namespace 	
+B3
+ 
+. 
+	Avaliacao 
+. 
+WebApi 
+. 
+Areas #
+.# $
+HelpPage$ ,
+., -
+ModelDescriptions- >
+{ 
+internal 
+static 
+class 
+ModelNameHelper )
+{		 
+public 
+static 
+string 
+GetModelName )
+() *
+Type* .
+type/ 3
+)3 4
+{ 	
+ModelNameAttribute 
+modelNameAttribute 1
+=2 3
+type4 8
+.8 9
+GetCustomAttribute9 K
+<K L
+ModelNameAttributeL ^
+>^ _
+(_ `
+)` a
+;a b
+if 
+( 
+modelNameAttribute "
+!=# %
+null& *
+&&+ -
+!. /
+String/ 5
+.5 6
+IsNullOrEmpty6 C
+(C D
+modelNameAttributeD V
+.V W
+NameW [
+)[ \
+)\ ]
+{ 
+return 
+modelNameAttribute )
+.) *
+Name* .
+;. /
+} 
+string 
+	modelName 
+= 
+type #
+.# $
+Name$ (
+;( )
+if 
+( 
+type 
+. 
+IsGenericType "
+)" #
+{ 
+Type 
+genericType  
+=! "
+type# '
+.' ($
+GetGenericTypeDefinition( @
+(@ A
+)A B
+;B C
+Type 
+[ 
+] 
+genericArguments '
+=( )
+type* .
+.. /
+GetGenericArguments/ B
+(B C
+)C D
+;D E
+string 
+genericTypeName &
+=' (
+genericType) 4
+.4 5
+Name5 9
+;9 :
+genericTypeName 
+=  !
+genericTypeName" 1
+.1 2
+	Substring2 ;
+(; <
+$num< =
+,= >
+genericTypeName? N
+.N O
+IndexOfO V
+(V W
+$charW Z
+)Z [
+)[ \
+;\ ]
+string 
+[ 
+] 
+argumentTypeNames *
+=+ ,
+genericArguments- =
+.= >
+Select> D
+(D E
+tE F
+=>G I
+GetModelNameJ V
+(V W
+tW X
+)X Y
+)Y Z
+.Z [
+ToArray[ b
+(b c
+)c d
+;d e
+	modelName 
+= 
+String "
+." #
+Format# )
+() *
+CultureInfo* 5
+.5 6
+InvariantCulture6 F
+,F G
+$strH R
+,R S
+genericTypeNameT c
+,c d
+Stringe k
+.k l
+Joinl p
+(p q
+$strq v
+,v w
+argumentTypeNames	x â
+)
+â ä
+)
+ä ã
+;
+ã å
+} 
+return!! 
+	modelName!! 
+;!! 
+}"" 	
+}## 
+}$$ Ê
+
+rC:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.WebApi\Areas\HelpPage\ModelDescriptions\ModelNameAttribute.cs
+	namespace 	
+B3
+ 
+. 
+	Avaliacao 
+. 
+WebApi 
+. 
+Areas #
+.# $
+HelpPage$ ,
+., -
+ModelDescriptions- >
+{ 
+[ 
+AttributeUsage 
+( 
+AttributeTargets $
+.$ %
+Class% *
+|+ ,
+AttributeTargets- =
+.= >
+Struct> D
+|E F
+AttributeTargetsG W
+.W X
+EnumX \
+,\ ]
+AllowMultiple^ k
+=l m
+falsen s
+,s t
+	Inheritedu ~
+=	 Ä
+false
+Å Ü
+)
+Ü á
+]
+á à
+public		 
+
+sealed		 
+class		 
+ModelNameAttribute		 *
+:		+ ,
+	Attribute		- 6
+{
+
+ 
+public 
+ModelNameAttribute !
+(! "
+string" (
+name) -
+)- .
+{ 	
+Name 
+= 
+name 
+; 
+} 	
+public 
+string 
+Name 
+{ 
+get  
+;  !
+private" )
+set* -
+;- .
+}/ 0
+} 
+} œá
+nC:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.WebApi\Areas\HelpPage\SampleGeneration\ObjectGenerator.cs
 	namespace		 	
 B3		
  
@@ -6077,8 +10416,8 @@ Dictionary
 ∆∆ 	
 }
 «« 
-}»» Œ
-aC:\Projetos\B3\AvaliacaoB3\src\B3.Avaliacao.WebApi\Areas\HelpPage\SampleGeneration\ImageSample.cs
+}»» ◊
+jC:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.WebApi\Areas\HelpPage\SampleGeneration\ImageSample.cs
 	namespace 	
 B3
  
@@ -6188,150 +10527,8 @@ aC:\Projetos\B3\AvaliacaoB3\src\B3.Avaliacao.WebApi\Areas\HelpPage\SampleGenerat
 ;&& 
 }'' 	
 }(( 
-})) ›
-kC:\Projetos\B3\AvaliacaoB3\src\B3.Avaliacao.WebApi\Areas\HelpPage\ModelDescriptions\ParameterDescription.cs
-	namespace 	
-B3
- 
-. 
-	Avaliacao 
-. 
-WebApi 
-. 
-Areas #
-.# $
-HelpPage$ ,
-., -
-ModelDescriptions- >
-{ 
-public 
-
-class  
-ParameterDescription %
-{ 
-public  
-ParameterDescription #
-(# $
-)$ %
-{		 	
-Annotations
-
- 
-=
-
- 
-new
-
- 
-
-Collection
-
- (
-<
-
-( )
-ParameterAnnotation
-
-) <
->
-
-< =
-(
-
-= >
-)
-
-> ?
-;
-
-? @
-} 	
-public 
-
-Collection 
-< 
-ParameterAnnotation -
->- .
-Annotations/ :
-{; <
-get= @
-;@ A
-privateB I
-setJ M
-;M N
-}O P
-public 
-string 
-Documentation #
-{$ %
-get& )
-;) *
-set+ .
-;. /
-}0 1
-public 
-string 
-Name 
-{ 
-get  
-;  !
-set" %
-;% &
-}' (
-public 
-ModelDescription 
-TypeDescription  /
-{0 1
-get2 5
-;5 6
-set7 :
-;: ;
-}< =
-} 
-} ö
-jC:\Projetos\B3\AvaliacaoB3\src\B3.Avaliacao.WebApi\Areas\HelpPage\ModelDescriptions\ParameterAnnotation.cs
-	namespace 	
-B3
- 
-. 
-	Avaliacao 
-. 
-WebApi 
-. 
-Areas #
-.# $
-HelpPage$ ,
-., -
-ModelDescriptions- >
-{ 
-public 
-
-class 
-ParameterAnnotation $
-{ 
-public 
-	Attribute 
-AnnotationAttribute ,
-{- .
-get/ 2
-;2 3
-set4 7
-;7 8
-}9 :
-public		 
-string		 
-Documentation		 #
-{		$ %
-get		& )
-;		) *
-set		+ .
-;		. /
-}		0 1
-}
-
- 
-} ”*
-\C:\Projetos\B3\AvaliacaoB3\src\B3.Avaliacao.WebApi\Areas\HelpPage\Models\HelpPageApiModel.cs
+})) ‹*
+eC:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.WebApi\Areas\HelpPage\Models\HelpPageApiModel.cs
 	namespace 	
 B3
  
@@ -6608,208 +10805,8 @@ Propertiesee7 A
 ;ii 
 }jj 	
 }kk 
-}ll ›
-
-iC:\Projetos\B3\AvaliacaoB3\src\B3.Avaliacao.WebApi\Areas\HelpPage\ModelDescriptions\ModelNameAttribute.cs
-	namespace 	
-B3
- 
-. 
-	Avaliacao 
-. 
-WebApi 
-. 
-Areas #
-.# $
-HelpPage$ ,
-., -
-ModelDescriptions- >
-{ 
-[ 
-AttributeUsage 
-( 
-AttributeTargets $
-.$ %
-Class% *
-|+ ,
-AttributeTargets- =
-.= >
-Struct> D
-|E F
-AttributeTargetsG W
-.W X
-EnumX \
-,\ ]
-AllowMultiple^ k
-=l m
-falsen s
-,s t
-	Inheritedu ~
-=	 Ä
-false
-Å Ü
-)
-Ü á
-]
-á à
-public		 
-
-sealed		 
-class		 
-ModelNameAttribute		 *
-:		+ ,
-	Attribute		- 6
-{
-
- 
-public 
-ModelNameAttribute !
-(! "
-string" (
-name) -
-)- .
-{ 	
-Name 
-= 
-name 
-; 
-} 	
-public 
-string 
-Name 
-{ 
-get  
-;  !
-private" )
-set* -
-;- .
-}/ 0
-} 
-} ©
-cC:\Projetos\B3\AvaliacaoB3\src\B3.Avaliacao.WebApi\Areas\HelpPage\SampleGeneration\InvalidSample.cs
-	namespace 	
-B3
- 
-. 
-	Avaliacao 
-. 
-WebApi 
-. 
-Areas #
-.# $
-HelpPage$ ,
-{ 
-public 
-
-class 
-InvalidSample 
-{		 
-public
-
- 
-InvalidSample
-
- 
-(
-
- 
-string
-
- #
-errorMessage
-
-$ 0
-)
-
-0 1
-{ 	
-if 
-( 
-errorMessage 
-== 
-null  $
-)$ %
-{ 
-throw 
-new !
-ArgumentNullException /
-(/ 0
-$str0 >
-)> ?
-;? @
-} 
-ErrorMessage 
-= 
-errorMessage '
-;' (
-} 	
-public 
-string 
-ErrorMessage "
-{# $
-get% (
-;( )
-private* 1
-set2 5
-;5 6
-}7 8
-public 
-override 
-bool 
-Equals #
-(# $
-object$ *
-obj+ .
-). /
-{ 	
-InvalidSample 
-other 
-=  !
-obj" %
-as& (
-InvalidSample) 6
-;6 7
-return 
-other 
-!= 
-null  
-&&! #
-ErrorMessage$ 0
-==1 3
-other4 9
-.9 :
-ErrorMessage: F
-;F G
-} 	
-public 
-override 
-int 
-GetHashCode '
-(' (
-)( )
-{ 	
-return 
-ErrorMessage 
-.  
-GetHashCode  +
-(+ ,
-), -
-;- .
-} 	
-public   
-override   
-string   
-ToString   '
-(  ' (
-)  ( )
-{!! 	
-return"" 
-ErrorMessage"" 
-;""  
-}## 	
-}$$ 
-}%% ä
-qC:\Projetos\B3\AvaliacaoB3\src\B3.Avaliacao.WebApi\Areas\HelpPage\ModelDescriptions\SimpleTypeModelDescription.cs
+}ll ì
+zC:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.WebApi\Areas\HelpPage\ModelDescriptions\SimpleTypeModelDescription.cs
 	namespace 	
 B3
  
@@ -6832,4005 +10829,8 @@ qC:\Projetos\B3\AvaliacaoB3\src\B3.Avaliacao.WebApi\Areas\HelpPage\ModelDescript
 ModelDescription. >
 { 
 } 
-} øU
-gC:\Projetos\B3\AvaliacaoB3\src\B3.Avaliacao.WebApi\Areas\HelpPage\SampleGeneration\HelpPageSampleKey.cs
-	namespace 	
-B3
- 
-. 
-	Avaliacao 
-. 
-WebApi 
-. 
-Areas #
-.# $
-HelpPage$ ,
-{ 
-public 
-
-class 
-HelpPageSampleKey "
-{ 
-public 
-HelpPageSampleKey  
-(  ! 
-MediaTypeHeaderValue! 5
-	mediaType6 ?
-)? @
-{ 	
-if 
-( 
-	mediaType 
-== 
-null !
-)! "
-{ 
-throw 
-new !
-ArgumentNullException /
-(/ 0
-$str0 ;
-); <
-;< =
-} 
-
-ActionName 
-= 
-String 
-.  
-Empty  %
-;% &
-ControllerName 
-= 
-String #
-.# $
-Empty$ )
-;) *
-	MediaType 
-= 
-	mediaType !
-;! "
-ParameterNames 
-= 
-new  
-HashSet! (
-<( )
-string) /
->/ 0
-(0 1
-StringComparer1 ?
-.? @
-OrdinalIgnoreCase@ Q
-)Q R
-;R S
-} 	
-public## 
-HelpPageSampleKey##  
-(##  ! 
-MediaTypeHeaderValue##! 5
-	mediaType##6 ?
-,##? @
-Type##A E
-type##F J
-)##J K
-:$$ 
-this$$ 
-($$ 
-	mediaType$$ 
-)$$ 
-{%% 	
-if&& 
-(&& 
-type&& 
-==&& 
-null&& 
-)&& 
-{'' 
-throw(( 
-new(( !
-ArgumentNullException(( /
-(((/ 0
-$str((0 6
-)((6 7
-;((7 8
-})) 
-ParameterType++ 
-=++ 
-type++  
-;++  !
-},, 	
-public55 
-HelpPageSampleKey55  
-(55  !
-SampleDirection55! 0
-sampleDirection551 @
-,55@ A
-string55B H
-controllerName55I W
-,55W X
-string55Y _
-
-actionName55` j
-,55j k
-IEnumerable55l w
-<55w x
-string55x ~
->55~ 
-parameterNames
-55Ä é
-)
-55é è
-{66 	
-if77 
-(77 
-!77 
-Enum77 
-.77 
-	IsDefined77 
-(77  
-typeof77  &
-(77& '
-SampleDirection77' 6
-)776 7
-,777 8
-sampleDirection779 H
-)77H I
-)77I J
-{88 
-throw99 
-new99 (
-InvalidEnumArgumentException99 6
-(996 7
-$str997 H
-,99H I
-(99J K
-int99K N
-)99N O
-sampleDirection99O ^
-,99^ _
-typeof99` f
-(99f g
-SampleDirection99g v
-)99v w
-)99w x
-;99x y
-}:: 
-if;; 
-(;; 
-controllerName;; 
-==;; !
-null;;" &
-);;& '
-{<< 
-throw== 
-new== !
-ArgumentNullException== /
-(==/ 0
-$str==0 @
-)==@ A
-;==A B
-}>> 
-if?? 
-(?? 
-
-actionName?? 
-==?? 
-null?? "
-)??" #
-{@@ 
-throwAA 
-newAA !
-ArgumentNullExceptionAA /
-(AA/ 0
-$strAA0 <
-)AA< =
-;AA= >
-}BB 
-ifCC 
-(CC 
-parameterNamesCC 
-==CC !
-nullCC" &
-)CC& '
-{DD 
-throwEE 
-newEE !
-ArgumentNullExceptionEE /
-(EE/ 0
-$strEE0 @
-)EE@ A
-;EEA B
-}FF 
-ControllerNameHH 
-=HH 
-controllerNameHH +
-;HH+ ,
-
-ActionNameII 
-=II 
-
-actionNameII #
-;II# $
-ParameterNamesJJ 
-=JJ 
-newJJ  
-HashSetJJ! (
-<JJ( )
-stringJJ) /
->JJ/ 0
-(JJ0 1
-parameterNamesJJ1 ?
-,JJ? @
-StringComparerJJA O
-.JJO P
-OrdinalIgnoreCaseJJP a
-)JJa b
-;JJb c
-SampleDirectionKK 
-=KK 
-sampleDirectionKK -
-;KK- .
-}LL 	
-publicVV 
-HelpPageSampleKeyVV  
-(VV  ! 
-MediaTypeHeaderValueVV! 5
-	mediaTypeVV6 ?
-,VV? @
-SampleDirectionVVA P
-sampleDirectionVVQ `
-,VV` a
-stringVVb h
-controllerNameVVi w
-,VVw x
-stringVVy 
-
-actionName
-VVÄ ä
-,
-VVä ã
-IEnumerable
-VVå ó
-<
-VVó ò
-string
-VVò û
->
-VVû ü
-parameterNames
-VV† Æ
-)
-VVÆ Ø
-:WW 
-thisWW 
-(WW 
-sampleDirectionWW "
-,WW" #
-controllerNameWW$ 2
-,WW2 3
-
-actionNameWW4 >
-,WW> ?
-parameterNamesWW@ N
-)WWN O
-{XX 	
-ifYY 
-(YY 
-	mediaTypeYY 
-==YY 
-nullYY !
-)YY! "
-{ZZ 
-throw[[ 
-new[[ !
-ArgumentNullException[[ /
-([[/ 0
-$str[[0 ;
-)[[; <
-;[[< =
-}\\ 
-	MediaType^^ 
-=^^ 
-	mediaType^^ !
-;^^! "
-}__ 	
-publicgg 
-stringgg 
-ControllerNamegg $
-{gg% &
-getgg' *
-;gg* +
-privategg, 3
-setgg4 7
-;gg7 8
-}gg9 :
-publicoo 
-stringoo 
-
-ActionNameoo  
-{oo! "
-getoo# &
-;oo& '
-privateoo( /
-setoo0 3
-;oo3 4
-}oo5 6
-publicww  
-MediaTypeHeaderValueww #
-	MediaTypeww$ -
-{ww. /
-getww0 3
-;ww3 4
-privateww5 <
-setww= @
-;ww@ A
-}wwB C
-public|| 
-HashSet|| 
-<|| 
-string|| 
->|| 
-ParameterNames|| -
-{||. /
-get||0 3
-;||3 4
-private||5 <
-set||= @
-;||@ A
-}||B C
-public~~ 
-Type~~ 
-ParameterType~~ !
-{~~" #
-get~~$ '
-;~~' (
-private~~) 0
-set~~1 4
-;~~4 5
-}~~6 7
-public
-ÉÉ 
-SampleDirection
-ÉÉ 
-?
-ÉÉ 
-SampleDirection
-ÉÉ  /
-{
-ÉÉ0 1
-get
-ÉÉ2 5
-;
-ÉÉ5 6
-private
-ÉÉ7 >
-set
-ÉÉ? B
-;
-ÉÉB C
-}
-ÉÉD E
-public
-ÖÖ 
-override
-ÖÖ 
-bool
-ÖÖ 
-Equals
-ÖÖ #
-(
-ÖÖ# $
-object
-ÖÖ$ *
-obj
-ÖÖ+ .
-)
-ÖÖ. /
-{
-ÜÜ 	
-HelpPageSampleKey
-áá 
-otherKey
-áá &
-=
-áá' (
-obj
-áá) ,
-as
-áá- /
-HelpPageSampleKey
-áá0 A
-;
-ááA B
-if
-àà 
-(
-àà 
-otherKey
-àà 
-==
-àà 
-null
-àà  
-)
-àà  !
-{
-ââ 
-return
-ää 
-false
-ää 
-;
-ää 
-}
-ãã 
-return
-çç 
-String
-çç 
-.
-çç 
-Equals
-çç  
-(
-çç  !
-ControllerName
-çç! /
-,
-çç/ 0
-otherKey
-çç1 9
-.
-çç9 :
-ControllerName
-çç: H
-,
-ççH I
-StringComparison
-ççJ Z
-.
-ççZ [
-OrdinalIgnoreCase
-çç[ l
-)
-ççl m
-&&
-ççn p
-String
-éé 
-.
-éé 
-Equals
-éé 
-(
-éé 
-
-ActionName
-éé (
-,
-éé( )
-otherKey
-éé* 2
-.
-éé2 3
-
-ActionName
-éé3 =
-,
-éé= >
-StringComparison
-éé? O
-.
-ééO P
-OrdinalIgnoreCase
-ééP a
-)
-ééa b
-&&
-ééc e
-(
-èè 
-	MediaType
-èè 
-==
-èè 
-otherKey
-èè &
-.
-èè& '
-	MediaType
-èè' 0
-||
-èè1 3
-(
-èè4 5
-	MediaType
-èè5 >
-!=
-èè? A
-null
-èèB F
-&&
-èèG I
-	MediaType
-èèJ S
-.
-èèS T
-Equals
-èèT Z
-(
-èèZ [
-otherKey
-èè[ c
-.
-èèc d
-	MediaType
-èèd m
-)
-èèm n
-)
-èèn o
-)
-èèo p
-&&
-èèq s
-ParameterType
-êê 
-==
-êê  
-otherKey
-êê! )
-.
-êê) *
-ParameterType
-êê* 7
-&&
-êê8 :
-SampleDirection
-ëë 
-==
-ëë  "
-otherKey
-ëë# +
-.
-ëë+ ,
-SampleDirection
-ëë, ;
-&&
-ëë< >
-ParameterNames
-íí 
-.
-íí 
-	SetEquals
-íí (
-(
-íí( )
-otherKey
-íí) 1
-.
-íí1 2
-ParameterNames
-íí2 @
-)
-íí@ A
-;
-ííA B
-}
-ìì 	
-public
-ïï 
-override
-ïï 
-int
-ïï 
-GetHashCode
-ïï '
-(
-ïï' (
-)
-ïï( )
-{
-ññ 	
-int
-óó 
-hashCode
-óó 
-=
-óó 
-ControllerName
-óó )
-.
-óó) *
-ToUpperInvariant
-óó* :
-(
-óó: ;
-)
-óó; <
-.
-óó< =
-GetHashCode
-óó= H
-(
-óóH I
-)
-óóI J
-^
-óóK L
-
-ActionName
-óóM W
-.
-óóW X
-ToUpperInvariant
-óóX h
-(
-óóh i
-)
-óói j
-.
-óój k
-GetHashCode
-óók v
-(
-óóv w
-)
-óów x
-;
-óóx y
-if
-òò 
-(
-òò 
-	MediaType
-òò 
-!=
-òò 
-null
-òò !
-)
-òò! "
-{
-ôô 
-hashCode
-öö 
-^=
-öö 
-	MediaType
-öö %
-.
-öö% &
-GetHashCode
-öö& 1
-(
-öö1 2
-)
-öö2 3
-;
-öö3 4
-}
-õõ 
-if
-úú 
-(
-úú 
-SampleDirection
-úú 
-!=
-úú  "
-null
-úú# '
-)
-úú' (
-{
-ùù 
-hashCode
-ûû 
-^=
-ûû 
-SampleDirection
-ûû +
-.
-ûû+ ,
-GetHashCode
-ûû, 7
-(
-ûû7 8
-)
-ûû8 9
-;
-ûû9 :
-}
-üü 
-if
-†† 
-(
-†† 
-ParameterType
-†† 
-!=
-††  
-null
-††! %
-)
-††% &
-{
-°° 
-hashCode
-¢¢ 
-^=
-¢¢ 
-ParameterType
-¢¢ )
-.
-¢¢) *
-GetHashCode
-¢¢* 5
-(
-¢¢5 6
-)
-¢¢6 7
-;
-¢¢7 8
-}
-££ 
-foreach
-§§ 
-(
-§§ 
-string
-§§ 
-parameterName
-§§ )
-in
-§§* ,
-ParameterNames
-§§- ;
-)
-§§; <
-{
-•• 
-hashCode
-¶¶ 
-^=
-¶¶ 
-parameterName
-¶¶ )
-.
-¶¶) *
-ToUpperInvariant
-¶¶* :
-(
-¶¶: ;
-)
-¶¶; <
-.
-¶¶< =
-GetHashCode
-¶¶= H
-(
-¶¶H I
-)
-¶¶I J
-;
-¶¶J K
-}
-ßß 
-return
-©© 
-hashCode
-©© 
-;
-©© 
-}
-™™ 	
-}
-´´ 
-}¨¨ ¢ô
-mC:\Projetos\B3\AvaliacaoB3\src\B3.Avaliacao.WebApi\Areas\HelpPage\SampleGeneration\HelpPageSampleGenerator.cs
-	namespace 	
-B3
- 
-. 
-	Avaliacao 
-. 
-WebApi 
-. 
-Areas #
-.# $
-HelpPage$ ,
-{ 
-public 
-
-class #
-HelpPageSampleGenerator (
-{ 
-public #
-HelpPageSampleGenerator &
-(& '
-)' (
-{ 	"
-ActualHttpMessageTypes "
-=# $
-new% (
-
-Dictionary) 3
-<3 4
-HelpPageSampleKey4 E
-,E F
-TypeG K
->K L
-(L M
-)M N
-;N O
-ActionSamples 
-= 
-new 
-
-Dictionary  *
-<* +
-HelpPageSampleKey+ <
-,< =
-object> D
->D E
-(E F
-)F G
-;G H
-SampleObjects 
-= 
-new 
-
-Dictionary  *
-<* +
-Type+ /
-,/ 0
-object1 7
->7 8
-(8 9
-)9 :
-;: ;!
-SampleObjectFactories !
-=" #
-new$ '
-List( ,
-<, -
-Func- 1
-<1 2#
-HelpPageSampleGenerator2 I
-,I J
-TypeK O
-,O P
-objectQ W
->W X
->X Y
-{   &
-DefaultSampleObjectFactory!! *
-,!!* +
-}"" 
-;"" 
-}## 	
-public(( 
-IDictionary(( 
-<(( 
-HelpPageSampleKey(( ,
-,((, -
-Type((. 2
->((2 3"
-ActualHttpMessageTypes((4 J
-{((K L
-get((M P
-;((P Q
-internal((R Z
-set(([ ^
-;((^ _
-}((` a
-public-- 
-IDictionary-- 
-<-- 
-HelpPageSampleKey-- ,
-,--, -
-object--. 4
->--4 5
-ActionSamples--6 C
-{--D E
-get--F I
-;--I J
-internal--K S
-set--T W
-;--W X
-}--Y Z
-public22 
-IDictionary22 
-<22 
-Type22 
-,22  
-object22! '
->22' (
-SampleObjects22) 6
-{227 8
-get229 <
-;22< =
-internal22> F
-set22G J
-;22J K
-}22L M
-[<< 	
-SuppressMessage<<	 
-(<< 
-$str<< +
-,<<+ ,
-$str<<- ]
-,<<] ^
-Justification== 
-=== 
-$str== M
-)==M N
-]==N O
-public>> 
-IList>> 
-<>> 
-Func>> 
-<>> #
-HelpPageSampleGenerator>> 1
-,>>1 2
-Type>>3 7
-,>>7 8
-object>>9 ?
->>>? @
->>>@ A!
-SampleObjectFactories>>B W
-{>>X Y
-get>>Z ]
-;>>] ^
-private>>_ f
-set>>g j
-;>>j k
-}>>l m
-publicEE 
-IDictionaryEE 
-<EE  
-MediaTypeHeaderValueEE /
-,EE/ 0
-objectEE1 7
->EE7 8
-GetSampleRequestsEE9 J
-(EEJ K
-ApiDescriptionEEK Y
-apiEEZ ]
-)EE] ^
-{FF 	
-returnGG 
-	GetSampleGG 
-(GG 
-apiGG  
-,GG  !
-SampleDirectionGG" 1
-.GG1 2
-RequestGG2 9
-)GG9 :
-;GG: ;
-}HH 	
-publicOO 
-IDictionaryOO 
-<OO  
-MediaTypeHeaderValueOO /
-,OO/ 0
-objectOO1 7
->OO7 8
-GetSampleResponsesOO9 K
-(OOK L
-ApiDescriptionOOL Z
-apiOO[ ^
-)OO^ _
-{PP 	
-returnQQ 
-	GetSampleQQ 
-(QQ 
-apiQQ  
-,QQ  !
-SampleDirectionQQ" 1
-.QQ1 2
-ResponseQQ2 :
-)QQ: ;
-;QQ; <
-}RR 	
-publicZZ 
-virtualZZ 
-IDictionaryZZ "
-<ZZ" # 
-MediaTypeHeaderValueZZ# 7
-,ZZ7 8
-objectZZ9 ?
->ZZ? @
-	GetSampleZZA J
-(ZZJ K
-ApiDescriptionZZK Y
-apiZZZ ]
-,ZZ] ^
-SampleDirectionZZ_ n
-sampleDirectionZZo ~
-)ZZ~ 
-{[[ 	
-if\\ 
-(\\ 
-api\\ 
-==\\ 
-null\\ 
-)\\ 
-{]] 
-throw^^ 
-new^^ !
-ArgumentNullException^^ /
-(^^/ 0
-$str^^0 5
-)^^5 6
-;^^6 7
-}__ 
-string`` 
-controllerName`` !
-=``" #
-api``$ '
-.``' (
-ActionDescriptor``( 8
-.``8 9 
-ControllerDescriptor``9 M
-.``M N
-ControllerName``N \
-;``\ ]
-stringaa 
-
-actionNameaa 
-=aa 
-apiaa  #
-.aa# $
-ActionDescriptoraa$ 4
-.aa4 5
-
-ActionNameaa5 ?
-;aa? @
-IEnumerablebb 
-<bb 
-stringbb 
->bb 
-parameterNamesbb  .
-=bb/ 0
-apibb1 4
-.bb4 5!
-ParameterDescriptionsbb5 J
-.bbJ K
-SelectbbK Q
-(bbQ R
-pbbR S
-=>bbT V
-pbbW X
-.bbX Y
-NamebbY ]
-)bb] ^
-;bb^ _
-
-Collectioncc 
-<cc 
-MediaTypeFormattercc )
->cc) *
-
-formatterscc+ 5
-;cc5 6
-Typedd 
-typedd 
-=dd 
-ResolveTypedd #
-(dd# $
-apidd$ '
-,dd' (
-controllerNamedd) 7
-,dd7 8
-
-actionNamedd9 C
-,ddC D
-parameterNamesddE S
-,ddS T
-sampleDirectionddU d
-,ddd e
-outddf i
-
-formattersddj t
-)ddt u
-;ddu v
-varee 
-samplesee 
-=ee 
-newee 
-
-Dictionaryee (
-<ee( ) 
-MediaTypeHeaderValueee) =
-,ee= >
-objectee? E
->eeE F
-(eeF G
-)eeG H
-;eeH I
-varhh 
-actionSampleshh 
-=hh 
-GetAllActionSampleshh  3
-(hh3 4
-controllerNamehh4 B
-,hhB C
-
-actionNamehhD N
-,hhN O
-parameterNameshhP ^
-,hh^ _
-sampleDirectionhh` o
-)hho p
-;hhp q
-foreachii 
-(ii 
-varii 
-actionSampleii %
-inii& (
-actionSamplesii) 6
-)ii6 7
-{jj 
-sampleskk 
-.kk 
-Addkk 
-(kk 
-actionSamplekk (
-.kk( )
-Keykk) ,
-.kk, -
-	MediaTypekk- 6
-,kk6 7
-WrapSampleIfStringkk8 J
-(kkJ K
-actionSamplekkK W
-.kkW X
-ValuekkX ]
-)kk] ^
-)kk^ _
-;kk_ `
-}ll 
-ifpp 
-(pp 
-typepp 
-!=pp 
-nullpp 
-&&pp 
-!pp  !
-typeofpp! '
-(pp' (
-HttpResponseMessagepp( ;
-)pp; <
-.pp< =
-IsAssignableFrompp= M
-(ppM N
-typeppN R
-)ppR S
-)ppS T
-{qq 
-objectrr 
-sampleObjectrr #
-=rr$ %
-GetSampleObjectrr& 5
-(rr5 6
-typerr6 :
-)rr: ;
-;rr; <
-foreachss 
-(ss 
-varss 
-	formatterss &
-inss' )
-
-formattersss* 4
-)ss4 5
-{tt 
-foreachuu 
-(uu  
-MediaTypeHeaderValueuu 1
-	mediaTypeuu2 ;
-inuu< >
-	formatteruu? H
-.uuH I
-SupportedMediaTypesuuI \
-)uu\ ]
-{vv 
-ifww 
-(ww 
-!ww 
-samplesww $
-.ww$ %
-ContainsKeyww% 0
-(ww0 1
-	mediaTypeww1 :
-)ww: ;
-)ww; <
-{xx 
-objectyy "
-sampleyy# )
-=yy* +
-GetActionSampleyy, ;
-(yy; <
-controllerNameyy< J
-,yyJ K
-
-actionNameyyL V
-,yyV W
-parameterNamesyyX f
-,yyf g
-typeyyh l
-,yyl m
-	formatteryyn w
-,yyw x
-	mediaType	yyy Ç
-,
-yyÇ É
-sampleDirection
-yyÑ ì
-)
-yyì î
-;
-yyî ï
-if|| 
-(||  
-sample||  &
-==||' )
-null||* .
-&&||/ 1
-sampleObject||2 >
-!=||? A
-null||B F
-)||F G
-{}} 
-sample~~  &
-=~~' (+
-WriteSampleObjectUsingFormatter~~) H
-(~~H I
-	formatter~~I R
-,~~R S
-sampleObject~~T `
-,~~` a
-type~~b f
-,~~f g
-	mediaType~~h q
-)~~q r
-;~~r s
-} 
-samples
-ÅÅ #
-.
-ÅÅ# $
-Add
-ÅÅ$ '
-(
-ÅÅ' (
-	mediaType
-ÅÅ( 1
-,
-ÅÅ1 2 
-WrapSampleIfString
-ÅÅ3 E
-(
-ÅÅE F
-sample
-ÅÅF L
-)
-ÅÅL M
-)
-ÅÅM N
-;
-ÅÅN O
-}
-ÇÇ 
-}
-ÉÉ 
-}
-ÑÑ 
-}
-ÖÖ 
-return
-áá 
-samples
-áá 
-;
-áá 
-}
-àà 	
-public
-ïï 
-virtual
-ïï 
-object
-ïï 
-GetActionSample
-ïï -
-(
-ïï- .
-string
-ïï. 4
-controllerName
-ïï5 C
-,
-ïïC D
-string
-ïïE K
-
-actionName
-ïïL V
-,
-ïïV W
-IEnumerable
-ïïX c
-<
-ïïc d
-string
-ïïd j
->
-ïïj k
-parameterNames
-ïïl z
-,
-ïïz {
-Typeïï| Ä
-typeïïÅ Ö
-,ïïÖ Ü"
-MediaTypeFormatterïïá ô
-	formatterïïö £
-,ïï£ §$
-MediaTypeHeaderValueïï• π
-	mediaTypeïï∫ √
-,ïï√ ƒ
-SampleDirectionïï≈ ‘
-sampleDirectionïï’ ‰
-)ïï‰ Â
-{
-ññ 	
-object
-óó 
-sample
-óó 
-;
-óó 
-if
-ùù 
-(
-ùù 
-ActionSamples
-ùù 
-.
-ùù 
-TryGetValue
-ùù )
-(
-ùù) *
-new
-ùù* -
-HelpPageSampleKey
-ùù. ?
-(
-ùù? @
-	mediaType
-ùù@ I
-,
-ùùI J
-sampleDirection
-ùùK Z
-,
-ùùZ [
-controllerName
-ùù\ j
-,
-ùùj k
-
-actionName
-ùùl v
-,
-ùùv w
-parameterNamesùùx Ü
-)ùùÜ á
-,ùùá à
-outùùâ å
-sampleùùç ì
-)ùùì î
-||ùùï ó
-ActionSamples
-ûû 
-.
-ûû 
-TryGetValue
-ûû )
-(
-ûû) *
-new
-ûû* -
-HelpPageSampleKey
-ûû. ?
-(
-ûû? @
-	mediaType
-ûû@ I
-,
-ûûI J
-sampleDirection
-ûûK Z
-,
-ûûZ [
-controllerName
-ûû\ j
-,
-ûûj k
-
-actionName
-ûûl v
-,
-ûûv w
-new
-ûûx {
-[
-ûû{ |
-]
-ûû| }
-{
-ûû~ 
-$strûûÄ É
-}ûûÑ Ö
-)ûûÖ Ü
-,ûûÜ á
-outûûà ã
-sampleûûå í
-)ûûí ì
-||ûûî ñ
-ActionSamples
-üü 
-.
-üü 
-TryGetValue
-üü )
-(
-üü) *
-new
-üü* -
-HelpPageSampleKey
-üü. ?
-(
-üü? @
-	mediaType
-üü@ I
-,
-üüI J
-type
-üüK O
-)
-üüO P
-,
-üüP Q
-out
-üüR U
-sample
-üüV \
-)
-üü\ ]
-||
-üü^ `
-ActionSamples
-†† 
-.
-†† 
-TryGetValue
-†† )
-(
-††) *
-new
-††* -
-HelpPageSampleKey
-††. ?
-(
-††? @
-	mediaType
-††@ I
-)
-††I J
-,
-††J K
-out
-††L O
-sample
-††P V
-)
-††V W
-)
-††W X
-{
-°° 
-return
-¢¢ 
-sample
-¢¢ 
-;
-¢¢ 
-}
-££ 
-return
-•• 
-null
-•• 
-;
-•• 
-}
-¶¶ 	
-[
-∞∞ 	
-SuppressMessage
-∞∞	 
-(
-∞∞ 
-$str
-∞∞ +
-,
-∞∞+ ,
-$str
-∞∞- U
-,
-∞∞U V
-Justification
-±± 
-=
-±± 
-$str
-±± z
-)
-±±z {
-]
-±±{ |
-public
-≤≤ 
-virtual
-≤≤ 
-object
-≤≤ 
-GetSampleObject
-≤≤ -
-(
-≤≤- .
-Type
-≤≤. 2
-type
-≤≤3 7
-)
-≤≤7 8
-{
-≥≥ 	
-object
-¥¥ 
-sampleObject
-¥¥ 
-;
-¥¥  
-if
-∂∂ 
-(
-∂∂ 
-!
-∂∂ 
-SampleObjects
-∂∂ 
-.
-∂∂ 
-TryGetValue
-∂∂ *
-(
-∂∂* +
-type
-∂∂+ /
-,
-∂∂/ 0
-out
-∂∂1 4
-sampleObject
-∂∂5 A
-)
-∂∂A B
-)
-∂∂B C
-{
-∑∑ 
-foreach
-ππ 
-(
-ππ 
-Func
-ππ 
-<
-ππ %
-HelpPageSampleGenerator
-ππ 5
-,
-ππ5 6
-Type
-ππ7 ;
-,
-ππ; <
-object
-ππ= C
->
-ππC D
-factory
-ππE L
-in
-ππM O#
-SampleObjectFactories
-ππP e
-)
-ππe f
-{
-∫∫ 
-if
-ªª 
-(
-ªª 
-factory
-ªª 
-==
-ªª  "
-null
-ªª# '
-)
-ªª' (
-{
-ºº 
-continue
-ΩΩ  
-;
-ΩΩ  !
-}
-ææ 
-try
-¿¿ 
-{
-¡¡ 
-sampleObject
-¬¬ $
-=
-¬¬% &
-factory
-¬¬' .
-(
-¬¬. /
-this
-¬¬/ 3
-,
-¬¬3 4
-type
-¬¬5 9
-)
-¬¬9 :
-;
-¬¬: ;
-if
-√√ 
-(
-√√ 
-sampleObject
-√√ (
-!=
-√√) +
-null
-√√, 0
-)
-√√0 1
-{
-ƒƒ 
-break
-≈≈ !
-;
-≈≈! "
-}
-∆∆ 
-}
-«« 
-catch
-»» 
-{
-…… 
-}
-ÀÀ 
-}
-ÃÃ 
-}
-ÕÕ 
-return
-œœ 
-sampleObject
-œœ 
-;
-œœ  
-}
-–– 	
-public
-◊◊ 
-virtual
-◊◊ 
-Type
-◊◊ +
-ResolveHttpRequestMessageType
-◊◊ 9
-(
-◊◊9 :
-ApiDescription
-◊◊: H
-api
-◊◊I L
-)
-◊◊L M
-{
-ÿÿ 	
-string
-ŸŸ 
-controllerName
-ŸŸ !
-=
-ŸŸ" #
-api
-ŸŸ$ '
-.
-ŸŸ' (
-ActionDescriptor
-ŸŸ( 8
-.
-ŸŸ8 9"
-ControllerDescriptor
-ŸŸ9 M
-.
-ŸŸM N
-ControllerName
-ŸŸN \
-;
-ŸŸ\ ]
-string
-⁄⁄ 
-
-actionName
-⁄⁄ 
-=
-⁄⁄ 
-api
-⁄⁄  #
-.
-⁄⁄# $
-ActionDescriptor
-⁄⁄$ 4
-.
-⁄⁄4 5
-
-ActionName
-⁄⁄5 ?
-;
-⁄⁄? @
-IEnumerable
-€€ 
-<
-€€ 
-string
-€€ 
->
-€€ 
-parameterNames
-€€  .
-=
-€€/ 0
-api
-€€1 4
-.
-€€4 5#
-ParameterDescriptions
-€€5 J
-.
-€€J K
-Select
-€€K Q
-(
-€€Q R
-p
-€€R S
-=>
-€€T V
-p
-€€W X
-.
-€€X Y
-Name
-€€Y ]
-)
-€€] ^
-;
-€€^ _
-
-Collection
-‹‹ 
-<
-‹‹  
-MediaTypeFormatter
-‹‹ )
->
-‹‹) *
-
-formatters
-‹‹+ 5
-;
-‹‹5 6
-return
-›› 
-ResolveType
-›› 
-(
-›› 
-api
-›› "
-,
-››" #
-controllerName
-››$ 2
-,
-››2 3
-
-actionName
-››4 >
-,
-››> ?
-parameterNames
-››@ N
-,
-››N O
-SampleDirection
-››P _
-.
-››_ `
-Request
-››` g
-,
-››g h
-out
-››i l
-
-formatters
-››m w
-)
-››w x
-;
-››x y
-}
-ﬁﬁ 	
-[
-ÈÈ 	
-SuppressMessage
-ÈÈ	 
-(
-ÈÈ 
-$str
-ÈÈ +
-,
-ÈÈ+ ,
-$str
-ÈÈ- H
-,
-ÈÈH I
-Justification
-ÈÈJ W
-=
-ÈÈX Y
-$strÈÈZ Ñ
-)ÈÈÑ Ö
-]ÈÈÖ Ü
-public
-ÍÍ 
-virtual
-ÍÍ 
-Type
-ÍÍ 
-ResolveType
-ÍÍ '
-(
-ÍÍ' (
-ApiDescription
-ÍÍ( 6
-api
-ÍÍ7 :
-,
-ÍÍ: ;
-string
-ÍÍ< B
-controllerName
-ÍÍC Q
-,
-ÍÍQ R
-string
-ÍÍS Y
-
-actionName
-ÍÍZ d
-,
-ÍÍd e
-IEnumerable
-ÍÍf q
-<
-ÍÍq r
-string
-ÍÍr x
->
-ÍÍx y
-parameterNamesÍÍz à
-,ÍÍà â
-SampleDirectionÍÍä ô
-sampleDirectionÍÍö ©
-,ÍÍ© ™
-outÍÍ´ Æ
-
-CollectionÍÍØ π
-<ÍÍπ ∫"
-MediaTypeFormatterÍÍ∫ Ã
->ÍÍÃ Õ
-
-formattersÍÍŒ ÿ
-)ÍÍÿ Ÿ
-{
-ÎÎ 	
-if
-ÏÏ 
-(
-ÏÏ 
-!
-ÏÏ 
-Enum
-ÏÏ 
-.
-ÏÏ 
-	IsDefined
-ÏÏ 
-(
-ÏÏ  
-typeof
-ÏÏ  &
-(
-ÏÏ& '
-SampleDirection
-ÏÏ' 6
-)
-ÏÏ6 7
-,
-ÏÏ7 8
-sampleDirection
-ÏÏ9 H
-)
-ÏÏH I
-)
-ÏÏI J
-{
-ÌÌ 
-throw
-ÓÓ 
-new
-ÓÓ *
-InvalidEnumArgumentException
-ÓÓ 6
-(
-ÓÓ6 7
-$str
-ÓÓ7 H
-,
-ÓÓH I
-(
-ÓÓJ K
-int
-ÓÓK N
-)
-ÓÓN O
-sampleDirection
-ÓÓO ^
-,
-ÓÓ^ _
-typeof
-ÓÓ` f
-(
-ÓÓf g
-SampleDirection
-ÓÓg v
-)
-ÓÓv w
-)
-ÓÓw x
-;
-ÓÓx y
-}
-ÔÔ 
-if
- 
-(
- 
-api
- 
-==
- 
-null
- 
-)
- 
-{
-ÒÒ 
-throw
-ÚÚ 
-new
-ÚÚ #
-ArgumentNullException
-ÚÚ /
-(
-ÚÚ/ 0
-$str
-ÚÚ0 5
-)
-ÚÚ5 6
-;
-ÚÚ6 7
-}
-ÛÛ 
-Type
-ÙÙ 
-type
-ÙÙ 
-;
-ÙÙ 
-if
-ıı 
-(
-ıı $
-ActualHttpMessageTypes
-ıı &
-.
-ıı& '
-TryGetValue
-ıı' 2
-(
-ıı2 3
-new
-ıı3 6
-HelpPageSampleKey
-ıı7 H
-(
-ııH I
-sampleDirection
-ııI X
-,
-ııX Y
-controllerName
-ııZ h
-,
-ııh i
-
-actionName
-ııj t
-,
-ııt u
-parameterNamesııv Ñ
-)ııÑ Ö
-,ııÖ Ü
-outııá ä
-typeııã è
-)ııè ê
-||ııë ì$
-ActualHttpMessageTypes
-ˆˆ &
-.
-ˆˆ& '
-TryGetValue
-ˆˆ' 2
-(
-ˆˆ2 3
-new
-ˆˆ3 6
-HelpPageSampleKey
-ˆˆ7 H
-(
-ˆˆH I
-sampleDirection
-ˆˆI X
-,
-ˆˆX Y
-controllerName
-ˆˆZ h
-,
-ˆˆh i
-
-actionName
-ˆˆj t
-,
-ˆˆt u
-new
-ˆˆv y
-[
-ˆˆy z
-]
-ˆˆz {
-{
-ˆˆ| }
-$strˆˆ~ Å
-}ˆˆÇ É
-)ˆˆÉ Ñ
-,ˆˆÑ Ö
-outˆˆÜ â
-typeˆˆä é
-)ˆˆé è
-)ˆˆè ê
-{
-˜˜ 
-
-Collection
-˘˘ 
-<
-˘˘  
-MediaTypeFormatter
-˘˘ -
->
-˘˘- .
-newFormatters
-˘˘/ <
-=
-˘˘= >
-new
-˘˘? B
-
-Collection
-˘˘C M
-<
-˘˘M N 
-MediaTypeFormatter
-˘˘N `
->
-˘˘` a
-(
-˘˘a b
-)
-˘˘b c
-;
-˘˘c d
-foreach
-˙˙ 
-(
-˙˙ 
-var
-˙˙ 
-	formatter
-˙˙ &
-in
-˙˙' )
-api
-˙˙* -
-.
-˙˙- .
-ActionDescriptor
-˙˙. >
-.
-˙˙> ?
-Configuration
-˙˙? L
-.
-˙˙L M
-
-Formatters
-˙˙M W
-)
-˙˙W X
-{
-˚˚ 
-if
-¸¸ 
-(
-¸¸ 
-IsFormatSupported
-¸¸ )
-(
-¸¸) *
-sampleDirection
-¸¸* 9
-,
-¸¸9 :
-	formatter
-¸¸; D
-,
-¸¸D E
-type
-¸¸F J
-)
-¸¸J K
-)
-¸¸K L
-{
-˝˝ 
-newFormatters
-˛˛ %
-.
-˛˛% &
-Add
-˛˛& )
-(
-˛˛) *
-	formatter
-˛˛* 3
-)
-˛˛3 4
-;
-˛˛4 5
-}
-ˇˇ 
-}
-ÄÄ 
-
-formatters
-ÅÅ 
-=
-ÅÅ 
-newFormatters
-ÅÅ *
-;
-ÅÅ* +
-}
-ÇÇ 
-else
-ÉÉ 
-{
-ÑÑ 
-switch
-ÖÖ 
-(
-ÖÖ 
-sampleDirection
-ÖÖ '
-)
-ÖÖ' (
-{
-ÜÜ 
-case
-áá 
-SampleDirection
-áá (
-.
-áá( )
-Request
-áá) 0
-:
-áá0 1%
-ApiParameterDescription
-àà /"
-requestBodyParameter
-àà0 D
-=
-ààE F
-api
-ààG J
-.
-ààJ K#
-ParameterDescriptions
-ààK `
-.
-àà` a
-FirstOrDefault
-ààa o
-(
-àào p
-p
-ààp q
-=>
-ààr t
-p
-ààu v
-.
-ààv w
-Source
-ààw }
-==àà~ Ä"
-ApiParameterSourceààÅ ì
-.ààì î
-FromBodyààî ú
-)ààú ù
-;ààù û
-type
-ââ 
-=
-ââ "
-requestBodyParameter
-ââ 3
-==
-ââ4 6
-null
-ââ7 ;
-?
-ââ< =
-null
-ââ> B
-:
-ââC D"
-requestBodyParameter
-ââE Y
-.
-ââY Z!
-ParameterDescriptor
-ââZ m
-.
-ââm n
-ParameterType
-âân {
-;
-ââ{ |
-
-formatters
-ää "
-=
-ää# $
-api
-ää% (
-.
-ää( ),
-SupportedRequestBodyFormatters
-ää) G
-;
-ääG H
-break
-ãã 
-;
-ãã 
-case
-åå 
-SampleDirection
-åå (
-.
-åå( )
-Response
-åå) 1
-:
-åå1 2
-default
-çç 
-:
-çç 
-type
-éé 
-=
-éé 
-api
-éé "
-.
-éé" #!
-ResponseDescription
-éé# 6
-.
-éé6 7
-ResponseType
-éé7 C
-??
-ééD F
-api
-ééG J
-.
-ééJ K!
-ResponseDescription
-ééK ^
-.
-éé^ _
-DeclaredType
-éé_ k
-;
-éék l
-
-formatters
-èè "
-=
-èè# $
-api
-èè% (
-.
-èè( ))
-SupportedResponseFormatters
-èè) D
-;
-èèD E
-break
-êê 
-;
-êê 
-}
-ëë 
-}
-íí 
-return
-îî 
-type
-îî 
-;
-îî 
-}
-ïï 	
-[
-üü 	
-SuppressMessage
-üü	 
-(
-üü 
-$str
-üü +
-,
-üü+ ,
-$str
-üü- U
-,
-üüU V
-Justification
-üüW d
-=
-üüe f
-$strüüg î
-)üüî ï
-]üüï ñ
-public
-†† 
-virtual
-†† 
-object
-†† -
-WriteSampleObjectUsingFormatter
-†† =
-(
-††= > 
-MediaTypeFormatter
-††> P
-	formatter
-††Q Z
-,
-††Z [
-object
-††\ b
-value
-††c h
-,
-††h i
-Type
-††j n
-type
-††o s
-,
-††s t#
-MediaTypeHeaderValue††u â
-	mediaType††ä ì
-)††ì î
-{
-°° 	
-if
-¢¢ 
-(
-¢¢ 
-	formatter
-¢¢ 
-==
-¢¢ 
-null
-¢¢ !
-)
-¢¢! "
-{
-££ 
-throw
-§§ 
-new
-§§ #
-ArgumentNullException
-§§ /
-(
-§§/ 0
-$str
-§§0 ;
-)
-§§; <
-;
-§§< =
-}
-•• 
-if
-¶¶ 
-(
-¶¶ 
-	mediaType
-¶¶ 
-==
-¶¶ 
-null
-¶¶ !
-)
-¶¶! "
-{
-ßß 
-throw
-®® 
-new
-®® #
-ArgumentNullException
-®® /
-(
-®®/ 0
-$str
-®®0 ;
-)
-®®; <
-;
-®®< =
-}
-©© 
-object
-´´ 
-sample
-´´ 
-=
-´´ 
-String
-´´ "
-.
-´´" #
-Empty
-´´# (
-;
-´´( )
-MemoryStream
-¨¨ 
-ms
-¨¨ 
-=
-¨¨ 
-null
-¨¨ "
-;
-¨¨" #
-HttpContent
-≠≠ 
-content
-≠≠ 
-=
-≠≠  !
-null
-≠≠" &
-;
-≠≠& '
-try
-ÆÆ 
-{
-ØØ 
-if
-∞∞ 
-(
-∞∞ 
-	formatter
-∞∞ 
-.
-∞∞ 
-CanWriteType
-∞∞ *
-(
-∞∞* +
-type
-∞∞+ /
-)
-∞∞/ 0
-)
-∞∞0 1
-{
-±± 
-ms
-≤≤ 
-=
-≤≤ 
-new
-≤≤ 
-MemoryStream
-≤≤ )
-(
-≤≤) *
-)
-≤≤* +
-;
-≤≤+ ,
-content
-≥≥ 
-=
-≥≥ 
-new
-≥≥ !
-ObjectContent
-≥≥" /
-(
-≥≥/ 0
-type
-≥≥0 4
-,
-≥≥4 5
-value
-≥≥6 ;
-,
-≥≥; <
-	formatter
-≥≥= F
-,
-≥≥F G
-	mediaType
-≥≥H Q
-)
-≥≥Q R
-;
-≥≥R S
-	formatter
-¥¥ 
-.
-¥¥  
-WriteToStreamAsync
-¥¥ 0
-(
-¥¥0 1
-type
-¥¥1 5
-,
-¥¥5 6
-value
-¥¥7 <
-,
-¥¥< =
-ms
-¥¥> @
-,
-¥¥@ A
-content
-¥¥B I
-,
-¥¥I J
-null
-¥¥K O
-)
-¥¥O P
-.
-¥¥P Q
-Wait
-¥¥Q U
-(
-¥¥U V
-)
-¥¥V W
-;
-¥¥W X
-ms
-µµ 
-.
-µµ 
-Position
-µµ 
-=
-µµ  !
-$num
-µµ" #
-;
-µµ# $
-StreamReader
-∂∂  
-reader
-∂∂! '
-=
-∂∂( )
-new
-∂∂* -
-StreamReader
-∂∂. :
-(
-∂∂: ;
-ms
-∂∂; =
-)
-∂∂= >
-;
-∂∂> ?
-string
-∑∑ $
-serializedSampleString
-∑∑ 1
-=
-∑∑2 3
-reader
-∑∑4 :
-.
-∑∑: ;
-	ReadToEnd
-∑∑; D
-(
-∑∑D E
-)
-∑∑E F
-;
-∑∑F G
-if
-∏∏ 
-(
-∏∏ 
-	mediaType
-∏∏ !
-.
-∏∏! "
-	MediaType
-∏∏" +
-.
-∏∏+ ,
-ToUpperInvariant
-∏∏, <
-(
-∏∏< =
-)
-∏∏= >
-.
-∏∏> ?
-Contains
-∏∏? G
-(
-∏∏G H
-$str
-∏∏H M
-)
-∏∏M N
-)
-∏∏N O
-{
-ππ $
-serializedSampleString
-∫∫ .
-=
-∫∫/ 0
-TryFormatXml
-∫∫1 =
-(
-∫∫= >$
-serializedSampleString
-∫∫> T
-)
-∫∫T U
-;
-∫∫U V
-}
-ªª 
-else
-ºº 
-if
-ºº 
-(
-ºº 
-	mediaType
-ºº &
-.
-ºº& '
-	MediaType
-ºº' 0
-.
-ºº0 1
-ToUpperInvariant
-ºº1 A
-(
-ººA B
-)
-ººB C
-.
-ººC D
-Contains
-ººD L
-(
-ººL M
-$str
-ººM S
-)
-ººS T
-)
-ººT U
-{
-ΩΩ $
-serializedSampleString
-ææ .
-=
-ææ/ 0
-TryFormatJson
-ææ1 >
-(
-ææ> ?$
-serializedSampleString
-ææ? U
-)
-ææU V
-;
-ææV W
-}
-øø 
-sample
-¡¡ 
-=
-¡¡ 
-new
-¡¡  
-
-TextSample
-¡¡! +
-(
-¡¡+ ,$
-serializedSampleString
-¡¡, B
-)
-¡¡B C
-;
-¡¡C D
-}
-¬¬ 
-else
-√√ 
-{
-ƒƒ 
-sample
-≈≈ 
-=
-≈≈ 
-new
-≈≈  
-InvalidSample
-≈≈! .
-(
-≈≈. /
-String
-≈≈/ 5
-.
-≈≈5 6
-Format
-≈≈6 <
-(
-≈≈< =
-CultureInfo
-∆∆ #
-.
-∆∆# $
-CurrentCulture
-∆∆$ 2
-,
-∆∆2 3
-$str
-«« }
-,
-««} ~
-	mediaType
-»» !
-,
-»»! "
-	formatter
-…… !
-.
-……! "
-GetType
-……" )
-(
-……) *
-)
-……* +
-.
-……+ ,
-Name
-……, 0
-,
-……0 1
-type
-   
-.
-   
-Name
-   !
-)
-  ! "
-)
-  " #
-;
-  # $
-}
-ÀÀ 
-}
-ÃÃ 
-catch
-ÕÕ 
-(
-ÕÕ 
-	Exception
-ÕÕ 
-e
-ÕÕ 
-)
-ÕÕ 
-{
-ŒŒ 
-sample
-œœ 
-=
-œœ 
-new
-œœ 
-InvalidSample
-œœ *
-(
-œœ* +
-String
-œœ+ 1
-.
-œœ1 2
-Format
-œœ2 8
-(
-œœ8 9
-CultureInfo
-–– 
-.
-––  
-CurrentCulture
-––  .
-,
-––. /
-$str—— è
-,——è ê
-	formatter
-““ 
-.
-““ 
-GetType
-““ %
-(
-““% &
-)
-““& '
-.
-““' (
-Name
-““( ,
-,
-““, -
-	mediaType
-”” 
-.
-”” 
-	MediaType
-”” '
-,
-””' (
-UnwrapException
-‘‘ #
-(
-‘‘# $
-e
-‘‘$ %
-)
-‘‘% &
-.
-‘‘& '
-Message
-‘‘' .
-)
-‘‘. /
-)
-‘‘/ 0
-;
-‘‘0 1
-}
-’’ 
-finally
-÷÷ 
-{
-◊◊ 
-if
-ÿÿ 
-(
-ÿÿ 
-ms
-ÿÿ 
-!=
-ÿÿ 
-null
-ÿÿ 
-)
-ÿÿ 
-{
-ŸŸ 
-ms
-⁄⁄ 
-.
-⁄⁄ 
-Dispose
-⁄⁄ 
-(
-⁄⁄ 
-)
-⁄⁄  
-;
-⁄⁄  !
-}
-€€ 
-if
-‹‹ 
-(
-‹‹ 
-content
-‹‹ 
-!=
-‹‹ 
-null
-‹‹ #
-)
-‹‹# $
-{
-›› 
-content
-ﬁﬁ 
-.
-ﬁﬁ 
-Dispose
-ﬁﬁ #
-(
-ﬁﬁ# $
-)
-ﬁﬁ$ %
-;
-ﬁﬁ% &
-}
-ﬂﬂ 
-}
-‡‡ 
-return
-‚‚ 
-sample
-‚‚ 
-;
-‚‚ 
-}
-„„ 	
-internal
-ÂÂ 
-static
-ÂÂ 
-	Exception
-ÂÂ !
-UnwrapException
-ÂÂ" 1
-(
-ÂÂ1 2
-	Exception
-ÂÂ2 ;
-	exception
-ÂÂ< E
-)
-ÂÂE F
-{
-ÊÊ 	 
-AggregateException
-ÁÁ  
-aggregateException
-ÁÁ 1
-=
-ÁÁ2 3
-	exception
-ÁÁ4 =
-as
-ÁÁ> @ 
-AggregateException
-ÁÁA S
-;
-ÁÁS T
-if
-ËË 
-(
-ËË  
-aggregateException
-ËË "
-!=
-ËË# %
-null
-ËË& *
-)
-ËË* +
-{
-ÈÈ 
-return
-ÍÍ  
-aggregateException
-ÍÍ )
-.
-ÍÍ) *
-Flatten
-ÍÍ* 1
-(
-ÍÍ1 2
-)
-ÍÍ2 3
-.
-ÍÍ3 4
-InnerException
-ÍÍ4 B
-;
-ÍÍB C
-}
-ÎÎ 
-return
-ÏÏ 
-	exception
-ÏÏ 
-;
-ÏÏ 
-}
-ÌÌ 	
-private
- 
-static
- 
-object
- (
-DefaultSampleObjectFactory
- 8
-(
-8 9%
-HelpPageSampleGenerator
-9 P
-sampleGenerator
-Q `
-,
-` a
-Type
-b f
-type
-g k
-)
-k l
-{
-ÒÒ 	
-ObjectGenerator
-ÛÛ 
-objectGenerator
-ÛÛ +
-=
-ÛÛ, -
-new
-ÛÛ. 1
-ObjectGenerator
-ÛÛ2 A
-(
-ÛÛA B
-)
-ÛÛB C
-;
-ÛÛC D
-return
-ÙÙ 
-objectGenerator
-ÙÙ "
-.
-ÙÙ" #
-GenerateObject
-ÙÙ# 1
-(
-ÙÙ1 2
-type
-ÙÙ2 6
-)
-ÙÙ6 7
-;
-ÙÙ7 8
-}
-ıı 	
-[
-˜˜ 	
-SuppressMessage
-˜˜	 
-(
-˜˜ 
-$str
-˜˜ +
-,
-˜˜+ ,
-$str
-˜˜- U
-,
-˜˜U V
-Justification
-˜˜W d
-=
-˜˜e f
-$str˜˜g ü
-)˜˜ü †
-]˜˜† °
-private
-¯¯ 
-static
-¯¯ 
-string
-¯¯ 
-TryFormatJson
-¯¯ +
-(
-¯¯+ ,
-string
-¯¯, 2
-str
-¯¯3 6
-)
-¯¯6 7
-{
-˘˘ 	
-try
-˙˙ 
-{
-˚˚ 
-object
-¸¸ 
-
-parsedJson
-¸¸ !
-=
-¸¸" #
-JsonConvert
-¸¸$ /
-.
-¸¸/ 0
-DeserializeObject
-¸¸0 A
-(
-¸¸A B
-str
-¸¸B E
-)
-¸¸E F
-;
-¸¸F G
-return
-˝˝ 
-JsonConvert
-˝˝ "
-.
-˝˝" #
-SerializeObject
-˝˝# 2
-(
-˝˝2 3
-
-parsedJson
-˝˝3 =
-,
-˝˝= >
-
-Formatting
-˝˝? I
-.
-˝˝I J
-Indented
-˝˝J R
-)
-˝˝R S
-;
-˝˝S T
-}
-˛˛ 
-catch
-ˇˇ 
-{
-ÄÄ 
-return
-ÇÇ 
-str
-ÇÇ 
-;
-ÇÇ 
-}
-ÉÉ 
-}
-ÑÑ 	
-[
-ÜÜ 	
-SuppressMessage
-ÜÜ	 
-(
-ÜÜ 
-$str
-ÜÜ +
-,
-ÜÜ+ ,
-$str
-ÜÜ- U
-,
-ÜÜU V
-Justification
-ÜÜW d
-=
-ÜÜe f
-$strÜÜg ü
-)ÜÜü †
-]ÜÜ† °
-private
-áá 
-static
-áá 
-string
-áá 
-TryFormatXml
-áá *
-(
-áá* +
-string
-áá+ 1
-str
-áá2 5
-)
-áá5 6
-{
-àà 	
-try
-ââ 
-{
-ää 
-	XDocument
-ãã 
-xml
-ãã 
-=
-ãã 
-	XDocument
-ãã  )
-.
-ãã) *
-Parse
-ãã* /
-(
-ãã/ 0
-str
-ãã0 3
-)
-ãã3 4
-;
-ãã4 5
-return
-åå 
-xml
-åå 
-.
-åå 
-ToString
-åå #
-(
-åå# $
-)
-åå$ %
-;
-åå% &
-}
-çç 
-catch
-éé 
-{
-èè 
-return
-ëë 
-str
-ëë 
-;
-ëë 
-}
-íí 
-}
-ìì 	
-private
-ïï 
-static
-ïï 
-bool
-ïï 
-IsFormatSupported
-ïï -
-(
-ïï- .
-SampleDirection
-ïï. =
-sampleDirection
-ïï> M
-,
-ïïM N 
-MediaTypeFormatter
-ïïO a
-	formatter
-ïïb k
-,
-ïïk l
-Type
-ïïm q
-type
-ïïr v
-)
-ïïv w
-{
-ññ 	
-switch
-óó 
-(
-óó 
-sampleDirection
-óó #
-)
-óó# $
-{
-òò 
-case
-ôô 
-SampleDirection
-ôô $
-.
-ôô$ %
-Request
-ôô% ,
-:
-ôô, -
-return
-öö 
-	formatter
-öö $
-.
-öö$ %
-CanReadType
-öö% 0
-(
-öö0 1
-type
-öö1 5
-)
-öö5 6
-;
-öö6 7
-case
-õõ 
-SampleDirection
-õõ $
-.
-õõ$ %
-Response
-õõ% -
-:
-õõ- .
-return
-úú 
-	formatter
-úú $
-.
-úú$ %
-CanWriteType
-úú% 1
-(
-úú1 2
-type
-úú2 6
-)
-úú6 7
-;
-úú7 8
-}
-ùù 
-return
-ûû 
-false
-ûû 
-;
-ûû 
-}
-üü 	
-private
-°° 
-IEnumerable
-°° 
-<
-°° 
-KeyValuePair
-°° (
-<
-°°( )
-HelpPageSampleKey
-°°) :
-,
-°°: ;
-object
-°°< B
->
-°°B C
->
-°°C D!
-GetAllActionSamples
-°°E X
-(
-°°X Y
-string
-°°Y _
-controllerName
-°°` n
-,
-°°n o
-string
-°°p v
-
-actionName°°w Å
-,°°Å Ç
-IEnumerable°°É é
-<°°é è
-string°°è ï
->°°ï ñ
-parameterNames°°ó •
-,°°• ¶
-SampleDirection°°ß ∂
-sampleDirection°°∑ ∆
-)°°∆ «
-{
-¢¢ 	
-HashSet
-££ 
-<
-££ 
-string
-££ 
->
-££ 
-parameterNamesSet
-££ -
-=
-££. /
-new
-££0 3
-HashSet
-££4 ;
-<
-££; <
-string
-££< B
->
-££B C
-(
-££C D
-parameterNames
-££D R
-,
-££R S
-StringComparer
-££T b
-.
-££b c
-OrdinalIgnoreCase
-££c t
-)
-££t u
-;
-££u v
-foreach
-§§ 
-(
-§§ 
-var
-§§ 
-sample
-§§ 
-in
-§§  "
-ActionSamples
-§§# 0
-)
-§§0 1
-{
-•• 
-HelpPageSampleKey
-¶¶ !
-	sampleKey
-¶¶" +
-=
-¶¶, -
-sample
-¶¶. 4
-.
-¶¶4 5
-Key
-¶¶5 8
-;
-¶¶8 9
-if
-ßß 
-(
-ßß 
-String
-ßß 
-.
-ßß 
-Equals
-ßß !
-(
-ßß! "
-controllerName
-ßß" 0
-,
-ßß0 1
-	sampleKey
-ßß2 ;
-.
-ßß; <
-ControllerName
-ßß< J
-,
-ßßJ K
-StringComparison
-ßßL \
-.
-ßß\ ]
-OrdinalIgnoreCase
-ßß] n
-)
-ßßn o
-&&
-ßßp r
-String
-®® 
-.
-®® 
-Equals
-®® !
-(
-®®! "
-
-actionName
-®®" ,
-,
-®®, -
-	sampleKey
-®®. 7
-.
-®®7 8
-
-ActionName
-®®8 B
-,
-®®B C
-StringComparison
-®®D T
-.
-®®T U
-OrdinalIgnoreCase
-®®U f
-)
-®®f g
-&&
-®®h j
-(
-©© 
-	sampleKey
-©© 
-.
-©© 
-ParameterNames
-©© -
-.
-©©- .
-	SetEquals
-©©. 7
-(
-©©7 8
-new
-©©8 ;
-[
-©©; <
-]
-©©< =
-{
-©©> ?
-$str
-©©@ C
-}
-©©D E
-)
-©©E F
-||
-©©G I
-parameterNamesSet
-©©J [
-.
-©©[ \
-	SetEquals
-©©\ e
-(
-©©e f
-	sampleKey
-©©f o
-.
-©©o p
-ParameterNames
-©©p ~
-)
-©©~ 
-)©© Ä
-&&©©Å É
-sampleDirection
-™™ #
-==
-™™$ &
-	sampleKey
-™™' 0
-.
-™™0 1
-SampleDirection
-™™1 @
-)
-™™@ A
-{
-´´ 
-yield
-¨¨ 
-return
-¨¨  
-sample
-¨¨! '
-;
-¨¨' (
-}
-≠≠ 
-}
-ÆÆ 
-}
-ØØ 	
-private
-±± 
-static
-±± 
-object
-±±  
-WrapSampleIfString
-±± 0
-(
-±±0 1
-object
-±±1 7
-sample
-±±8 >
-)
-±±> ?
-{
-≤≤ 	
-string
-≥≥ 
-stringSample
-≥≥ 
-=
-≥≥  !
-sample
-≥≥" (
-as
-≥≥) +
-string
-≥≥, 2
-;
-≥≥2 3
-if
-¥¥ 
-(
-¥¥ 
-stringSample
-¥¥ 
-!=
-¥¥ 
-null
-¥¥  $
-)
-¥¥$ %
-{
-µµ 
-return
-∂∂ 
-new
-∂∂ 
-
-TextSample
-∂∂ %
-(
-∂∂% &
-stringSample
-∂∂& 2
-)
-∂∂2 3
-;
-∂∂3 4
-}
-∑∑ 
-return
-ππ 
-sample
-ππ 
-;
-ππ 
-}
-∫∫ 	
-}
-ªª 
-}ºº Ë
-fC:\Projetos\B3\AvaliacaoB3\src\B3.Avaliacao.WebApi\Areas\HelpPage\ModelDescriptions\ModelNameHelper.cs
-	namespace 	
-B3
- 
-. 
-	Avaliacao 
-. 
-WebApi 
-. 
-Areas #
-.# $
-HelpPage$ ,
-., -
-ModelDescriptions- >
-{ 
-internal 
-static 
-class 
-ModelNameHelper )
-{		 
-public 
-static 
-string 
-GetModelName )
-() *
-Type* .
-type/ 3
-)3 4
-{ 	
-ModelNameAttribute 
-modelNameAttribute 1
-=2 3
-type4 8
-.8 9
-GetCustomAttribute9 K
-<K L
-ModelNameAttributeL ^
->^ _
-(_ `
-)` a
-;a b
-if 
-( 
-modelNameAttribute "
-!=# %
-null& *
-&&+ -
-!. /
-String/ 5
-.5 6
-IsNullOrEmpty6 C
-(C D
-modelNameAttributeD V
-.V W
-NameW [
-)[ \
-)\ ]
-{ 
-return 
-modelNameAttribute )
-.) *
-Name* .
-;. /
-} 
-string 
-	modelName 
-= 
-type #
-.# $
-Name$ (
-;( )
-if 
-( 
-type 
-. 
-IsGenericType "
-)" #
-{ 
-Type 
-genericType  
-=! "
-type# '
-.' ($
-GetGenericTypeDefinition( @
-(@ A
-)A B
-;B C
-Type 
-[ 
-] 
-genericArguments '
-=( )
-type* .
-.. /
-GetGenericArguments/ B
-(B C
-)C D
-;D E
-string 
-genericTypeName &
-=' (
-genericType) 4
-.4 5
-Name5 9
-;9 :
-genericTypeName 
-=  !
-genericTypeName" 1
-.1 2
-	Substring2 ;
-(; <
-$num< =
-,= >
-genericTypeName? N
-.N O
-IndexOfO V
-(V W
-$charW Z
-)Z [
-)[ \
-;\ ]
-string 
-[ 
-] 
-argumentTypeNames *
-=+ ,
-genericArguments- =
-.= >
-Select> D
-(D E
-tE F
-=>G I
-GetModelNameJ V
-(V W
-tW X
-)X Y
-)Y Z
-.Z [
-ToArray[ b
-(b c
-)c d
-;d e
-	modelName 
-= 
-String "
-." #
-Format# )
-() *
-CultureInfo* 5
-.5 6
-InvariantCulture6 F
-,F G
-$strH R
-,R S
-genericTypeNameT c
-,c d
-Stringe k
-.k l
-Joinl p
-(p q
-$strq v
-,v w
-argumentTypeNames	x â
-)
-â ä
-)
-ä ã
-;
-ã å
-} 
-return!! 
-	modelName!! 
-;!! 
-}"" 	
-}## 
-}$$ ≈–
-pC:\Projetos\B3\AvaliacaoB3\src\B3.Avaliacao.WebApi\Areas\HelpPage\ModelDescriptions\ModelDescriptionGenerator.cs
+} Œ–
+yC:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.WebApi\Areas\HelpPage\ModelDescriptions\ModelDescriptionGenerator.cs
 	namespace 	
 B3
  
@@ -14367,8 +14367,8 @@ $GenerateKeyValuePairModelDescription
 ¡¡ 	
 }
 ¬¬ 
-}√√ ≥
-gC:\Projetos\B3\AvaliacaoB3\src\B3.Avaliacao.WebApi\Areas\HelpPage\ModelDescriptions\ModelDescription.cs
+}√√ º
+pC:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.WebApi\Areas\HelpPage\ModelDescriptions\ModelDescription.cs
 	namespace 	
 B3
  
@@ -14435,8 +14435,8 @@ gC:\Projetos\B3\AvaliacaoB3\src\B3.Avaliacao.WebApi\Areas\HelpPage\ModelDescript
 ;% &
 }' (
 } 
-} Ú
-sC:\Projetos\B3\AvaliacaoB3\src\B3.Avaliacao.WebApi\Areas\HelpPage\ModelDescriptions\KeyValuePairModelDescription.cs
+} ˚
+|C:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.WebApi\Areas\HelpPage\ModelDescriptions\KeyValuePairModelDescription.cs
 	namespace 	
 B3
  
@@ -14477,8 +14477,8 @@ sC:\Projetos\B3\AvaliacaoB3\src\B3.Avaliacao.WebApi\Areas\HelpPage\ModelDescript
 ;@ A
 }B C
 } 
-}		 Ò
-rC:\Projetos\B3\AvaliacaoB3\src\B3.Avaliacao.WebApi\Areas\HelpPage\ModelDescriptions\IModelDocumentationProvider.cs
+}		 ˙
+{C:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.WebApi\Areas\HelpPage\ModelDescriptions\IModelDocumentationProvider.cs
 	namespace 	
 B3
  
@@ -14528,8 +14528,8 @@ MemberInfo  *
 
 * +
 } 
-} £
-kC:\Projetos\B3\AvaliacaoB3\src\B3.Avaliacao.WebApi\Areas\HelpPage\ModelDescriptions\EnumValueDescription.cs
+} ¨
+tC:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.WebApi\Areas\HelpPage\ModelDescriptions\EnumValueDescription.cs
 	namespace 	
 B3
  
@@ -14579,8 +14579,8 @@ kC:\Projetos\B3\AvaliacaoB3\src\B3.Avaliacao.WebApi\Areas\HelpPage\ModelDescript
 }
 
  
-} ®
-oC:\Projetos\B3\AvaliacaoB3\src\B3.Avaliacao.WebApi\Areas\HelpPage\ModelDescriptions\EnumTypeModelDescription.cs
+} ±
+xC:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.WebApi\Areas\HelpPage\ModelDescriptions\EnumTypeModelDescription.cs
 	namespace 	
 B3
  
@@ -14654,8 +14654,8 @@ Collection 
 ;I J
 }K L
 } 
-} ñ
-qC:\Projetos\B3\AvaliacaoB3\src\B3.Avaliacao.WebApi\Areas\HelpPage\ModelDescriptions\DictionaryModelDescription.cs
+} ü
+zC:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.WebApi\Areas\HelpPage\ModelDescriptions\DictionaryModelDescription.cs
 	namespace 	
 B3
  
@@ -14678,8 +14678,41 @@ qC:\Projetos\B3\AvaliacaoB3\src\B3.Avaliacao.WebApi\Areas\HelpPage\ModelDescript
 KeyValuePairModelDescription. J
 { 
 } 
-} π
-rC:\Projetos\B3\AvaliacaoB3\src\B3.Avaliacao.WebApi\Areas\HelpPage\ModelDescriptions\ComplexTypeModelDescription.cs
+} √
+zC:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.WebApi\Areas\HelpPage\ModelDescriptions\CollectionModelDescription.cs
+	namespace 	
+B3
+ 
+. 
+	Avaliacao 
+. 
+WebApi 
+. 
+Areas #
+.# $
+HelpPage$ ,
+., -
+ModelDescriptions- >
+{ 
+public 
+
+class &
+CollectionModelDescription +
+:, -
+ModelDescription. >
+{ 
+public 
+ModelDescription 
+ElementDescription  2
+{3 4
+get5 8
+;8 9
+set: =
+;= >
+}? @
+} 
+} ¬
+{C:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.WebApi\Areas\HelpPage\ModelDescriptions\ComplexTypeModelDescription.cs
 	namespace 	
 B3
  
@@ -14737,41 +14770,90 @@ Properties0 :
 ;M N
 }O P
 } 
-} ∫
-qC:\Projetos\B3\AvaliacaoB3\src\B3.Avaliacao.WebApi\Areas\HelpPage\ModelDescriptions\CollectionModelDescription.cs
-	namespace 	
-B3
+} Ô
+fC:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.WebApi\Areas\HelpPage\HelpPageAreaRegistration.cs
+	namespace 	
+B3
  
-. 
-	Avaliacao 
-. 
-WebApi 
-. 
-Areas #
-.# $
-HelpPage$ ,
-., -
-ModelDescriptions- >
-{ 
-public 
+. 
+	Avaliacao 
+. 
+WebApi 
+. 
+Areas #
+.# $
+HelpPage$ ,
+{ 
+public 
 
-class &
-CollectionModelDescription +
-:, -
-ModelDescription. >
-{ 
-public 
-ModelDescription 
-ElementDescription  2
-{3 4
-get5 8
-;8 9
-set: =
-;= >
-}? @
-} 
-} “≥
-dC:\Projetos\B3\AvaliacaoB3\src\B3.Avaliacao.WebApi\Areas\HelpPage\HelpPageConfigurationExtensions.cs
+class $
+HelpPageAreaRegistration )
+:* +
+AreaRegistration, <
+{ 
+public 
+override 
+string 
+AreaName '
+{		 	
+get
+
+ 
+{ 
+return 
+$str !
+;! "
+} 
+} 	
+public 
+override 
+void 
+RegisterArea )
+() *#
+AreaRegistrationContext* A
+contextB I
+)I J
+{ 	
+context 
+. 
+MapRoute 
+( 
+$str "
+," #
+$str '
+,' (
+new 
+{ 
+
+controller  
+=! "
+$str# )
+,) *
+action+ 1
+=2 3
+$str4 ;
+,; <
+apiId= B
+=C D
+UrlParameterE Q
+.Q R
+OptionalR Z
+}[ \
+)\ ]
+;] ^
+HelpPageConfig 
+. 
+Register #
+(# $
+GlobalConfiguration$ 7
+.7 8
+Configuration8 E
+)E F
+;F G
+} 	
+} 
+} €≥
+mC:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.WebApi\Areas\HelpPage\HelpPageConfigurationExtensions.cs
 	namespace 	
 B3
  
@@ -18010,90 +18092,8 @@ Collection
 —— 	
 }
 ““ 
-}”” Ê
-]C:\Projetos\B3\AvaliacaoB3\src\B3.Avaliacao.WebApi\Areas\HelpPage\HelpPageAreaRegistration.cs
-	namespace 	
-B3
- 
-. 
-	Avaliacao 
-. 
-WebApi 
-. 
-Areas #
-.# $
-HelpPage$ ,
-{ 
-public 
-
-class $
-HelpPageAreaRegistration )
-:* +
-AreaRegistration, <
-{ 
-public 
-override 
-string 
-AreaName '
-{		 	
-get
-
- 
-{ 
-return 
-$str !
-;! "
-} 
-} 	
-public 
-override 
-void 
-RegisterArea )
-() *#
-AreaRegistrationContext* A
-contextB I
-)I J
-{ 	
-context 
-. 
-MapRoute 
-( 
-$str "
-," #
-$str '
-,' (
-new 
-{ 
-
-controller  
-=! "
-$str# )
-,) *
-action+ 1
-=2 3
-$str4 ;
-,; <
-apiId= B
-=C D
-UrlParameterE Q
-.Q R
-OptionalR Z
-}[ \
-)\ ]
-;] ^
-HelpPageConfig 
-. 
-Register #
-(# $
-GlobalConfiguration$ 7
-.7 8
-Configuration8 E
-)E F
-;F G
-} 	
-} 
-} ‹
-_C:\Projetos\B3\AvaliacaoB3\src\B3.Avaliacao.WebApi\Areas\HelpPage\Controllers\HelpController.cs
+}”” Â
+hC:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.WebApi\Areas\HelpPage\Controllers\HelpController.cs
 	namespace 	
 B3
  
@@ -18304,8 +18304,8 @@ Controller" ,
 ;<<& '
 }== 	
 }>> 
-}?? ‹
-]C:\Projetos\B3\AvaliacaoB3\src\B3.Avaliacao.WebApi\Areas\HelpPage\App_Start\HelpPageConfig.cs
+}?? Â
+fC:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.WebApi\Areas\HelpPage\App_Start\HelpPageConfig.cs
 	namespace 	
 B3
  
@@ -18385,8 +18385,8 @@ TextSample;; 
 ;<<= >
 }QQ 	
 }pp 
-}qq À
-]C:\Projetos\B3\AvaliacaoB3\src\B3.Avaliacao.WebApi\Areas\HelpPage\ApiDescriptionExtensions.cs
+}qq ‘
+fC:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.WebApi\Areas\HelpPage\ApiDescriptionExtensions.cs
 	namespace 	
 B3
  
@@ -18572,8 +18572,8 @@ HttpMethod &
 ;$$* +
 }%% 	
 }&& 
-}''  
-LC:\Projetos\B3\AvaliacaoB3\src\B3.Avaliacao.WebApi\App_Start\WebApiConfig.cs
+}'' ”
+UC:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.WebApi\App_Start\WebApiConfig.cs
 	namespace 	
 B3
  
@@ -18647,8 +18647,8 @@ LC:\Projetos\B3\AvaliacaoB3\src\B3.Avaliacao.WebApi\App_Start\WebApiConfig.cs
 ; 
 } 	
 } 
-} ò	
-KC:\Projetos\B3\AvaliacaoB3\src\B3.Avaliacao.WebApi\App_Start\RouteConfig.cs
+} °	
+TC:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.WebApi\App_Start\RouteConfig.cs
 	namespace 	
 B3
  
@@ -18719,8 +18719,8 @@ controller  *
 ; 
 } 	
 } 
-} ∫
-LC:\Projetos\B3\AvaliacaoB3\src\B3.Avaliacao.WebApi\App_Start\FilterConfig.cs
+} √
+UC:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.WebApi\App_Start\FilterConfig.cs
 	namespace 	
 B3
  
@@ -18775,8 +18775,8 @@ LC:\Projetos\B3\AvaliacaoB3\src\B3.Avaliacao.WebApi\App_Start\FilterConfig.cs
 3 4
 } 	
 } 
-} Ÿ
-LC:\Projetos\B3\AvaliacaoB3\src\B3.Avaliacao.WebApi\App_Start\BundleConfig.cs
+} ‚
+UC:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.WebApi\App_Start\BundleConfig.cs
 	namespace 	
 B3
  

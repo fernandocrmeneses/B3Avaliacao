@@ -18,7 +18,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Projetos/B3/AvaliacaoB3/src/B3.Avaliacao.WebApi/App_Start/BundleConfig.cs",
+                "uri": "file:///C:/Projetos/B3Avaliacao/B3Avaliacao/src/B3.Avaliacao.WebApi/App_Start/BundleConfig.cs",
                 "region": {
                   "startLine": 6,
                   "startColumn": 18,
@@ -39,7 +39,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Projetos/B3/AvaliacaoB3/src/B3.Avaliacao.WebApi/App_Start/FilterConfig.cs",
+                "uri": "file:///C:/Projetos/B3Avaliacao/B3Avaliacao/src/B3.Avaliacao.WebApi/App_Start/FilterConfig.cs",
                 "region": {
                   "startLine": 6,
                   "startColumn": 18,
@@ -60,7 +60,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Projetos/B3/AvaliacaoB3/src/B3.Avaliacao.WebApi/App_Start/RouteConfig.cs",
+                "uri": "file:///C:/Projetos/B3Avaliacao/B3Avaliacao/src/B3.Avaliacao.WebApi/App_Start/RouteConfig.cs",
                 "region": {
                   "startLine": 10,
                   "startColumn": 18,
@@ -81,7 +81,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Projetos/B3/AvaliacaoB3/src/B3.Avaliacao.WebApi/Areas/HelpPage/App_Start/HelpPageConfig.cs",
+                "uri": "file:///C:/Projetos/B3Avaliacao/B3Avaliacao/src/B3.Avaliacao.WebApi/Areas/HelpPage/App_Start/HelpPageConfig.cs",
                 "region": {
                   "startLine": 37,
                   "startColumn": 13,
@@ -102,7 +102,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Projetos/B3/AvaliacaoB3/src/B3.Avaliacao.WebApi/Areas/HelpPage/App_Start/HelpPageConfig.cs",
+                "uri": "file:///C:/Projetos/B3Avaliacao/B3Avaliacao/src/B3.Avaliacao.WebApi/Areas/HelpPage/App_Start/HelpPageConfig.cs",
                 "region": {
                   "startLine": 64,
                   "startColumn": 13,
@@ -123,7 +123,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Projetos/B3/AvaliacaoB3/src/B3.Avaliacao.WebApi/Areas/HelpPage/ModelDescriptions/DictionaryModelDescription.cs",
+                "uri": "file:///C:/Projetos/B3Avaliacao/B3Avaliacao/src/B3.Avaliacao.WebApi/Areas/HelpPage/ModelDescriptions/DictionaryModelDescription.cs",
                 "region": {
                   "startLine": 3,
                   "startColumn": 18,
@@ -144,7 +144,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Projetos/B3/AvaliacaoB3/src/B3.Avaliacao.WebApi/Areas/HelpPage/HelpPageConfigurationExtensions.cs",
+                "uri": "file:///C:/Projetos/B3Avaliacao/B3Avaliacao/src/B3.Avaliacao.WebApi/Areas/HelpPage/HelpPageConfigurationExtensions.cs",
                 "region": {
                   "startLine": 275,
                   "startColumn": 21,
@@ -165,7 +165,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Projetos/B3/AvaliacaoB3/src/B3.Avaliacao.WebApi/Areas/HelpPage/XmlDocumentationProvider.cs",
+                "uri": "file:///C:/Projetos/B3Avaliacao/B3Avaliacao/src/B3.Avaliacao.WebApi/Areas/HelpPage/XmlDocumentationProvider.cs",
                 "region": {
                   "startLine": 17,
                   "startColumn": 32,
@@ -180,18 +180,100 @@
           }
         },
         {
+          "ruleId": "S1192",
+          "level": "warning",
+          "message": "Define a constant instead of using this literal 'summary' 4 times.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Projetos/B3Avaliacao/B3Avaliacao/src/B3.Avaliacao.WebApi/Areas/HelpPage/XmlDocumentationProvider.cs",
+                "region": {
+                  "startLine": 41,
+                  "startColumn": 42,
+                  "endLine": 41,
+                  "endColumn": 51
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Projetos/B3Avaliacao/B3Avaliacao/src/B3.Avaliacao.WebApi/Areas/HelpPage/XmlDocumentationProvider.cs",
+                "region": {
+                  "startLine": 47,
+                  "startColumn": 44,
+                  "endLine": 47,
+                  "endColumn": 53
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Projetos/B3Avaliacao/B3Avaliacao/src/B3.Avaliacao.WebApi/Areas/HelpPage/XmlDocumentationProvider.cs",
+                "region": {
+                  "startLine": 82,
+                  "startColumn": 46,
+                  "endLine": 82,
+                  "endColumn": 55
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Projetos/B3Avaliacao/B3Avaliacao/src/B3.Avaliacao.WebApi/Areas/HelpPage/XmlDocumentationProvider.cs",
+                "region": {
+                  "startLine": 88,
+                  "startColumn": 42,
+                  "endLine": 88,
+                  "endColumn": 51
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": null,
+              "1": null,
+              "2": null
+            }
+          }
+        },
+        {
           "ruleId": "S1186",
           "level": "warning",
           "message": "Add a nested comment explaining why this method is empty, throw a 'NotSupportedException' or complete the implementation.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Projetos/B3/AvaliacaoB3/src/B3.Avaliacao.WebApi/Controllers/ValuesController.cs",
+                "uri": "file:///C:/Projetos/B3Avaliacao/B3Avaliacao/src/B3.Avaliacao.WebApi/Controllers/ValuesController.cs",
                 "region": {
                   "startLine": 25,
                   "startColumn": 21,
                   "endLine": 25,
                   "endColumn": 25
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2933",
+          "level": "warning",
+          "message": "Make '_documentationProvider' 'readonly'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Projetos/B3Avaliacao/B3Avaliacao/src/B3.Avaliacao.WebApi/Areas/HelpPage/ModelDescriptions/ModelDescriptionGenerator.cs",
+                "region": {
+                  "startLine": 87,
+                  "startColumn": 51,
+                  "endLine": 87,
+                  "endColumn": 73
                 }
               }
             }
@@ -207,7 +289,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Projetos/B3/AvaliacaoB3/src/B3.Avaliacao.WebApi/Controllers/ValuesController.cs",
+                "uri": "file:///C:/Projetos/B3Avaliacao/B3Avaliacao/src/B3.Avaliacao.WebApi/Controllers/ValuesController.cs",
                 "region": {
                   "startLine": 30,
                   "startColumn": 21,
@@ -228,7 +310,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Projetos/B3/AvaliacaoB3/src/B3.Avaliacao.WebApi/Controllers/ValuesController.cs",
+                "uri": "file:///C:/Projetos/B3Avaliacao/B3Avaliacao/src/B3.Avaliacao.WebApi/Controllers/ValuesController.cs",
                 "region": {
                   "startLine": 35,
                   "startColumn": 21,
@@ -243,95 +325,13 @@
           }
         },
         {
-          "ruleId": "S2933",
-          "level": "warning",
-          "message": "Make '_documentationProvider' 'readonly'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Projetos/B3/AvaliacaoB3/src/B3.Avaliacao.WebApi/Areas/HelpPage/ModelDescriptions/ModelDescriptionGenerator.cs",
-                "region": {
-                  "startLine": 87,
-                  "startColumn": 51,
-                  "endLine": 87,
-                  "endColumn": 73
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1192",
-          "level": "warning",
-          "message": "Define a constant instead of using this literal 'summary' 4 times.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Projetos/B3/AvaliacaoB3/src/B3.Avaliacao.WebApi/Areas/HelpPage/XmlDocumentationProvider.cs",
-                "region": {
-                  "startLine": 41,
-                  "startColumn": 42,
-                  "endLine": 41,
-                  "endColumn": 51
-                }
-              }
-            }
-          ],
-          "relatedLocations": [
-            {
-              "physicalLocation": {
-                "uri": "file:///C:/Projetos/B3/AvaliacaoB3/src/B3.Avaliacao.WebApi/Areas/HelpPage/XmlDocumentationProvider.cs",
-                "region": {
-                  "startLine": 47,
-                  "startColumn": 44,
-                  "endLine": 47,
-                  "endColumn": 53
-                }
-              }
-            },
-            {
-              "physicalLocation": {
-                "uri": "file:///C:/Projetos/B3/AvaliacaoB3/src/B3.Avaliacao.WebApi/Areas/HelpPage/XmlDocumentationProvider.cs",
-                "region": {
-                  "startLine": 82,
-                  "startColumn": 46,
-                  "endLine": 82,
-                  "endColumn": 55
-                }
-              }
-            },
-            {
-              "physicalLocation": {
-                "uri": "file:///C:/Projetos/B3/AvaliacaoB3/src/B3.Avaliacao.WebApi/Areas/HelpPage/XmlDocumentationProvider.cs",
-                "region": {
-                  "startLine": 88,
-                  "startColumn": 42,
-                  "endLine": 88,
-                  "endColumn": 51
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1,
-            "customProperties": {
-              "0": null,
-              "1": null,
-              "2": null
-            }
-          }
-        },
-        {
           "ruleId": "S3260",
           "level": "warning",
           "message": "Private classes which are not derived in the current assembly should be marked as 'sealed'.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Projetos/B3/AvaliacaoB3/src/B3.Avaliacao.WebApi/Areas/HelpPage/SampleGeneration/ObjectGenerator.cs",
+                "uri": "file:///C:/Projetos/B3Avaliacao/B3Avaliacao/src/B3.Avaliacao.WebApi/Areas/HelpPage/SampleGeneration/ObjectGenerator.cs",
                 "region": {
                   "startLine": 396,
                   "startColumn": 23,
@@ -352,7 +352,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Projetos/B3/AvaliacaoB3/src/B3.Avaliacao.WebApi/Areas/HelpPage/Models/HelpPageApiModel.cs",
+                "uri": "file:///C:/Projetos/B3Avaliacao/B3Avaliacao/src/B3.Avaliacao.WebApi/Areas/HelpPage/Models/HelpPageApiModel.cs",
                 "region": {
                   "startLine": 105,
                   "startColumn": 20,
@@ -373,7 +373,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Projetos/B3/AvaliacaoB3/src/B3.Avaliacao.WebApi/Areas/HelpPage/SampleGeneration/ObjectGenerator.cs",
+                "uri": "file:///C:/Projetos/B3Avaliacao/B3Avaliacao/src/B3.Avaliacao.WebApi/Areas/HelpPage/SampleGeneration/ObjectGenerator.cs",
                 "region": {
                   "startLine": 104,
                   "startColumn": 31,
@@ -386,7 +386,7 @@
           "relatedLocations": [
             {
               "physicalLocation": {
-                "uri": "file:///C:/Projetos/B3/AvaliacaoB3/src/B3.Avaliacao.WebApi/Areas/HelpPage/SampleGeneration/ObjectGenerator.cs",
+                "uri": "file:///C:/Projetos/B3Avaliacao/B3Avaliacao/src/B3.Avaliacao.WebApi/Areas/HelpPage/SampleGeneration/ObjectGenerator.cs",
                 "region": {
                   "startLine": 107,
                   "startColumn": 13,
@@ -397,7 +397,7 @@
             },
             {
               "physicalLocation": {
-                "uri": "file:///C:/Projetos/B3/AvaliacaoB3/src/B3.Avaliacao.WebApi/Areas/HelpPage/SampleGeneration/ObjectGenerator.cs",
+                "uri": "file:///C:/Projetos/B3Avaliacao/B3Avaliacao/src/B3.Avaliacao.WebApi/Areas/HelpPage/SampleGeneration/ObjectGenerator.cs",
                 "region": {
                   "startLine": 112,
                   "startColumn": 13,
@@ -408,7 +408,7 @@
             },
             {
               "physicalLocation": {
-                "uri": "file:///C:/Projetos/B3/AvaliacaoB3/src/B3.Avaliacao.WebApi/Areas/HelpPage/SampleGeneration/ObjectGenerator.cs",
+                "uri": "file:///C:/Projetos/B3Avaliacao/B3Avaliacao/src/B3.Avaliacao.WebApi/Areas/HelpPage/SampleGeneration/ObjectGenerator.cs",
                 "region": {
                   "startLine": 117,
                   "startColumn": 13,
@@ -419,7 +419,7 @@
             },
             {
               "physicalLocation": {
-                "uri": "file:///C:/Projetos/B3/AvaliacaoB3/src/B3.Avaliacao.WebApi/Areas/HelpPage/SampleGeneration/ObjectGenerator.cs",
+                "uri": "file:///C:/Projetos/B3Avaliacao/B3Avaliacao/src/B3.Avaliacao.WebApi/Areas/HelpPage/SampleGeneration/ObjectGenerator.cs",
                 "region": {
                   "startLine": 123,
                   "startColumn": 13,
@@ -430,7 +430,7 @@
             },
             {
               "physicalLocation": {
-                "uri": "file:///C:/Projetos/B3/AvaliacaoB3/src/B3.Avaliacao.WebApi/Areas/HelpPage/SampleGeneration/ObjectGenerator.cs",
+                "uri": "file:///C:/Projetos/B3Avaliacao/B3Avaliacao/src/B3.Avaliacao.WebApi/Areas/HelpPage/SampleGeneration/ObjectGenerator.cs",
                 "region": {
                   "startLine": 125,
                   "startColumn": 17,
@@ -441,7 +441,7 @@
             },
             {
               "physicalLocation": {
-                "uri": "file:///C:/Projetos/B3/AvaliacaoB3/src/B3.Avaliacao.WebApi/Areas/HelpPage/SampleGeneration/ObjectGenerator.cs",
+                "uri": "file:///C:/Projetos/B3Avaliacao/B3Avaliacao/src/B3.Avaliacao.WebApi/Areas/HelpPage/SampleGeneration/ObjectGenerator.cs",
                 "region": {
                   "startLine": 125,
                   "startColumn": 62,
@@ -452,7 +452,7 @@
             },
             {
               "physicalLocation": {
-                "uri": "file:///C:/Projetos/B3/AvaliacaoB3/src/B3.Avaliacao.WebApi/Areas/HelpPage/SampleGeneration/ObjectGenerator.cs",
+                "uri": "file:///C:/Projetos/B3Avaliacao/B3Avaliacao/src/B3.Avaliacao.WebApi/Areas/HelpPage/SampleGeneration/ObjectGenerator.cs",
                 "region": {
                   "startLine": 133,
                   "startColumn": 17,
@@ -463,7 +463,7 @@
             },
             {
               "physicalLocation": {
-                "uri": "file:///C:/Projetos/B3/AvaliacaoB3/src/B3.Avaliacao.WebApi/Areas/HelpPage/SampleGeneration/ObjectGenerator.cs",
+                "uri": "file:///C:/Projetos/B3Avaliacao/B3Avaliacao/src/B3.Avaliacao.WebApi/Areas/HelpPage/SampleGeneration/ObjectGenerator.cs",
                 "region": {
                   "startLine": 139,
                   "startColumn": 17,
@@ -474,7 +474,7 @@
             },
             {
               "physicalLocation": {
-                "uri": "file:///C:/Projetos/B3/AvaliacaoB3/src/B3.Avaliacao.WebApi/Areas/HelpPage/SampleGeneration/ObjectGenerator.cs",
+                "uri": "file:///C:/Projetos/B3Avaliacao/B3Avaliacao/src/B3.Avaliacao.WebApi/Areas/HelpPage/SampleGeneration/ObjectGenerator.cs",
                 "region": {
                   "startLine": 145,
                   "startColumn": 13,
@@ -485,7 +485,7 @@
             },
             {
               "physicalLocation": {
-                "uri": "file:///C:/Projetos/B3/AvaliacaoB3/src/B3.Avaliacao.WebApi/Areas/HelpPage/SampleGeneration/ObjectGenerator.cs",
+                "uri": "file:///C:/Projetos/B3Avaliacao/B3Avaliacao/src/B3.Avaliacao.WebApi/Areas/HelpPage/SampleGeneration/ObjectGenerator.cs",
                 "region": {
                   "startLine": 147,
                   "startColumn": 17,
@@ -496,7 +496,7 @@
             },
             {
               "physicalLocation": {
-                "uri": "file:///C:/Projetos/B3/AvaliacaoB3/src/B3.Avaliacao.WebApi/Areas/HelpPage/SampleGeneration/ObjectGenerator.cs",
+                "uri": "file:///C:/Projetos/B3Avaliacao/B3Avaliacao/src/B3.Avaliacao.WebApi/Areas/HelpPage/SampleGeneration/ObjectGenerator.cs",
                 "region": {
                   "startLine": 154,
                   "startColumn": 17,
@@ -507,7 +507,7 @@
             },
             {
               "physicalLocation": {
-                "uri": "file:///C:/Projetos/B3/AvaliacaoB3/src/B3.Avaliacao.WebApi/Areas/HelpPage/SampleGeneration/ObjectGenerator.cs",
+                "uri": "file:///C:/Projetos/B3Avaliacao/B3Avaliacao/src/B3.Avaliacao.WebApi/Areas/HelpPage/SampleGeneration/ObjectGenerator.cs",
                 "region": {
                   "startLine": 160,
                   "startColumn": 13,
@@ -518,7 +518,7 @@
             },
             {
               "physicalLocation": {
-                "uri": "file:///C:/Projetos/B3/AvaliacaoB3/src/B3.Avaliacao.WebApi/Areas/HelpPage/SampleGeneration/ObjectGenerator.cs",
+                "uri": "file:///C:/Projetos/B3Avaliacao/B3Avaliacao/src/B3.Avaliacao.WebApi/Areas/HelpPage/SampleGeneration/ObjectGenerator.cs",
                 "region": {
                   "startLine": 160,
                   "startColumn": 31,
@@ -554,7 +554,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Projetos/B3/AvaliacaoB3/src/B3.Avaliacao.WebApi/Areas/HelpPage/SampleGeneration/HelpPageSampleGenerator.cs",
+                "uri": "file:///C:/Projetos/B3Avaliacao/B3Avaliacao/src/B3.Avaliacao.WebApi/Areas/HelpPage/SampleGeneration/HelpPageSampleGenerator.cs",
                 "region": {
                   "startLine": 90,
                   "startColumn": 66,
@@ -567,7 +567,7 @@
           "relatedLocations": [
             {
               "physicalLocation": {
-                "uri": "file:///C:/Projetos/B3/AvaliacaoB3/src/B3.Avaliacao.WebApi/Areas/HelpPage/SampleGeneration/HelpPageSampleGenerator.cs",
+                "uri": "file:///C:/Projetos/B3Avaliacao/B3Avaliacao/src/B3.Avaliacao.WebApi/Areas/HelpPage/SampleGeneration/HelpPageSampleGenerator.cs",
                 "region": {
                   "startLine": 92,
                   "startColumn": 13,
@@ -578,7 +578,7 @@
             },
             {
               "physicalLocation": {
-                "uri": "file:///C:/Projetos/B3/AvaliacaoB3/src/B3.Avaliacao.WebApi/Areas/HelpPage/SampleGeneration/HelpPageSampleGenerator.cs",
+                "uri": "file:///C:/Projetos/B3Avaliacao/B3Avaliacao/src/B3.Avaliacao.WebApi/Areas/HelpPage/SampleGeneration/HelpPageSampleGenerator.cs",
                 "region": {
                   "startLine": 105,
                   "startColumn": 13,
@@ -589,7 +589,7 @@
             },
             {
               "physicalLocation": {
-                "uri": "file:///C:/Projetos/B3/AvaliacaoB3/src/B3.Avaliacao.WebApi/Areas/HelpPage/SampleGeneration/HelpPageSampleGenerator.cs",
+                "uri": "file:///C:/Projetos/B3Avaliacao/B3Avaliacao/src/B3.Avaliacao.WebApi/Areas/HelpPage/SampleGeneration/HelpPageSampleGenerator.cs",
                 "region": {
                   "startLine": 112,
                   "startColumn": 13,
@@ -600,7 +600,7 @@
             },
             {
               "physicalLocation": {
-                "uri": "file:///C:/Projetos/B3/AvaliacaoB3/src/B3.Avaliacao.WebApi/Areas/HelpPage/SampleGeneration/HelpPageSampleGenerator.cs",
+                "uri": "file:///C:/Projetos/B3Avaliacao/B3Avaliacao/src/B3.Avaliacao.WebApi/Areas/HelpPage/SampleGeneration/HelpPageSampleGenerator.cs",
                 "region": {
                   "startLine": 112,
                   "startColumn": 30,
@@ -611,7 +611,7 @@
             },
             {
               "physicalLocation": {
-                "uri": "file:///C:/Projetos/B3/AvaliacaoB3/src/B3.Avaliacao.WebApi/Areas/HelpPage/SampleGeneration/HelpPageSampleGenerator.cs",
+                "uri": "file:///C:/Projetos/B3Avaliacao/B3Avaliacao/src/B3.Avaliacao.WebApi/Areas/HelpPage/SampleGeneration/HelpPageSampleGenerator.cs",
                 "region": {
                   "startLine": 115,
                   "startColumn": 17,
@@ -622,7 +622,7 @@
             },
             {
               "physicalLocation": {
-                "uri": "file:///C:/Projetos/B3/AvaliacaoB3/src/B3.Avaliacao.WebApi/Areas/HelpPage/SampleGeneration/HelpPageSampleGenerator.cs",
+                "uri": "file:///C:/Projetos/B3Avaliacao/B3Avaliacao/src/B3.Avaliacao.WebApi/Areas/HelpPage/SampleGeneration/HelpPageSampleGenerator.cs",
                 "region": {
                   "startLine": 117,
                   "startColumn": 21,
@@ -633,7 +633,7 @@
             },
             {
               "physicalLocation": {
-                "uri": "file:///C:/Projetos/B3/AvaliacaoB3/src/B3.Avaliacao.WebApi/Areas/HelpPage/SampleGeneration/HelpPageSampleGenerator.cs",
+                "uri": "file:///C:/Projetos/B3Avaliacao/B3Avaliacao/src/B3.Avaliacao.WebApi/Areas/HelpPage/SampleGeneration/HelpPageSampleGenerator.cs",
                 "region": {
                   "startLine": 119,
                   "startColumn": 25,
@@ -644,7 +644,7 @@
             },
             {
               "physicalLocation": {
-                "uri": "file:///C:/Projetos/B3/AvaliacaoB3/src/B3.Avaliacao.WebApi/Areas/HelpPage/SampleGeneration/HelpPageSampleGenerator.cs",
+                "uri": "file:///C:/Projetos/B3Avaliacao/B3Avaliacao/src/B3.Avaliacao.WebApi/Areas/HelpPage/SampleGeneration/HelpPageSampleGenerator.cs",
                 "region": {
                   "startLine": 124,
                   "startColumn": 29,
@@ -655,7 +655,7 @@
             },
             {
               "physicalLocation": {
-                "uri": "file:///C:/Projetos/B3/AvaliacaoB3/src/B3.Avaliacao.WebApi/Areas/HelpPage/SampleGeneration/HelpPageSampleGenerator.cs",
+                "uri": "file:///C:/Projetos/B3Avaliacao/B3Avaliacao/src/B3.Avaliacao.WebApi/Areas/HelpPage/SampleGeneration/HelpPageSampleGenerator.cs",
                 "region": {
                   "startLine": 124,
                   "startColumn": 48,
@@ -687,7 +687,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Projetos/B3/AvaliacaoB3/src/B3.Avaliacao.WebApi/Areas/HelpPage/ModelDescriptions/ModelDescriptionGenerator.cs",
+                "uri": "file:///C:/Projetos/B3Avaliacao/B3Avaliacao/src/B3.Avaliacao.WebApi/Areas/HelpPage/ModelDescriptions/ModelDescriptionGenerator.cs",
                 "region": {
                   "startLine": 110,
                   "startColumn": 33,
@@ -700,7 +700,7 @@
           "relatedLocations": [
             {
               "physicalLocation": {
-                "uri": "file:///C:/Projetos/B3/AvaliacaoB3/src/B3.Avaliacao.WebApi/Areas/HelpPage/ModelDescriptions/ModelDescriptionGenerator.cs",
+                "uri": "file:///C:/Projetos/B3Avaliacao/B3Avaliacao/src/B3.Avaliacao.WebApi/Areas/HelpPage/ModelDescriptions/ModelDescriptionGenerator.cs",
                 "region": {
                   "startLine": 112,
                   "startColumn": 13,
@@ -711,7 +711,7 @@
             },
             {
               "physicalLocation": {
-                "uri": "file:///C:/Projetos/B3/AvaliacaoB3/src/B3.Avaliacao.WebApi/Areas/HelpPage/ModelDescriptions/ModelDescriptionGenerator.cs",
+                "uri": "file:///C:/Projetos/B3Avaliacao/B3Avaliacao/src/B3.Avaliacao.WebApi/Areas/HelpPage/ModelDescriptions/ModelDescriptionGenerator.cs",
                 "region": {
                   "startLine": 118,
                   "startColumn": 13,
@@ -722,7 +722,7 @@
             },
             {
               "physicalLocation": {
-                "uri": "file:///C:/Projetos/B3/AvaliacaoB3/src/B3.Avaliacao.WebApi/Areas/HelpPage/ModelDescriptions/ModelDescriptionGenerator.cs",
+                "uri": "file:///C:/Projetos/B3Avaliacao/B3Avaliacao/src/B3.Avaliacao.WebApi/Areas/HelpPage/ModelDescriptions/ModelDescriptionGenerator.cs",
                 "region": {
                   "startLine": 125,
                   "startColumn": 13,
@@ -733,7 +733,7 @@
             },
             {
               "physicalLocation": {
-                "uri": "file:///C:/Projetos/B3/AvaliacaoB3/src/B3.Avaliacao.WebApi/Areas/HelpPage/ModelDescriptions/ModelDescriptionGenerator.cs",
+                "uri": "file:///C:/Projetos/B3Avaliacao/B3Avaliacao/src/B3.Avaliacao.WebApi/Areas/HelpPage/ModelDescriptions/ModelDescriptionGenerator.cs",
                 "region": {
                   "startLine": 127,
                   "startColumn": 17,
@@ -744,7 +744,7 @@
             },
             {
               "physicalLocation": {
-                "uri": "file:///C:/Projetos/B3/AvaliacaoB3/src/B3.Avaliacao.WebApi/Areas/HelpPage/ModelDescriptions/ModelDescriptionGenerator.cs",
+                "uri": "file:///C:/Projetos/B3Avaliacao/B3Avaliacao/src/B3.Avaliacao.WebApi/Areas/HelpPage/ModelDescriptions/ModelDescriptionGenerator.cs",
                 "region": {
                   "startLine": 142,
                   "startColumn": 13,
@@ -755,7 +755,7 @@
             },
             {
               "physicalLocation": {
-                "uri": "file:///C:/Projetos/B3/AvaliacaoB3/src/B3.Avaliacao.WebApi/Areas/HelpPage/ModelDescriptions/ModelDescriptionGenerator.cs",
+                "uri": "file:///C:/Projetos/B3Avaliacao/B3Avaliacao/src/B3.Avaliacao.WebApi/Areas/HelpPage/ModelDescriptions/ModelDescriptionGenerator.cs",
                 "region": {
                   "startLine": 147,
                   "startColumn": 13,
@@ -766,7 +766,7 @@
             },
             {
               "physicalLocation": {
-                "uri": "file:///C:/Projetos/B3/AvaliacaoB3/src/B3.Avaliacao.WebApi/Areas/HelpPage/ModelDescriptions/ModelDescriptionGenerator.cs",
+                "uri": "file:///C:/Projetos/B3Avaliacao/B3Avaliacao/src/B3.Avaliacao.WebApi/Areas/HelpPage/ModelDescriptions/ModelDescriptionGenerator.cs",
                 "region": {
                   "startLine": 152,
                   "startColumn": 13,
@@ -777,7 +777,7 @@
             },
             {
               "physicalLocation": {
-                "uri": "file:///C:/Projetos/B3/AvaliacaoB3/src/B3.Avaliacao.WebApi/Areas/HelpPage/ModelDescriptions/ModelDescriptionGenerator.cs",
+                "uri": "file:///C:/Projetos/B3Avaliacao/B3Avaliacao/src/B3.Avaliacao.WebApi/Areas/HelpPage/ModelDescriptions/ModelDescriptionGenerator.cs",
                 "region": {
                   "startLine": 156,
                   "startColumn": 17,
@@ -788,7 +788,7 @@
             },
             {
               "physicalLocation": {
-                "uri": "file:///C:/Projetos/B3/AvaliacaoB3/src/B3.Avaliacao.WebApi/Areas/HelpPage/ModelDescriptions/ModelDescriptionGenerator.cs",
+                "uri": "file:///C:/Projetos/B3Avaliacao/B3Avaliacao/src/B3.Avaliacao.WebApi/Areas/HelpPage/ModelDescriptions/ModelDescriptionGenerator.cs",
                 "region": {
                   "startLine": 159,
                   "startColumn": 21,
@@ -799,7 +799,7 @@
             },
             {
               "physicalLocation": {
-                "uri": "file:///C:/Projetos/B3/AvaliacaoB3/src/B3.Avaliacao.WebApi/Areas/HelpPage/ModelDescriptions/ModelDescriptionGenerator.cs",
+                "uri": "file:///C:/Projetos/B3Avaliacao/B3Avaliacao/src/B3.Avaliacao.WebApi/Areas/HelpPage/ModelDescriptions/ModelDescriptionGenerator.cs",
                 "region": {
                   "startLine": 164,
                   "startColumn": 17,
@@ -810,7 +810,7 @@
             },
             {
               "physicalLocation": {
-                "uri": "file:///C:/Projetos/B3/AvaliacaoB3/src/B3.Avaliacao.WebApi/Areas/HelpPage/ModelDescriptions/ModelDescriptionGenerator.cs",
+                "uri": "file:///C:/Projetos/B3Avaliacao/B3Avaliacao/src/B3.Avaliacao.WebApi/Areas/HelpPage/ModelDescriptions/ModelDescriptionGenerator.cs",
                 "region": {
                   "startLine": 167,
                   "startColumn": 21,
@@ -821,7 +821,7 @@
             },
             {
               "physicalLocation": {
-                "uri": "file:///C:/Projetos/B3/AvaliacaoB3/src/B3.Avaliacao.WebApi/Areas/HelpPage/ModelDescriptions/ModelDescriptionGenerator.cs",
+                "uri": "file:///C:/Projetos/B3Avaliacao/B3Avaliacao/src/B3.Avaliacao.WebApi/Areas/HelpPage/ModelDescriptions/ModelDescriptionGenerator.cs",
                 "region": {
                   "startLine": 173,
                   "startColumn": 21,
@@ -832,7 +832,7 @@
             },
             {
               "physicalLocation": {
-                "uri": "file:///C:/Projetos/B3/AvaliacaoB3/src/B3.Avaliacao.WebApi/Areas/HelpPage/ModelDescriptions/ModelDescriptionGenerator.cs",
+                "uri": "file:///C:/Projetos/B3Avaliacao/B3Avaliacao/src/B3.Avaliacao.WebApi/Areas/HelpPage/ModelDescriptions/ModelDescriptionGenerator.cs",
                 "region": {
                   "startLine": 180,
                   "startColumn": 13,
@@ -843,7 +843,7 @@
             },
             {
               "physicalLocation": {
-                "uri": "file:///C:/Projetos/B3/AvaliacaoB3/src/B3.Avaliacao.WebApi/Areas/HelpPage/ModelDescriptions/ModelDescriptionGenerator.cs",
+                "uri": "file:///C:/Projetos/B3Avaliacao/B3Avaliacao/src/B3.Avaliacao.WebApi/Areas/HelpPage/ModelDescriptions/ModelDescriptionGenerator.cs",
                 "region": {
                   "startLine": 186,
                   "startColumn": 13,
@@ -854,7 +854,7 @@
             },
             {
               "physicalLocation": {
-                "uri": "file:///C:/Projetos/B3/AvaliacaoB3/src/B3.Avaliacao.WebApi/Areas/HelpPage/ModelDescriptions/ModelDescriptionGenerator.cs",
+                "uri": "file:///C:/Projetos/B3Avaliacao/B3Avaliacao/src/B3.Avaliacao.WebApi/Areas/HelpPage/ModelDescriptions/ModelDescriptionGenerator.cs",
                 "region": {
                   "startLine": 191,
                   "startColumn": 13,
@@ -865,7 +865,7 @@
             },
             {
               "physicalLocation": {
-                "uri": "file:///C:/Projetos/B3/AvaliacaoB3/src/B3.Avaliacao.WebApi/Areas/HelpPage/ModelDescriptions/ModelDescriptionGenerator.cs",
+                "uri": "file:///C:/Projetos/B3Avaliacao/B3Avaliacao/src/B3.Avaliacao.WebApi/Areas/HelpPage/ModelDescriptions/ModelDescriptionGenerator.cs",
                 "region": {
                   "startLine": 196,
                   "startColumn": 13,
@@ -898,13 +898,71 @@
           }
         },
         {
+          "ruleId": "S3267",
+          "level": "warning",
+          "message": "Loops should be simplified using the \"Where\" LINQ method",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Projetos/B3Avaliacao/B3Avaliacao/src/B3.Avaliacao.WebApi/Areas/HelpPage/SampleGeneration/HelpPageSampleGenerator.cs",
+                "region": {
+                  "startLine": 250,
+                  "startColumn": 43,
+                  "endLine": 250,
+                  "endColumn": 88
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Projetos/B3Avaliacao/B3Avaliacao/src/B3.Avaliacao.WebApi/Areas/HelpPage/SampleGeneration/HelpPageSampleGenerator.cs",
+                "region": {
+                  "startLine": 252,
+                  "startColumn": 25,
+                  "endLine": 252,
+                  "endColumn": 76
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": null
+            }
+          }
+        },
+        {
+          "ruleId": "S3458",
+          "level": "warning",
+          "message": "Remove this empty 'case' clause.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Projetos/B3Avaliacao/B3Avaliacao/src/B3.Avaliacao.WebApi/Areas/HelpPage/SampleGeneration/HelpPageSampleGenerator.cs",
+                "region": {
+                  "startLine": 268,
+                  "startColumn": 21,
+                  "endLine": 268,
+                  "endColumn": 51
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
           "ruleId": "S3776",
           "level": "warning",
           "message": "Refactor this method to reduce its Cognitive Complexity from 24 to the 15 allowed.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Projetos/B3/AvaliacaoB3/src/B3.Avaliacao.WebApi/Areas/HelpPage/HelpPageConfigurationExtensions.cs",
+                "uri": "file:///C:/Projetos/B3Avaliacao/B3Avaliacao/src/B3.Avaliacao.WebApi/Areas/HelpPage/HelpPageConfigurationExtensions.cs",
                 "region": {
                   "startLine": 254,
                   "startColumn": 29,
@@ -917,7 +975,7 @@
           "relatedLocations": [
             {
               "physicalLocation": {
-                "uri": "file:///C:/Projetos/B3/AvaliacaoB3/src/B3.Avaliacao.WebApi/Areas/HelpPage/HelpPageConfigurationExtensions.cs",
+                "uri": "file:///C:/Projetos/B3Avaliacao/B3Avaliacao/src/B3.Avaliacao.WebApi/Areas/HelpPage/HelpPageConfigurationExtensions.cs",
                 "region": {
                   "startLine": 257,
                   "startColumn": 13,
@@ -928,7 +986,7 @@
             },
             {
               "physicalLocation": {
-                "uri": "file:///C:/Projetos/B3/AvaliacaoB3/src/B3.Avaliacao.WebApi/Areas/HelpPage/HelpPageConfigurationExtensions.cs",
+                "uri": "file:///C:/Projetos/B3Avaliacao/B3Avaliacao/src/B3.Avaliacao.WebApi/Areas/HelpPage/HelpPageConfigurationExtensions.cs",
                 "region": {
                   "startLine": 259,
                   "startColumn": 17,
@@ -939,7 +997,7 @@
             },
             {
               "physicalLocation": {
-                "uri": "file:///C:/Projetos/B3/AvaliacaoB3/src/B3.Avaliacao.WebApi/Areas/HelpPage/HelpPageConfigurationExtensions.cs",
+                "uri": "file:///C:/Projetos/B3Avaliacao/B3Avaliacao/src/B3.Avaliacao.WebApi/Areas/HelpPage/HelpPageConfigurationExtensions.cs",
                 "region": {
                   "startLine": 265,
                   "startColumn": 21,
@@ -950,7 +1008,7 @@
             },
             {
               "physicalLocation": {
-                "uri": "file:///C:/Projetos/B3/AvaliacaoB3/src/B3.Avaliacao.WebApi/Areas/HelpPage/HelpPageConfigurationExtensions.cs",
+                "uri": "file:///C:/Projetos/B3Avaliacao/B3Avaliacao/src/B3.Avaliacao.WebApi/Areas/HelpPage/HelpPageConfigurationExtensions.cs",
                 "region": {
                   "startLine": 292,
                   "startColumn": 21,
@@ -961,7 +1019,7 @@
             },
             {
               "physicalLocation": {
-                "uri": "file:///C:/Projetos/B3/AvaliacaoB3/src/B3.Avaliacao.WebApi/Areas/HelpPage/HelpPageConfigurationExtensions.cs",
+                "uri": "file:///C:/Projetos/B3Avaliacao/B3Avaliacao/src/B3.Avaliacao.WebApi/Areas/HelpPage/HelpPageConfigurationExtensions.cs",
                 "region": {
                   "startLine": 293,
                   "startColumn": 25,
@@ -972,7 +1030,7 @@
             },
             {
               "physicalLocation": {
-                "uri": "file:///C:/Projetos/B3/AvaliacaoB3/src/B3.Avaliacao.WebApi/Areas/HelpPage/HelpPageConfigurationExtensions.cs",
+                "uri": "file:///C:/Projetos/B3Avaliacao/B3Avaliacao/src/B3.Avaliacao.WebApi/Areas/HelpPage/HelpPageConfigurationExtensions.cs",
                 "region": {
                   "startLine": 295,
                   "startColumn": 25,
@@ -983,7 +1041,7 @@
             },
             {
               "physicalLocation": {
-                "uri": "file:///C:/Projetos/B3/AvaliacaoB3/src/B3.Avaliacao.WebApi/Areas/HelpPage/HelpPageConfigurationExtensions.cs",
+                "uri": "file:///C:/Projetos/B3Avaliacao/B3Avaliacao/src/B3.Avaliacao.WebApi/Areas/HelpPage/HelpPageConfigurationExtensions.cs",
                 "region": {
                   "startLine": 300,
                   "startColumn": 21,
@@ -994,7 +1052,7 @@
             },
             {
               "physicalLocation": {
-                "uri": "file:///C:/Projetos/B3/AvaliacaoB3/src/B3.Avaliacao.WebApi/Areas/HelpPage/HelpPageConfigurationExtensions.cs",
+                "uri": "file:///C:/Projetos/B3Avaliacao/B3Avaliacao/src/B3.Avaliacao.WebApi/Areas/HelpPage/HelpPageConfigurationExtensions.cs",
                 "region": {
                   "startLine": 305,
                   "startColumn": 25,
@@ -1005,7 +1063,7 @@
             },
             {
               "physicalLocation": {
-                "uri": "file:///C:/Projetos/B3/AvaliacaoB3/src/B3.Avaliacao.WebApi/Areas/HelpPage/HelpPageConfigurationExtensions.cs",
+                "uri": "file:///C:/Projetos/B3Avaliacao/B3Avaliacao/src/B3.Avaliacao.WebApi/Areas/HelpPage/HelpPageConfigurationExtensions.cs",
                 "region": {
                   "startLine": 311,
                   "startColumn": 25,
@@ -1016,7 +1074,7 @@
             },
             {
               "physicalLocation": {
-                "uri": "file:///C:/Projetos/B3/AvaliacaoB3/src/B3.Avaliacao.WebApi/Areas/HelpPage/HelpPageConfigurationExtensions.cs",
+                "uri": "file:///C:/Projetos/B3Avaliacao/B3Avaliacao/src/B3.Avaliacao.WebApi/Areas/HelpPage/HelpPageConfigurationExtensions.cs",
                 "region": {
                   "startLine": 316,
                   "startColumn": 21,
@@ -1043,71 +1101,13 @@
           }
         },
         {
-          "ruleId": "S3267",
-          "level": "warning",
-          "message": "Loops should be simplified using the \"Where\" LINQ method",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Projetos/B3/AvaliacaoB3/src/B3.Avaliacao.WebApi/Areas/HelpPage/SampleGeneration/HelpPageSampleGenerator.cs",
-                "region": {
-                  "startLine": 250,
-                  "startColumn": 43,
-                  "endLine": 250,
-                  "endColumn": 88
-                }
-              }
-            }
-          ],
-          "relatedLocations": [
-            {
-              "physicalLocation": {
-                "uri": "file:///C:/Projetos/B3/AvaliacaoB3/src/B3.Avaliacao.WebApi/Areas/HelpPage/SampleGeneration/HelpPageSampleGenerator.cs",
-                "region": {
-                  "startLine": 252,
-                  "startColumn": 25,
-                  "endLine": 252,
-                  "endColumn": 76
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1,
-            "customProperties": {
-              "0": null
-            }
-          }
-        },
-        {
-          "ruleId": "S3458",
-          "level": "warning",
-          "message": "Remove this empty 'case' clause.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Projetos/B3/AvaliacaoB3/src/B3.Avaliacao.WebApi/Areas/HelpPage/SampleGeneration/HelpPageSampleGenerator.cs",
-                "region": {
-                  "startLine": 268,
-                  "startColumn": 21,
-                  "endLine": 268,
-                  "endColumn": 51
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
           "ruleId": "S1172",
           "level": "warning",
           "message": "Remove this unused method parameter 'sampleGenerator'.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Projetos/B3/AvaliacaoB3/src/B3.Avaliacao.WebApi/Areas/HelpPage/SampleGeneration/HelpPageSampleGenerator.cs",
+                "uri": "file:///C:/Projetos/B3Avaliacao/B3Avaliacao/src/B3.Avaliacao.WebApi/Areas/HelpPage/SampleGeneration/HelpPageSampleGenerator.cs",
                 "region": {
                   "startLine": 368,
                   "startColumn": 58,
@@ -1131,7 +1131,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Projetos/B3/AvaliacaoB3/src/B3.Avaliacao.WebApi/Areas/HelpPage/ModelDescriptions/ModelDescriptionGenerator.cs",
+                "uri": "file:///C:/Projetos/B3Avaliacao/B3Avaliacao/src/B3.Avaliacao.WebApi/Areas/HelpPage/ModelDescriptions/ModelDescriptionGenerator.cs",
                 "region": {
                   "startLine": 337,
                   "startColumn": 47,
@@ -1144,7 +1144,7 @@
           "relatedLocations": [
             {
               "physicalLocation": {
-                "uri": "file:///C:/Projetos/B3/AvaliacaoB3/src/B3.Avaliacao.WebApi/Areas/HelpPage/ModelDescriptions/ModelDescriptionGenerator.cs",
+                "uri": "file:///C:/Projetos/B3Avaliacao/B3Avaliacao/src/B3.Avaliacao.WebApi/Areas/HelpPage/ModelDescriptions/ModelDescriptionGenerator.cs",
                 "region": {
                   "startLine": 339,
                   "startColumn": 21,
@@ -1168,7 +1168,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Projetos/B3/AvaliacaoB3/src/B3.Avaliacao.WebApi/Areas/HelpPage/ModelDescriptions/ModelDescriptionGenerator.cs",
+                "uri": "file:///C:/Projetos/B3Avaliacao/B3Avaliacao/src/B3.Avaliacao.WebApi/Areas/HelpPage/ModelDescriptions/ModelDescriptionGenerator.cs",
                 "region": {
                   "startLine": 358,
                   "startColumn": 41,
@@ -1181,11 +1181,48 @@
           "relatedLocations": [
             {
               "physicalLocation": {
-                "uri": "file:///C:/Projetos/B3/AvaliacaoB3/src/B3.Avaliacao.WebApi/Areas/HelpPage/ModelDescriptions/ModelDescriptionGenerator.cs",
+                "uri": "file:///C:/Projetos/B3Avaliacao/B3Avaliacao/src/B3.Avaliacao.WebApi/Areas/HelpPage/ModelDescriptions/ModelDescriptionGenerator.cs",
                 "region": {
                   "startLine": 360,
                   "startColumn": 21,
                   "endLine": 360,
+                  "endColumn": 73
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": null
+            }
+          }
+        },
+        {
+          "ruleId": "S3267",
+          "level": "warning",
+          "message": "Loops should be simplified using the \"Where\" LINQ method",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Projetos/B3Avaliacao/B3Avaliacao/src/B3.Avaliacao.WebApi/Areas/HelpPage/ModelDescriptions/ModelDescriptionGenerator.cs",
+                "region": {
+                  "startLine": 403,
+                  "startColumn": 41,
+                  "endLine": 403,
+                  "endColumn": 103
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Projetos/B3Avaliacao/B3Avaliacao/src/B3.Avaliacao.WebApi/Areas/HelpPage/ModelDescriptions/ModelDescriptionGenerator.cs",
+                "region": {
+                  "startLine": 405,
+                  "startColumn": 21,
+                  "endLine": 405,
                   "endColumn": 73
                 }
               }
@@ -1205,7 +1242,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Projetos/B3/AvaliacaoB3/src/B3.Avaliacao.WebApi/Areas/HelpPage/SampleGeneration/ObjectGenerator.cs",
+                "uri": "file:///C:/Projetos/B3Avaliacao/B3Avaliacao/src/B3.Avaliacao.WebApi/Areas/HelpPage/SampleGeneration/ObjectGenerator.cs",
                 "region": {
                   "startLine": 439,
                   "startColumn": 86,
@@ -1220,50 +1257,13 @@
           }
         },
         {
-          "ruleId": "S3267",
-          "level": "warning",
-          "message": "Loops should be simplified using the \"Where\" LINQ method",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Projetos/B3/AvaliacaoB3/src/B3.Avaliacao.WebApi/Areas/HelpPage/ModelDescriptions/ModelDescriptionGenerator.cs",
-                "region": {
-                  "startLine": 403,
-                  "startColumn": 41,
-                  "endLine": 403,
-                  "endColumn": 103
-                }
-              }
-            }
-          ],
-          "relatedLocations": [
-            {
-              "physicalLocation": {
-                "uri": "file:///C:/Projetos/B3/AvaliacaoB3/src/B3.Avaliacao.WebApi/Areas/HelpPage/ModelDescriptions/ModelDescriptionGenerator.cs",
-                "region": {
-                  "startLine": 405,
-                  "startColumn": 21,
-                  "endLine": 405,
-                  "endColumn": 73
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1,
-            "customProperties": {
-              "0": null
-            }
-          }
-        },
-        {
           "ruleId": "S1905",
           "level": "warning",
           "message": "Remove this unnecessary cast to 'double'.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Projetos/B3/AvaliacaoB3/src/B3.Avaliacao.WebApi/Areas/HelpPage/SampleGeneration/ObjectGenerator.cs",
+                "uri": "file:///C:/Projetos/B3Avaliacao/B3Avaliacao/src/B3.Avaliacao.WebApi/Areas/HelpPage/SampleGeneration/ObjectGenerator.cs",
                 "region": {
                   "startLine": 413,
                   "startColumn": 49,
@@ -1284,7 +1284,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Projetos/B3/AvaliacaoB3/src/B3.Avaliacao.WebApi/Areas/HelpPage/SampleGeneration/ObjectGenerator.cs",
+                "uri": "file:///C:/Projetos/B3Avaliacao/B3Avaliacao/src/B3.Avaliacao.WebApi/Areas/HelpPage/SampleGeneration/ObjectGenerator.cs",
                 "region": {
                   "startLine": 417,
                   "startColumn": 48,

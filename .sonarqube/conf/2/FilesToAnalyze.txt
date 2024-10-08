@@ -1,3 +1,3 @@
-﻿C:\Projetos\B3\AvaliacaoB3\src\B3.Avaliacao.Core\ObjetosDominio\ExcecaoDominio.cs
-C:\Projetos\B3\AvaliacaoB3\src\B3.Avaliacao.Core\ObjetosDominio\Validacoes.cs
-C:\Projetos\B3\AvaliacaoB3\src\B3.Avaliacao.Core\Properties\AssemblyInfo.cs
+﻿C:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.Core\ObjetosDominio\ExcecaoDominio.cs
+C:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.Core\ObjetosDominio\Validacoes.cs
+C:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.Core\Properties\AssemblyInfo.cs

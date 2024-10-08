@@ -1,4 +1,5 @@
-y
-nC:\Projetos\B3\AvaliacaoB3\src\B3.Avaliacao.Dominio\obj\Debug\.NETFramework,Version=v4.8.AssemblyAttributes.csutf-8W
-NC:\Projetos\B3\AvaliacaoB3\src\B3.Avaliacao.Dominio\Properties\AssemblyInfo.csutf-8V
-MC:\Projetos\B3\AvaliacaoB3\src\B3.Avaliacao.Dominio\Entidades\Investimento.csutf-8
+‚
+wC:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.Dominio\obj\Debug\.NETFramework,Version=v4.8.AssemblyAttributes.csutf-8\
+SC:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.Dominio\Servicos\CalculaCdb.csutf-8`
+WC:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.Dominio\Properties\AssemblyInfo.csutf-8_
+VC:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.Dominio\Entidades\Investimento.csutf-8

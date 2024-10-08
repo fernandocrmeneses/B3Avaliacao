@@ -4,14 +4,14 @@
   <ProjectLanguage>C#</ProjectLanguage>
   <ProjectType>Product</ProjectType>
   <ProjectGuid>a41263c8-76ec-4934-982b-219fae89fb38</ProjectGuid>
-  <FullPath>C:\Projetos\B3\AvaliacaoB3\src\B3.Avaliacao.Core\B3.Avaliacao.Core.csproj</FullPath>
+  <FullPath>C:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.Core\B3.Avaliacao.Core.csproj</FullPath>
   <IsExcluded>false</IsExcluded>
   <AnalysisResults>
-    <AnalysisResult Id="FilesToAnalyze" Location="C:\Projetos\B3\AvaliacaoB3\.sonarqube\conf\2\FilesToAnalyze.txt" />
+    <AnalysisResult Id="FilesToAnalyze" Location="C:\Projetos\B3Avaliacao\B3Avaliacao\.sonarqube\conf\2\FilesToAnalyze.txt" />
   </AnalysisResults>
   <AnalysisSettings>
-    <Property Name="sonar.cs.roslyn.reportFilePaths">C:\Projetos\B3\AvaliacaoB3\.sonarqube\out\2\Issues.json</Property>
-    <Property Name="sonar.cs.analyzer.projectOutPaths">C:\Projetos\B3\AvaliacaoB3\.sonarqube\out\2</Property>
+    <Property Name="sonar.cs.roslyn.reportFilePaths">C:\Projetos\B3Avaliacao\B3Avaliacao\.sonarqube\out\2\Issues.json</Property>
+    <Property Name="sonar.cs.analyzer.projectOutPaths">C:\Projetos\B3Avaliacao\B3Avaliacao\.sonarqube\out\2</Property>
   </AnalysisSettings>
   <Configuration>Debug</Configuration>
   <Platform>AnyCPU</Platform>

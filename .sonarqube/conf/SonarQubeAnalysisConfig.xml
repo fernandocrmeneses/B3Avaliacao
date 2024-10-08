@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <AnalysisConfig xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.sonarsource.com/msbuild/integration/2015/1">
-  <SonarConfigDir>C:\Projetos\B3\AvaliacaoB3\.sonarqube\conf</SonarConfigDir>
-  <SonarOutputDir>C:\Projetos\B3\AvaliacaoB3\.sonarqube\out</SonarOutputDir>
-  <SonarBinDir>C:\Projetos\B3\AvaliacaoB3\.sonarqube\bin</SonarBinDir>
-  <SonarScannerWorkingDirectory>C:\Projetos\B3\AvaliacaoB3</SonarScannerWorkingDirectory>
+  <SonarConfigDir>C:\Projetos\B3Avaliacao\B3Avaliacao\.sonarqube\conf</SonarConfigDir>
+  <SonarOutputDir>C:\Projetos\B3Avaliacao\B3Avaliacao\.sonarqube\out</SonarOutputDir>
+  <SonarBinDir>C:\Projetos\B3Avaliacao\B3Avaliacao\.sonarqube\bin</SonarBinDir>
+  <SonarScannerWorkingDirectory>C:\Projetos\B3Avaliacao\B3Avaliacao</SonarScannerWorkingDirectory>
   <JavaExePath>C:\Users\ferna\.sonar\cache\4bafe2e94439c8193fc8c68247cb0dbaf4e80265b903288f63f128304f129bbe\OpenJDK17U-jre_x64_windows_hotspot_17.0.11_9.zip_extracted\jdk-17.0.11+9-jre/bin/java.exe</JavaExePath>
   <ScanAllAnalysis>true</ScanAllAnalysis>
   <HasBeginStepCommandLineCredentials>true</HasBeginStepCommandLineCredentials>
@@ -15,7 +15,7 @@
     <ConfigSetting Id="TfsUri" />
     <ConfigSetting Id="VsCoverageConverterToolPath" />
     <ConfigSetting Id="UnchangedFilesPath" />
-    <ConfigSetting Id="sonar.pullrequest.cache.basepath" Value="C:\Projetos\B3\AvaliacaoB3" />
+    <ConfigSetting Id="sonar.pullrequest.cache.basepath" Value="C:\Projetos\B3Avaliacao\B3Avaliacao" />
     <ConfigSetting Id="settings.file.path" Value="C:\SonarScanner\SonarQube.Analysis.xml" />
   </AdditionalConfig>
   <ServerSettings>
@@ -147,8 +147,8 @@
   <AnalyzersSettings>
     <AnalyzerSettings>
       <Language>cs</Language>
-      <RulesetPath>C:\Projetos\B3\AvaliacaoB3\.sonarqube\conf\Sonar-cs.ruleset</RulesetPath>
-      <DeactivatedRulesetPath>C:\Projetos\B3\AvaliacaoB3\.sonarqube\conf\Sonar-cs-none.ruleset</DeactivatedRulesetPath>
+      <RulesetPath>C:\Projetos\B3Avaliacao\B3Avaliacao\.sonarqube\conf\Sonar-cs.ruleset</RulesetPath>
+      <DeactivatedRulesetPath>C:\Projetos\B3Avaliacao\B3Avaliacao\.sonarqube\conf\Sonar-cs-none.ruleset</DeactivatedRulesetPath>
       <AnalyzerPlugins>
         <AnalyzerPlugin Key="csharp" Version="9.32.0.97167" StaticResourceName="SonarAnalyzer-9.32.0.97167.zip">
           <AssemblyPaths>
@@ -172,13 +172,13 @@
         </AnalyzerPlugin>
       </AnalyzerPlugins>
       <AdditionalFilePaths>
-        <Path>C:\Projetos\B3\AvaliacaoB3\.sonarqube\conf\cs\SonarLint.xml</Path>
+        <Path>C:\Projetos\B3Avaliacao\B3Avaliacao\.sonarqube\conf\cs\SonarLint.xml</Path>
       </AdditionalFilePaths>
     </AnalyzerSettings>
     <AnalyzerSettings>
       <Language>vbnet</Language>
-      <RulesetPath>C:\Projetos\B3\AvaliacaoB3\.sonarqube\conf\Sonar-vbnet.ruleset</RulesetPath>
-      <DeactivatedRulesetPath>C:\Projetos\B3\AvaliacaoB3\.sonarqube\conf\Sonar-vbnet-none.ruleset</DeactivatedRulesetPath>
+      <RulesetPath>C:\Projetos\B3Avaliacao\B3Avaliacao\.sonarqube\conf\Sonar-vbnet.ruleset</RulesetPath>
+      <DeactivatedRulesetPath>C:\Projetos\B3Avaliacao\B3Avaliacao\.sonarqube\conf\Sonar-vbnet-none.ruleset</DeactivatedRulesetPath>
       <AnalyzerPlugins>
         <AnalyzerPlugin Key="csharp" Version="9.32.0.97167" StaticResourceName="SonarAnalyzer-9.32.0.97167.zip">
           <AssemblyPaths>
@@ -202,7 +202,7 @@
         </AnalyzerPlugin>
       </AnalyzerPlugins>
       <AdditionalFilePaths>
-        <Path>C:\Projetos\B3\AvaliacaoB3\.sonarqube\conf\vbnet\SonarLint.xml</Path>
+        <Path>C:\Projetos\B3Avaliacao\B3Avaliacao\.sonarqube\conf\vbnet\SonarLint.xml</Path>
       </AdditionalFilePaths>
     </AnalyzerSettings>
   </AnalyzersSettings>

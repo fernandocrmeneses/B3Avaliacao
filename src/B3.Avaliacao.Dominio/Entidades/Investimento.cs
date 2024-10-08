@@ -18,11 +18,35 @@ namespace B3.Avaliacao.Dominio.Entidades
             Meses = meses;
         }
 
+        /// <summary>
+        /// Se por ventura exista um acesso a camada de domain, e os valores informados não sejam correspontes a regra, será utilizado
+        /// a tecnica de fast fail.
+        /// </summary>
+        /// <param name="valorMonetario">Valor monetario inserido pelo usuario.</param>
+        /// <param name="meses">Meses inseridos pelo usuario.</param>
         private static void Validadores(decimal valorMonetario, int meses)
         {
-            Validacoes.ValidarSeValorForMenor(valorMonetario, 0, "Valor não pode ser negativo");
-            Validacoes.ValidarSeValorForMenor(meses, 1, "Os meses devem ser maiores que 1");
+            Validacoes.ValidarSeValorForMenor(valorMonetario, 0, "Valor não pode ser negativo.");
+            Validacoes.ValidarSeValorForMenor(meses, 1, "Os meses devem ser maiores que 1.");
 
+        }
+
+        /// <summary>
+        /// Obtem o valor monetario inserido pelo usuario, após a tratativa e validação no construtor Investimento().
+        /// </summary>
+        /// <returns>Retorna o valor monetario.</returns>
+        public decimal ObtemValorMonetario()
+        {
+            return ValorMonetario;
+        }
+
+        /// <summary>
+        /// Obtem os meses inserido pelo usuario, após a tratativa e validação no construtor Investimento().
+        /// </summary>
+        /// <returns>Retorna a quantidade de meses.</returns>
+        public int ObtemMeses()
+        {
+            return Meses;
         }
     }
 }

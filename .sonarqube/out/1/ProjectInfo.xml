@@ -3,10 +3,10 @@
   <ProjectName>B3.Avaliacao.Web</ProjectName>
   <ProjectType>Product</ProjectType>
   <ProjectGuid>6e15e0e2-9a09-468f-adf6-9dc6036f4185</ProjectGuid>
-  <FullPath>C:\Projetos\B3\AvaliacaoB3\src\B3.Avaliacao.Web\B3.Avaliacao.Web.esproj</FullPath>
+  <FullPath>C:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.Web\B3.Avaliacao.Web.esproj</FullPath>
   <IsExcluded>false</IsExcluded>
   <AnalysisResults>
-    <AnalysisResult Id="FilesToAnalyze" Location="C:\Projetos\B3\AvaliacaoB3\.sonarqube\conf\1\FilesToAnalyze.txt" />
+    <AnalysisResult Id="FilesToAnalyze" Location="C:\Projetos\B3Avaliacao\B3Avaliacao\.sonarqube\conf\1\FilesToAnalyze.txt" />
   </AnalysisResults>
   <AnalysisSettings />
   <Configuration>Debug</Configuration>

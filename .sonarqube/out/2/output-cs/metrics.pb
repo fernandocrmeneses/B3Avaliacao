@@ -1,7 +1,7 @@
-h
-QC:\Projetos\B3\AvaliacaoB3\src\B3.Avaliacao.Core\ObjetosDominio\ExcecaoDominio.cs 8r	
-r
-MC:\Projetos\B3\AvaliacaoB3\src\B3.Avaliacao.Core\ObjetosDominio\Validacoes.cs 8r	
-x‚o
-KC:\Projetos\B3\AvaliacaoB3\src\B3.Avaliacao.Core\Properties\AssemblyInfo.csj !"r	
-#$
+{
+VC:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.Core\ObjetosDominio\Validacoes.cs 8r	
+x‚x
+TC:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.Core\Properties\AssemblyInfo.csj !"r	
+#$q
+ZC:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.Core\ObjetosDominio\ExcecaoDominio.cs 8r	
+

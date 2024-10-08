@@ -1,2 +1,3 @@
-﻿C:\Projetos\B3\AvaliacaoB3\src\B3.Avaliacao.Dominio\Entidades\Investimento.cs
-C:\Projetos\B3\AvaliacaoB3\src\B3.Avaliacao.Dominio\Properties\AssemblyInfo.cs
+﻿C:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.Dominio\Entidades\Investimento.cs
+C:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.Dominio\Properties\AssemblyInfo.cs
+C:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.Dominio\Servicos\CalculaCdb.cs

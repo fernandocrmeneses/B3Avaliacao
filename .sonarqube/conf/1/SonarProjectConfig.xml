@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SonarProjectConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.sonarsource.com/msbuild/analyzer/2021/1">
-  <AnalysisConfigPath>C:\Projetos\B3\AvaliacaoB3\.sonarqube\conf\SonarQubeAnalysisConfig.xml</AnalysisConfigPath>
-  <ProjectPath>C:\Projetos\B3\AvaliacaoB3\src\B3.Avaliacao.Web\B3.Avaliacao.Web.esproj</ProjectPath>
-  <FilesToAnalyzePath>C:\Projetos\B3\AvaliacaoB3\.sonarqube\conf\1\FilesToAnalyze.txt</FilesToAnalyzePath>
-  <OutPath>C:\Projetos\B3\AvaliacaoB3\.sonarqube\out\1</OutPath>
+  <AnalysisConfigPath>C:\Projetos\B3Avaliacao\B3Avaliacao\.sonarqube\conf\SonarQubeAnalysisConfig.xml</AnalysisConfigPath>
+  <ProjectPath>C:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.Web\B3.Avaliacao.Web.esproj</ProjectPath>
+  <FilesToAnalyzePath>C:\Projetos\B3Avaliacao\B3Avaliacao\.sonarqube\conf\1\FilesToAnalyze.txt</FilesToAnalyzePath>
+  <OutPath>C:\Projetos\B3Avaliacao\B3Avaliacao\.sonarqube\out\1</OutPath>
   <ProjectType>Product</ProjectType>
 </SonarProjectConfig>

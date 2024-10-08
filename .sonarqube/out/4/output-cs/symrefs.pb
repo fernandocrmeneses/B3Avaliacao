@@ -1,2 +1,2 @@
-T
-RC:\Projetos\B3\AvaliacaoB3\src\B3.Avaliacao.Application\Properties\AssemblyInfo.cs
+]
+[C:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.Application\Properties\AssemblyInfo.cs
