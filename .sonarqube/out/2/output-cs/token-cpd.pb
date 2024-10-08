@@ -1,57 +1,4 @@
-¾
-VC:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.Core\ObjetosDominio\Validacoes.cs
-	namespace 	
-B3
- 
-. 
-	Avaliacao 
-. 
-Core 
-. 
-ObjetosDominio *
-{ 
-public		 
-
-static		 
-class		 
-
-Validacoes		 "
-{
-
- 
-public 
-static 
-void "
-ValidarSeValorForMenor 1
-(1 2
-decimal2 9
-valor: ?
-,? @
-decimalA H
-valorMinimoI T
-,T U
-stringV \
-mensagem] e
-)e f
-{ 	
-if 
-( 
-valor 
-< 
-valorMinimo #
-)# $
-{ 
-throw 
-new 
-DominioException *
-(* +
-mensagem+ 3
-)3 4
-;4 5
-} 
-} 	
-} 
-} ÿ
+ÿ
 TC:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.Core\Properties\AssemblyInfo.cs
 [ 
 assembly 	
@@ -213,4 +160,57 @@ ZC:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.Core\ObjetosDominio\Exceca
 }
  
 } 
-} 
+} ¾
+VC:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.Core\ObjetosDominio\Validacoes.cs
+	namespace 	
+B3
+ 
+. 
+	Avaliacao 
+. 
+Core 
+. 
+ObjetosDominio *
+{ 
+public		 
+
+static		 
+class		 
+
+Validacoes		 "
+{
+
+ 
+public 
+static 
+void "
+ValidarSeValorForMenor 1
+(1 2
+decimal2 9
+valor: ?
+,? @
+decimalA H
+valorMinimoI T
+,T U
+stringV \
+mensagem] e
+)e f
+{ 	
+if 
+( 
+valor 
+< 
+valorMinimo #
+)# $
+{ 
+throw 
+new 
+DominioException *
+(* +
+mensagem+ 3
+)3 4
+;4 5
+} 
+} 	
+} 
+} 

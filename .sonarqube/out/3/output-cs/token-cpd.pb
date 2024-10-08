@@ -1,92 +1,4 @@
-‰
-SC:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.Dominio\Servicos\CalculaCdb.cs
-	namespace 	
-B3
- 
-. 
-	Avaliacao 
-. 
-Dominio 
-. 
-Servicos '
-{		 
-public
-
- 
-
-class
-
- 
-
-CalculaCdb
-
- 
-{ 
-public 
-const 
-int 
-TB 
-= 
-$num !
-;! "
-public 
-const 
-float 
-CDI 
-=  
-$num! %
-;% &
-private 
-decimal 
-
-ValorFinal "
-{# $
-get% (
-;( )
-set* -
-;- .
-}/ 0
-private 
-decimal 
-ValorInicial $
-{% &
-get' *
-;* +
-set, /
-;/ 0
-}1 2
-public 
-
-CalculaCdb 
-( 
-decimal !
-valorInicial" .
-,. /
-decimal0 7
-
-valorFinal8 B
-)B C
-{ 	
-
-ValorFinal 
-= 
-
-valorFinal #
-;# $
-ValorInicial 
-= 
-valorInicial '
-;' (
-} 	
-public 
-void 
-CalculaRendimento %
-(% &
-)& '
-{ 	
-} 	
-}88 
-}99 ‚
+‚
 WC:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.Dominio\Properties\AssemblyInfo.cs
 [ 
 assembly 	
@@ -212,7 +124,7 @@ ComVisible 
 ($$ 
 $str$$ (
 )$$( )
-]$$) *¤
+]$$) *˜
 VC:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.Dominio\Entidades\Investimento.cs
 	namespace 	
 B3
@@ -279,42 +191,63 @@ VC:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.Dominio\Entidades\Investim
 meses 
 ; 
 } 	
-private 
-static 
-void 
-Validadores '
-(' (
-decimal( /
-valorMonetario0 >
-,> ?
-int@ C
-mesesD I
-)I J
-{ 	
+private 
+static 
+void 
+Validadores '
+(' (
+decimal( /
+valorMonetario0 >
+,> ?
+int@ C
+mesesD I
+)I J
+{ 	
 
-Validacoes 
-. "
-ValidarSeValorForMenor -
-(- .
-valorMonetario. <
-,< =
-$num> ?
-,? @
-$strA ^
-)^ _
-;_ `
+Validacoes 
+. "
+ValidarSeValorForMenor -
+(- .
+valorMonetario. <
+,< =
+$num> ?
+,? @
+$strA _
+)_ `
+;` a
 
-Validacoes 
-. "
-ValidarSeValorForMenor -
-(- .
-meses. 3
-,3 4
-$num5 6
-,6 7
-$str8 Z
-)Z [
-;[ \
-} 	
-} 
-} 
+Validacoes 
+. "
+ValidarSeValorForMenor -
+(- .
+meses. 3
+,3 4
+$num5 6
+,6 7
+$str8 [
+)[ \
+;\ ]
+}   	
+public&& 
+decimal&& 
+ObtemValorMonetario&& *
+(&&* +
+)&&+ ,
+{'' 	
+return(( 
+ValorMonetario(( !
+;((! "
+})) 	
+public// 
+int// 
+
+ObtemMeses// 
+(// 
+)// 
+{00 	
+return11 
+Meses11 
+;11 
+}22 	
+}33 
+}44 

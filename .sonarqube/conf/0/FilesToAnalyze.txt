@@ -1,4 +1,5 @@
-﻿C:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.WebApi\App_Start\BundleConfig.cs
+﻿C:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.WebApi\Application\CalculaCdb.cs
+C:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.WebApi\App_Start\BundleConfig.cs
 C:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.WebApi\App_Start\FilterConfig.cs
 C:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.WebApi\App_Start\RouteConfig.cs
 C:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.WebApi\App_Start\WebApiConfig.cs

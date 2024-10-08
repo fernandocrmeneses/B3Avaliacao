@@ -1,7 +1,5 @@
 {
 WC:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.Dominio\Properties\AssemblyInfo.csj !"r	
-#$é
-SC:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.Dominio\Servicos\CalculaCdb.cs 8j!#&()*,/12347r	
-89ÇÉ
-VC:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.Dominio\Entidades\Investimento.cs 8r	
-Ç
+#$ù
+VC:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.Dominio\Entidades\Investimento.cs 8j"#$%+,-.r!	
+ &'()/01234Ç(1

@@ -1,1 +1,13 @@
-﻿C:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.Application\Properties\AssemblyInfo.cs
+﻿C:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.Testes\TesteUnidade.cs
+C:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.Testes\Properties\AssemblyInfo.cs
+C:\Projetos\B3Avaliacao\B3Avaliacao\packages\MSTest.TestAdapter.2.2.10\build\_common\pt-BR\Microsoft.TestPlatform.AdapterUtilities.resources.dll
+C:\Projetos\B3Avaliacao\B3Avaliacao\packages\MSTest.TestAdapter.2.2.10\build\_common\pt-BR\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Projetos\B3Avaliacao\B3Avaliacao\packages\MSTest.TestAdapter.2.2.10\build\_common\pt-BR\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll
+C:\Projetos\B3Avaliacao\B3Avaliacao\packages\MSTest.TestAdapter.2.2.10\build\_common\pt-BR\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll
+C:\Projetos\B3Avaliacao\B3Avaliacao\packages\MSTest.TestAdapter.2.2.10\build\_common\pt-BR\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Projetos\B3Avaliacao\B3Avaliacao\packages\MSTest.TestAdapter.2.2.10\build\_common\pt-BR\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+C:\Projetos\B3Avaliacao\B3Avaliacao\packages\MSTest.TestAdapter.2.2.10\build\_common\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Projetos\B3Avaliacao\B3Avaliacao\packages\MSTest.TestAdapter.2.2.10\build\_common\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Projetos\B3Avaliacao\B3Avaliacao\packages\MSTest.TestAdapter.2.2.10\build\net46\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Projetos\B3Avaliacao\B3Avaliacao\packages\MSTest.TestAdapter.2.2.10\build\net46\Microsoft.TestPlatform.AdapterUtilities.dll
+C:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.Testes\packages.config

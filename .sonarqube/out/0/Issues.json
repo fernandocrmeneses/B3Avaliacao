@@ -18,7 +18,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Projetos/B3Avaliacao/B3Avaliacao/src/B3.Avaliacao.WebApi/App_Start/BundleConfig.cs",
+                "uri": "file:///C:/Projetos/B3Avaliacao/B3Avaliacao/src/B3.Avaliacao.WebApi/App_Start/FilterConfig.cs",
                 "region": {
                   "startLine": 6,
                   "startColumn": 18,
@@ -39,7 +39,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Projetos/B3Avaliacao/B3Avaliacao/src/B3.Avaliacao.WebApi/App_Start/FilterConfig.cs",
+                "uri": "file:///C:/Projetos/B3Avaliacao/B3Avaliacao/src/B3.Avaliacao.WebApi/App_Start/BundleConfig.cs",
                 "region": {
                   "startLine": 6,
                   "startColumn": 18,
@@ -241,27 +241,6 @@
           }
         },
         {
-          "ruleId": "S1186",
-          "level": "warning",
-          "message": "Add a nested comment explaining why this method is empty, throw a 'NotSupportedException' or complete the implementation.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Projetos/B3Avaliacao/B3Avaliacao/src/B3.Avaliacao.WebApi/Controllers/ValuesController.cs",
-                "region": {
-                  "startLine": 25,
-                  "startColumn": 21,
-                  "endLine": 25,
-                  "endColumn": 25
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
           "ruleId": "S2933",
           "level": "warning",
           "message": "Make '_documentationProvider' 'readonly'.",
@@ -274,6 +253,27 @@
                   "startColumn": 51,
                   "endLine": 87,
                   "endColumn": 73
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1186",
+          "level": "warning",
+          "message": "Add a nested comment explaining why this method is empty, throw a 'NotSupportedException' or complete the implementation.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Projetos/B3Avaliacao/B3Avaliacao/src/B3.Avaliacao.WebApi/Controllers/ValuesController.cs",
+                "region": {
+                  "startLine": 25,
+                  "startColumn": 21,
+                  "endLine": 25,
+                  "endColumn": 25
                 }
               }
             }
@@ -1101,30 +1101,6 @@
           }
         },
         {
-          "ruleId": "S1172",
-          "level": "warning",
-          "message": "Remove this unused method parameter 'sampleGenerator'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Projetos/B3Avaliacao/B3Avaliacao/src/B3.Avaliacao.WebApi/Areas/HelpPage/SampleGeneration/HelpPageSampleGenerator.cs",
-                "region": {
-                  "startLine": 368,
-                  "startColumn": 58,
-                  "endLine": 368,
-                  "endColumn": 97
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1,
-            "customProperties": {
-              "IsRemovable": "True"
-            }
-          }
-        },
-        {
           "ruleId": "S3267",
           "level": "warning",
           "message": "Loops should be simplified using the \"Where\" LINQ method",
@@ -1195,6 +1171,30 @@
             "warningLevel": 1,
             "customProperties": {
               "0": null
+            }
+          }
+        },
+        {
+          "ruleId": "S1172",
+          "level": "warning",
+          "message": "Remove this unused method parameter 'sampleGenerator'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Projetos/B3Avaliacao/B3Avaliacao/src/B3.Avaliacao.WebApi/Areas/HelpPage/SampleGeneration/HelpPageSampleGenerator.cs",
+                "region": {
+                  "startLine": 368,
+                  "startColumn": 58,
+                  "endLine": 368,
+                  "endColumn": 97
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "IsRemovable": "True"
             }
           }
         },

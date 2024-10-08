@@ -1,4 +1,10 @@
-á
+X
+VC:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.WebApi\Properties\AssemblyInfo.csd
+JC:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.WebApi\Global.asax.cs
+
+ "
+
+ (á
 [C:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.WebApi\Controllers\ValuesController.cs
 
 
@@ -28,8 +34,7 @@ YC:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.WebApi\Controllers\HomeCon
 
 		 
 
- !X
-VC:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.WebApi\Properties\AssemblyInfo.csþ
+ !þ
 fC:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.WebApi\Areas\HelpPage\XmlDocumentationProvider.cs
 
  )4
@@ -132,27 +137,7 @@ fC:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.WebApi\Areas\HelpPage\XmlD
 •• *––s „
 
 ••E F
-••V W¨
-oC:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.WebApi\Areas\HelpPage\ModelDescriptions\ModelNameHelper.cs
-
- )
- )J V<
-/ 34 8 # # '* .(
- 1 "D V )
-  !! 
-  ) 4
- '- =2
- & " 1? NT c
- *	x ‰
-E FW X|
-nC:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.WebApi\Areas\HelpPage\SampleGeneration\SampleDirection.cs
-
- ¬
-rC:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.WebApi\Areas\HelpPage\ModelDescriptions\ModelNameAttribute.cs
-
-		 *
-) - 
-  °	
+••V W°	
 pC:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.WebApi\Areas\HelpPage\SampleGeneration\HelpPageSampleKey.cs"
  "
 ‡‡ 
@@ -226,12 +211,35 @@ pC:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.WebApi\Areas\HelpPage\Samp
 žž 
 ¢¢ 
 ¦¦ 
-©© d
-JC:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.WebApi\Global.asax.cs
+©© Ã
+iC:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.WebApi\Areas\HelpPage\SampleGeneration\TextSample.cs
+  & 0
+
+
+! %  <
+  $ (2 6 "" 
 
- "
+ #
++ . "
+  , 1
 
- (Ï,
+ '
+
+   'Æ
+lC:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.WebApi\Areas\HelpPage\SampleGeneration\InvalidSample.cs
+  ) 6
+
+
+$ 0  '<
+ " $ 0: F "" 
+
+ #
++ ." %
+  4 9
+
+ '
+
+   'Ï,
 nC:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.WebApi\Areas\HelpPage\SampleGeneration\ObjectGenerator.csÊ
   
 ­­ 
@@ -742,43 +750,17 @@ nC:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.WebApi\Areas\HelpPage\Samp
 ÂÂ (--1 ?
 
 ÂÂ. 2
-ÄÄ) -™
+ÄÄ) -ˆ
+zC:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.WebApi\Areas\HelpPage\ModelDescriptions\SimpleTypeModelDescription.cs
+
+ +™
 sC:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.WebApi\Areas\HelpPage\ModelDescriptions\ParameterAnnotation.cs
 
  $
 
  ,
 
-		 #ˆ
-zC:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.WebApi\Areas\HelpPage\ModelDescriptions\SimpleTypeModelDescription.cs
-
- +Æ
-lC:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.WebApi\Areas\HelpPage\SampleGeneration\InvalidSample.cs
-  ) 6
-
-
-$ 0  '<
- " $ 0: F "" 
-
- #
-+ ." %
-  4 9
-
- '
-
-   'Ä
-jC:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.WebApi\Areas\HelpPage\SampleGeneration\ImageSample.cs
-  ' 2
-" %  <
-  $ '1 4!! && 
-
- #
-+ .  #
-  + 0
-
- '
-
-$$ 'à
+		 #à
 vC:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.WebApi\Areas\HelpPage\SampleGeneration\HelpPageSampleGenerator.cs6
  (2 I>> 1
 ¹¹ 5
@@ -1086,21 +1068,7 @@ tC:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.WebApi\Areas\HelpPage\Mode
 
  
 
-  /Ã
-iC:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.WebApi\Areas\HelpPage\SampleGeneration\TextSample.cs
-  & 0
-
-
-! %  <
-  $ (2 6 "" 
-
- #
-+ . "
-  , 1
-
- '
-
-   'Å
+  /Å
 eC:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.WebApi\Areas\HelpPage\Models\HelpPageApiModel.cs
 
  !
@@ -1121,7 +1089,34 @@ eC:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.WebApi\Areas\HelpPage\Mode
 WW3 K44 /DD /
 WW] mYYF V__D T<
 YY( CZZ +\\ 2bb +cc /ee 6
-__' A`` *bb. HÛ
+__' A`` *bb. H|
+nC:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.WebApi\Areas\HelpPage\SampleGeneration\SampleDirection.cs
+
+ Ä
+jC:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.WebApi\Areas\HelpPage\SampleGeneration\ImageSample.cs
+  ' 2
+" %  <
+  $ '1 4!! && 
+
+ #
++ .  #
+  + 0
+
+ '
+
+$$ '¨
+oC:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.WebApi\Areas\HelpPage\ModelDescriptions\ModelNameHelper.cs
+
+ )
+ )J V<
+/ 34 8 # # '* .(
+ 1 "D V )
+  !! 
+  ) 4
+ '- =2
+ & " 1? NT c
+ *	x ‰
+E FW XÛ
 yC:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.WebApi\Areas\HelpPage\ModelDescriptions\ModelDescriptionGenerator.cs
 
  *
@@ -1457,7 +1452,12 @@ yC:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.WebApi\Areas\HelpPage\Mode
 ¸¸' =
 ¾¾  6
 ¾¾= S
-ÀÀ )¢
+ÀÀ )¬
+rC:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.WebApi\Areas\HelpPage\ModelDescriptions\ModelNameAttribute.cs
+
+		 *
+) - 
+  ¢
 pC:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.WebApi\Areas\HelpPage\ModelDescriptions\ModelDescription.cs
 
  *
@@ -1468,64 +1468,14 @@ pC:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.WebApi\Areas\HelpPage\Mode
 
  
 
- ¦
-tC:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.WebApi\Areas\HelpPage\ModelDescriptions\EnumValueDescription.cs
-
- %
-
- #
-
- 
-
-		 œ
-xC:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.WebApi\Areas\HelpPage\ModelDescriptions\EnumTypeModelDescription.cs
-
- )
-0 6
-
- ¢
+ ¢
 |C:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.WebApi\Areas\HelpPage\ModelDescriptions\KeyValuePairModelDescription.cs
 
  -
 
   3
 
-  5¹
-{C:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.WebApi\Areas\HelpPage\ModelDescriptions\IModelDocumentationProvider.cs
-
- 0
-
- 
-
-+ 1
-
-
-
- 
-
-
-
-% )ˆ
-zC:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.WebApi\Areas\HelpPage\ModelDescriptions\DictionaryModelDescription.cs
-
- +”
-zC:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.WebApi\Areas\HelpPage\ModelDescriptions\CollectionModelDescription.cs
-
- +
-
-  2Ÿ
-{C:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.WebApi\Areas\HelpPage\ModelDescriptions\ComplexTypeModelDescription.cs
-
- ,
-0 :		 ¢
-fC:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.WebApi\Areas\HelpPage\HelpPageAreaRegistration.cs
-
- )
-
- '
-
- )
-B I ã!
+  5ã!
 mC:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.WebApi\Areas\HelpPage\HelpPageConfigurationExtensions.cs
 
  7
@@ -1928,7 +1878,49 @@ mC:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.WebApi\Areas\HelpPage\Help
 
 ÌÌ '
 ÍÍ 
-ÏÏ+ 8¤
+ÏÏ+ 8Ÿ
+{C:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.WebApi\Areas\HelpPage\ModelDescriptions\ComplexTypeModelDescription.cs
+
+ ,
+0 :		 ”
+zC:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.WebApi\Areas\HelpPage\ModelDescriptions\CollectionModelDescription.cs
+
+ +
+
+  2¹
+{C:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.WebApi\Areas\HelpPage\ModelDescriptions\IModelDocumentationProvider.cs
+
+ 0
+
+ 
+
++ 1
+
+
+
+ 
+
+
+
+% )¦
+tC:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.WebApi\Areas\HelpPage\ModelDescriptions\EnumValueDescription.cs
+
+ %
+
+ #
+
+ 
+
+		 œ
+xC:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.WebApi\Areas\HelpPage\ModelDescriptions\EnumTypeModelDescription.cs
+
+ )
+0 6
+
+ ˆ
+zC:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.WebApi\Areas\HelpPage\ModelDescriptions\DictionaryModelDescription.cs
+
+ +¤
 hC:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.WebApi\Areas\HelpPage\Controllers\HelpController.cs
 
  
@@ -1945,7 +1937,15 @@ hC:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.WebApi\Areas\HelpPage\Cont
 00 )
 001 :22& /66J S
 44* C66 -
-55! 166Y i88  0–
+55! 166Y i88  0¢
+fC:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.WebApi\Areas\HelpPage\HelpPageAreaRegistration.cs
+
+ )
+
+ '
+
+ )
+B I –
 fC:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.WebApi\Areas\HelpPage\App_Start\HelpPageConfig.cs
 
  &
@@ -1996,4 +1996,17 @@ UC:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.WebApi\App_Start\BundleCon
  
 
 		 *2
-		< C    
+		< C    Ó
+UC:\Projetos\B3Avaliacao\B3Avaliacao\src\B3.Avaliacao.WebApi\Application\CalculaCdb.cs
+
+ 
+
+
+
+ 
+
+ 
+ " 
+ $ 
+" . '
+8 B #
