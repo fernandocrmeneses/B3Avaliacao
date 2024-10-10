@@ -1,4 +1,5 @@
-﻿using System;
+﻿using B3.Avaliacao.WebApi.Application;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -13,6 +14,8 @@ namespace B3.Avaliacao.WebApi
     {
         protected void Application_Start()
         {
+            App_Start.DependencyResolver.Register<ICalculoInvestimentoCdb, CalculoInvestimentoCdb>();
+            
             AreaRegistration.RegisterAllAreas();
             GlobalConfiguration.Configure(WebApiConfig.Register);
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);

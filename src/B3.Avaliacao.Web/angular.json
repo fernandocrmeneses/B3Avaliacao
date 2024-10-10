@@ -55,12 +55,15 @@
         },
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
+          "proxyConfig": "proxy.conf.json",
           "configurations": {
             "production": {
-              "buildTarget": "B3.Avaliacao.Web:build:production"
+              "buildTarget": "B3.Avaliacao.Web:build:production",
+              "proxyConfig": "proxy.conf.json"
             },
             "development": {
-              "buildTarget": "B3.Avaliacao.Web:build:development"
+              "buildTarget": "B3.Avaliacao.Web:build:development",
+              "proxyConfig": "proxy.conf.json"
             }
           },
           "defaultConfiguration": "development"
@@ -91,6 +94,11 @@
           }
         }
       }
+    }
+  },
+  "cli": {
+    "cache": {
+      "enabled": false
     }
   }
 }

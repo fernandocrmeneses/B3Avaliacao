@@ -1,7 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
+﻿using B3.Avaliacao.WebApi.Application;
+using B3.Avaliacao.WebApi.Models;
+using Microsoft.AspNetCore.Cors;
+using System.Web.Http;
 using System.Web.Mvc;
 
 namespace B3.Avaliacao.WebApi.Controllers
@@ -10,10 +10,9 @@ namespace B3.Avaliacao.WebApi.Controllers
     {
         public ActionResult Index()
         {
-            // Omitindo o tratamento de exceções propositalmente
-            ViewBag.Title = "Home Page";
-
             return View();
         }
+
+       
     }
 }

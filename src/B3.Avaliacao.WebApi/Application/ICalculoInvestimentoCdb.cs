@@ -6,5 +6,7 @@ namespace B3.Avaliacao.WebApi.Application
     {
         decimal CalculaValorBrutoCdb();
         decimal CalculaValorLiquidoCdb();
+
+        void ConfiguraValores(int meses, decimal valorMonetario);
     }
 }

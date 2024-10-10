@@ -7,13 +7,13 @@ namespace B3.Avaliacao.Testes
     [TestClass]
     public class CalculaCdbTeste
     {
-        private Cdb _calcula;
+        //private Cdb _calcula;
         [TestInitialize]
         public void Setup()
         {
-            var valorInicial = 1;
-            var valorFinal = 2;
-            _calcula = new Cdb(valorInicial, valorFinal);
+            //var valorInicial = 1;
+            //var valorFinal = 2;
+            //_calcula = new Cdb(valorInicial, valorFinal);
         }
 
         [TestMethod]
