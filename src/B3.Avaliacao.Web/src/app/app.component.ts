@@ -7,16 +7,19 @@ import { ComponentService } from './component.service';
   standalone: true,
   imports: [RouterOutlet],
   template: `
+  <div class="container-sm">
        <label for="nome">Mês:</label>
-       <input id="mes" type="text" #mes>
+       <input id="mes" class="form-control" type="text" #mes>
        <br />
        <label for="nome">Valor Monetario:</label>
-       <input id="valor" type="text" pattern="^\d*(\.\d{0,2})?$" #valor>
+       <input class="form-control col-md-3" id="valor" type="text" pattern="^\d*(\.\d{0,2})?$" #valor>
+       <br/><br/>
        <h3>Resultado</h3>
-       <p>Valor Bruto:<span id="valorBruto"></span></p>
-       <p>Valor Líquido: <span id="valorLiquido"></span></p>
+       <p>Valor Bruto:<span id="valorBruto" style="color:#0d6efd;padding-left:10px;"></span></p>
+       <p>Valor Líquido: <span id="valorLiquido" style="color:#198754;padding-left:10px;"></span></p>
 
-      <button (click)="ObtemValores(mes.value,valor.value)">Enviar</button>
+      <button class="btn btn-primary" (click)="ObtemValores(mes.value,valor.value)">Enviar</button>
+  </div>
   `
 })
 
