@@ -1,6 +1,0 @@
-projectKey=B301
-serverUrl=http://localhost:9000
-serverVersion=10.7.0.96327
-dashboardUrl=http://localhost:9000/dashboard?id=B301
-ceTaskId=b94d1dd9-69cb-4be5-b05e-2202aded4579
-ceTaskUrl=http://localhost:9000/api/ce/task?id=b94d1dd9-69cb-4be5-b05e-2202aded4579

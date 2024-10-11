@@ -7,19 +7,32 @@ namespace B3.Avaliacao.Testes
     [TestClass]
     public class CalculaCdbTeste
     {
-        //private Cdb _calcula;
+        CalculoInvestimentoCdb _calcula;
         [TestInitialize]
         public void Setup()
         {
-            //var valorInicial = 1;
-            //var valorFinal = 2;
-            //_calcula = new Cdb(valorInicial, valorFinal);
+            _calcula = new CalculoInvestimentoCdb();
+           
         }
 
         [TestMethod]
-        public void CalculaCdb()
+        public void CalculaValorLiquidoCdb()
         {
-            Assert.AreEqual(0, 0); 
+            var meses = 12;
+            var valor = 2345;
+            _calcula.ConfiguraValores(meses, valor);
+            var resultado = _calcula.CalculaValorLiquidoCdb();
+            Assert.AreNotEqual(0, resultado); 
+        }
+
+        [TestMethod]
+        public void CalculaValorBrutoCdb()
+        {
+            var meses = 12;
+            var valor = 1000;
+            _calcula.ConfiguraValores(meses, valor);
+            var resultado = _calcula.CalculaValorBrutoCdb();
+            Assert.AreNotEqual(0, resultado);
         }
     }
 }
