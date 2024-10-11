@@ -7,12 +7,13 @@ import { ComponentService } from './component.service';
   standalone: true,
   imports: [RouterOutlet],
   template: `
-  <div class="container-sm">
-       <label for="nome">Mês:</label>
+   
+  <div class="container-sm" style="margin-top:40px;">
+       <label for="nome">Quantidade de meses para resgate:</label>
        <input id="mes" class="form-control" type="text" #mes>
        <br />
        <label for="nome">Valor Monetario:</label>
-       <input class="form-control col-md-3" id="valor" type="text" pattern="^\d*(\.\d{0,2})?$" #valor>
+       <input mask="separator.2" prefix="R$ " thousandSeparator="." decimalMarker="," placeholder="R$ 0,00" class="form-control col-md-3" id="valor"  type="text" pattern="^\d*(\.\d{0,2})?$" #valor>
        <br/><br/>
        <h3>Resultado</h3>
        <p>Valor Bruto:<span id="valorBruto" style="color:#0d6efd;padding-left:10px;"></span></p>
@@ -46,19 +47,20 @@ export class AppComponent {
   }
 
   ValidacaoCampos(mes: string, valor: string) : boolean {
+    console.log(valor);
+    var campoValido = /^(\d{1,3}(\.\d{3})*|\d+)(,\d{2})?$/.test(valor);
 
-    if (!Number(mes) || !Number(valor)) {
-      alert("Mês e valor monetario em um formato incorreto! Digitar somente numeros.");
-      return false;
-    }
-
-    if (parseInt(mes) > 12) {
-      alert("Valores digitados incorretamente! Digite de 1 a 12 no campo mês.");
-      return false;
+    if (!campoValido) {
+      alert("Necessário informar um valor monetario!");
     }
 
     if (parseInt(mes) <= 0) {
       alert("Valores digitados incorretamente! O campo mês deve ser maior ou igual a 1.");
+      return false;
+    }
+
+    if (!Number(mes)) {
+      alert("Mês e um formato incorreto! Digitar somente numeros.");
       return false;
     }
 
